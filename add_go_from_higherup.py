@@ -8,7 +8,7 @@ def enrich_cnag_map():
     f = open("CNAG_to_GO.txt", "w")
     counter = 0
     GO_association = process_ontology()
-    _, CNAG_map = create_all_go_map()
+    _, CNAG_map = create_all_go_map("uniprot-proteome_UP000010091.tab", "CNAG_to_func.txt")
     for cnag in CNAG_map:  # CNAG_map[CNAG] = (GO1, GO2...)
         temp = set() # temporary set to be added to the existing go
         for go in CNAG_map[cnag]:

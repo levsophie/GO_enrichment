@@ -4,7 +4,7 @@ from scipy.stats import hypergeom
 from go_processing import list_names_for_terms
 from from_uniprot_get_go import create_all_go_map
 
-def create_all_go_map():
+def create_empty_go_map():
     '''Creates an empty dictionary of all GOs as keys'''
     f = open("GO_to_CNAG.txt", "r")
     empty_GO_map = {}
@@ -97,7 +97,7 @@ def more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, 
 
 
 if __name__ == '__main__':
-    GO_map, definitions = create_all_go_map()
+    GO_map, definitions = create_empty_go_map()
     test = copy.deepcopy(GO_map)
     # The GO_map is initially empty dictionary of all GO groups, gets filled with the unique cnag_list profile.'''
     file = "experimental_data/down_in_kcs1.txt"

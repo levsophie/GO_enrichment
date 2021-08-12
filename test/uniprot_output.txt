@@ -1,0 +1,2 @@
+CNAG_07636	Chitin synthase regulator 2
+CNAG_00025	Vacuolar calcium ion transporter (Vacuolar calcium exchanger)
