@@ -1,25 +1,24 @@
+import sys 
+sys.path.append('.')
 from add_go_from_higherup import enrich_cnag_map
 import copy
 from scipy.stats import hypergeom
 from go_processing import list_names_for_terms
 from from_uniprot_get_go import create_all_go_map
 
+
 def create_empty_go_map():
     '''Creates an empty dictionary of all GOs as keys'''
-    f = open("GO_to_CNAG.txt", "r")
-    empty_GO_map = {}
     names = list_names_for_terms("go-basic.obo", "GO_names.txt")
-    definitions = {}
-    for contents in f:
-        l = contents.rstrip('\n').split('\t')
-        empty_GO_map[l[0]] = []
-        definitions[l[0]] = names[l[0]]
-    return empty_GO_map, definitions
+    empty_GO_map = {}
+    for key in names.keys():
+        empty_GO_map[key] = []
+    return empty_GO_map, names
 
 def process_gene_list(GO_map, cnag_list):
     '''Processes a given CNAG list assigning each GO group (key) a number of genes from the list (value).
     The GO_map is initially empty dictionary of all GO groups, get filled with the unique cnag_list profile.'''
-    CNAG_GO_map = enrich_cnag_map("CNAG_to_GO.txt")   # CNAGs as keys and GO groups in a set as values from read_GO'''
+    CNAG_GO_map = enrich_cnag_map("go-basic.obo", "uniprot-proteome_UP000010091.tab", "CNAG_to_func.txt", "CNAG_to_GO.txt")   # CNAGs as keys and GO groups in a set as values from read_GO'''
     annotated_count = 0
     not_annotated_count = 0
     number_of_annotations = 0

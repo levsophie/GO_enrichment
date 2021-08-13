@@ -4,7 +4,7 @@ sys.path.append('..')
 
 from GO_enrichment.from_uniprot_get_go import create_all_go_map 
 from GO_enrichment.go_processing import process_ontology
-from GO_enrichment.add_go_from_higherup import enrich_cnag_map
+from GO_enrichment.add_go_from_higherup import enrich_cnag_map, enrich_go_map
 
 class BaseTestCase(unittest.TestCase):
     
@@ -72,7 +72,22 @@ class BaseTestCase(unittest.TestCase):
                                 'CNAG_07701': {'GO:0007005'}}
         self.assertEqual(test_enrich_cnag_map, enrich_cnag)
         
-        
+    def test_enrich_go_map(self):
+        '''Creates a dictionary and a file with GO terms as keys and CNAG IDs 
+        as values; includes higher GO categories'''
+        go_basic = "test/test_go.txt"
+        uniprot_proteome = "test/test_go_uniprot.txt"
+        CNAG_to_func = "test/test_cnag_to_func.txt"
+        GO_to_CNAG = "test/test_go_to_cnag.txt"
+        enrich_cnag  = enrich_go_map(go_basic, uniprot_proteome, CNAG_to_func, GO_to_CNAG)
+        test_enrich_cnag = {'GO:0000001': {'CNAG_07636'}, 
+                            'GO:0006594': {'CNAG_00025'}, 
+                            'GO:0006871': {'CNAG_07724'}, 
+                            'GO:0048308': {'CNAG_05655', 'CNAG_07636', 'CNAG_00025', 'CNAG_07724'}, 
+                            'GO:0048311': {'CNAG_00025', 'CNAG_07636', 'CNAG_07724', 'CNAG_05449'}, 
+                            'GO:0000002': {'CNAG_00156'}, 
+                            'GO:0007005': {'CNAG_07701', 'CNAG_00156'}}
+        self.assertEqual(test_enrich_cnag, enrich_cnag)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
-
+import sys 
+sys.path.append('.')
 
 def create_all_go_map(uniprot_proteome, CNAG_to_func):
     '''Creates a dictionary of all GOs from the Uniprot file as keys
@@ -24,7 +25,10 @@ def create_all_go_map(uniprot_proteome, CNAG_to_func):
                     isCNAG = True
                     counter += 1
                     CNAG_map[cnag] = set()
-                    f_func.write(cnag + '\t' + l1[3] + '\n')
+                    try:
+                        f_func.write(cnag + '\t' + contents.split('\t')[2] + '\n')
+                    except:
+                        print("Parsing of the gene function failed")
 
                 if isCNAG and element.startswith('GO:'):
                     term = element[:10]
