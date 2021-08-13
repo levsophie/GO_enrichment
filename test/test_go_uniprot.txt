@@ -1,0 +1,7 @@
+J9VSG5	CSR2 CNAG_07636		Chitin synthase regulator 2	CSR2	CNAG_07636		SKT5_CRYNH GO:0000001
+J9VDQ4	VCX1 CNAG_00025		Vacuolar calcium ion transporter (Vacuolar calcium exchanger)	VCX1	CNAG_00025   GO:0006594
+J9VT33	CUF1 CNAG_07724		Copper-dependent transcription factor 1	CUF1	CNAG_07724		CUF1_CRYNH GO:0006871
+J9W034	CML1 CNAG_05655		Calmodulin-like protein 1	CML1	CNAG_05655		CML1_CRYNH   GO:0048308
+J9VXB3	CMT1 CNAG_05449		Copper metallothionein 1 (Cu-MT 1) (Cu-metallothionein 1) (Copper chelatin 1) (Copper thionein 1)	CMT1  CNAG_05449	CMT1_CRYNH    GO:0048311
+J9VE33	CRZ1 SP1 CNAG_00156	SP1	Transcriptional regulator CRZ1	CRZ1	CNAG_00156		CRZ1_CRYNH   GO:0000002
+J9VX37	CTR1 CNAG_07701		CUF1-dependent copper transporter 1 (Copper transporter 1)	CTR1	CNAG_07701	CTR1_CRYNH   GO:0007005

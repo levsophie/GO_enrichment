@@ -1,8 +1,6 @@
-def process_ontology():
+def process_ontology(go_basic):
     '''Processes go-basic.obo file to extract higher GO terms'''
-    f = open("go-basic.obo", "r")
-    f_associated = open('go_associations.txt', 'w')
-    # f = open("test_go.txt")
+    f = open(go_basic, "r")
     counter = 0
     GO_association = {}
     for contents in f:
@@ -29,11 +27,10 @@ def process_ontology():
     print(f'size of GO_association is {len(GO_association.keys())}')
     return GO_association
 
-def list_names_for_terms():
+def list_names_for_terms(obo_file, go_names):
     '''Processes go-basic.obo file to extract all names'''
-    f = open("go-basic.obo", "r")
-    f_def = open("GO_names.txt", "w")
-    # f = open("test_go.txt")
+    f = open(obo_file, "r")
+    f_def = open(go_names, "w")
     GO = {}
     for contents in f:
         contents = contents.split(': ')
@@ -59,7 +56,5 @@ def list_names_for_terms():
 
 
 if __name__ == '__main__':
-    GO_association = process_ontology()
-    GO = list_names_for_terms()
-    # print(GO_association)
-    # print(GO)
+    GO_association = process_ontology("go-basic.obo")
+    GO = list_names_for_terms("go-basic.obo", "GO_names.txt")
