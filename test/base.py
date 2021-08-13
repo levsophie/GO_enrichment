@@ -1,11 +1,12 @@
 import unittest
 import sys 
 sys.path.append('..')
-
+from scipy.stats import hypergeom, fisher_exact
+import numpy as np
 from GO_enrichment.from_uniprot_get_go import create_all_go_map 
 from GO_enrichment.go_processing import process_ontology
 from GO_enrichment.add_go_from_higherup import enrich_cnag_map, enrich_go_map
-
+from GO_enrichment.cnag_list_to_go import find_enriched_groups
 class BaseTestCase(unittest.TestCase):
     
     
@@ -89,6 +90,14 @@ class BaseTestCase(unittest.TestCase):
                             'GO:0007005': {'CNAG_07701', 'CNAG_00156'}}
         self.assertEqual(test_enrich_cnag, enrich_cnag)
 
-
+    def test_find_enriched_groups(self):
+        sample_test = 8
+        sample_control = 2
+        number_of_test_annotations = 1
+        number_of_control_annotations = 5      
+        _, p = fisher_exact(np.array([[sample_test, sample_control],[number_of_test_annotations, 
+            number_of_control_annotations]]))                           
+        self.assertEqual(round(p, 4), 0.035)  # https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact
+        
 if __name__ == "__main__":
     unittest.main()

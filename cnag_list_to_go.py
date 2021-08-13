@@ -33,11 +33,6 @@ def process_gene_list(GO_map, cnag_list):
     print(f'Assigned {annotated_count} genes to GO groups, did not assign {not_annotated_count} genes.')
     return GO_map, number_of_annotations
 
-def calculate_p_value(a,b,c,d):
-    '''Calculates P-falue from the contingency table values'''
-    pval = hypergeom.pmf(b, a+b+c+d, a+b, b+d)  #(k, M, n, N, loc)
-    return pval
-
 def create_all_genes_control():
     '''Creates a list of all CNAGs from the file prepared from the UniProt source file.'''
     f = open("CNAG_to_func.txt", "r")
@@ -59,8 +54,7 @@ def find_enriched_groups(sample_test, sample_control, number_of_control_annotati
             b = len(sample_control[term]) - a
             c = number_of_test_annotations - a
             d = number_of_control_annotations - len(sample_control[term]) - c
-            p_value = round(calculate_p_value(a,b,c,d), 10)
-            oddsr, p = fisher_exact(np.array([[a,b],[c,d]]), alternative='two-sided')
+            _, p = fisher_exact(np.array([[a,b],[c,d]]))
             if p < significance:
                 enriched_groups.append([round(p, 10), a, b, term, definitions[term]])
                 # print(a,b,c,d)
@@ -102,9 +96,9 @@ if __name__ == '__main__':
     GO_map, definitions = create_empty_go_map()
     test = copy.deepcopy(GO_map)
     # The GO_map is initially empty dictionary of all GO groups, gets filled with the unique cnag_list profile.'''
-    file = "experimental_data/up_in_kcs1.txt"
-    # file = input('Please type the name of the text file with gene list\n')
-    # file = "experimental_data/" + file + ".txt"
+    # file = "experimental_data/up_in_kcs1.txt"
+    file = input('Please type the name of the text file with gene list (from experimental_data)\n')
+    file = "experimental_data/" + file + ".txt"
     gene_list = generate_cnag_list(file)
     sample_test, number_of_test_annotations = process_gene_list(test, gene_list)  # sample_test['GO:0005829'] == 1
 
