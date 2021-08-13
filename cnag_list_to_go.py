@@ -2,10 +2,10 @@ import sys
 sys.path.append('.')
 from add_go_from_higherup import enrich_cnag_map
 import copy
-from scipy.stats import hypergeom
+from scipy.stats import hypergeom, fisher_exact
 from go_processing import list_names_for_terms
 from from_uniprot_get_go import create_all_go_map
-
+import numpy as np
 
 def create_empty_go_map():
     '''Creates an empty dictionary of all GOs as keys'''
@@ -47,6 +47,7 @@ def create_all_genes_control():
         cnag = line[0][:10]
         gene_func[cnag] = line[1].rstrip('\n')
     f.close()
+    print(f'total number of genes is {len(gene_func.keys())}')
     return gene_func
 
 def find_enriched_groups(sample_test, sample_control, number_of_control_annotations,
@@ -54,13 +55,14 @@ def find_enriched_groups(sample_test, sample_control, number_of_control_annotati
     enriched_groups = []
     for term in GO_map.keys():
         if len(sample_test[term]) > 0:
-            a = len(sample_test[term])
+            a = len(sample_test[term])  
             b = len(sample_control[term]) - a
             c = number_of_test_annotations - a
             d = number_of_control_annotations - len(sample_control[term]) - c
             p_value = round(calculate_p_value(a,b,c,d), 10)
-            if p_value < significance:
-                enriched_groups.append([p_value, a, b, term, definitions[term]])
+            oddsr, p = fisher_exact(np.array([[a,b],[c,d]]), alternative='two-sided')
+            if p < significance:
+                enriched_groups.append([round(p, 10), a, b, term, definitions[term]])
                 # print(a,b,c,d)
     return enriched_groups
 
@@ -69,15 +71,16 @@ def generate_cnag_list(file):
     the condition that each line starts with CNAG number'''
     try:
         f = open(file)
+        cnags = set()
+        for line in f:
+            if line.startswith('CNAG_'):
+                cnag = line[:10]
+                if not cnag in cnags:
+                    cnags.add(cnag)
+        return list(cnags)
     except:
         print("File not found, try again")
-    cnags = set()
-    for line in f:
-        if line.startswith('CNAG_'):
-            cnag = line[:10]
-            if not cnag in cnags:
-                cnags.add(cnag)
-    return list(cnags)
+
 
 def more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, sample_control):
     while term_of_interest:
@@ -99,9 +102,9 @@ if __name__ == '__main__':
     GO_map, definitions = create_empty_go_map()
     test = copy.deepcopy(GO_map)
     # The GO_map is initially empty dictionary of all GO groups, gets filled with the unique cnag_list profile.'''
-    file = "experimental_data/down_in_kcs1.txt"
-    file = input('Please type the name of the text file with gene list\n')
-    file = "experimental_data/" + file + ".txt"
+    file = "experimental_data/up_in_kcs1.txt"
+    # file = input('Please type the name of the text file with gene list\n')
+    # file = "experimental_data/" + file + ".txt"
     gene_list = generate_cnag_list(file)
     sample_test, number_of_test_annotations = process_gene_list(test, gene_list)  # sample_test['GO:0005829'] == 1
 
