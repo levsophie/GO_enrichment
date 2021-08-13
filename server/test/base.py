@@ -3,10 +3,10 @@ import sys
 sys.path.append('..')
 from scipy.stats import hypergeom, fisher_exact
 import numpy as np
-from GO_enrichment.from_uniprot_get_go import create_all_go_map 
-from GO_enrichment.go_processing import process_ontology
-from GO_enrichment.add_go_from_higherup import enrich_cnag_map, enrich_go_map
-from GO_enrichment.cnag_list_to_go import find_enriched_groups
+from server.from_uniprot_get_go import create_all_go_map 
+from server.go_processing import process_ontology
+from server.add_go_from_higherup import enrich_cnag_map, enrich_go_map
+from server.cnag_list_to_go import find_enriched_groups
 class BaseTestCase(unittest.TestCase):
     
     

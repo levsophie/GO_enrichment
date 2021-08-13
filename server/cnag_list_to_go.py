@@ -30,7 +30,7 @@ def process_gene_list(GO_map, cnag_list):
                 number_of_annotations += 1
         else:
             not_annotated_count += 1
-    print(f'Assigned {annotated_count} genes to GO groups, did not assign {not_annotated_count} genes.')
+    # print(f'Assigned {annotated_count} genes to GO groups, did not assign {not_annotated_count} genes.')
     return GO_map, number_of_annotations
 
 def create_all_genes_control():
@@ -42,7 +42,7 @@ def create_all_genes_control():
         cnag = line[0][:10]
         gene_func[cnag] = line[1].rstrip('\n')
     f.close()
-    print(f'total number of genes is {len(gene_func.keys())}')
+    # print(f'total number of genes is {len(gene_func.keys())}')
     return gene_func
 
 def find_enriched_groups(sample_test, sample_control, number_of_control_annotations,

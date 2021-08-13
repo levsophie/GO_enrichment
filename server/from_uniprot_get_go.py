@@ -10,7 +10,7 @@ def create_all_go_map(uniprot_proteome, CNAG_to_func):
     GO_map = {}
     CNAG_map = {}
     for contents in f:
-        isCNAG = False
+        described = False      
         l1 = contents.split(' ')
         for e in l1:
             e = e.split('\t')
@@ -20,17 +20,17 @@ def create_all_go_map(uniprot_proteome, CNAG_to_func):
                 element = element.strip(',')
                 element = element.rstrip(';')
 
-                if element.startswith('CNAG'):
+                if element.startswith('CNAG') and not described:
                     cnag = element[:10]
-                    isCNAG = True
                     counter += 1
                     CNAG_map[cnag] = set()
                     try:
-                        f_func.write(cnag + '\t' + contents.split('\t')[2] + '\n')
+                        f_func.write(cnag + '\t' + contents.split('\t')[3] + '\n')
+                        described = True
                     except:
                         print("Parsing of the gene function failed")
 
-                if isCNAG and element.startswith('GO:'):
+                if element.startswith('GO:'):
                     term = element[:10]
                     try:
                         GO_map[term].add(cnag) 

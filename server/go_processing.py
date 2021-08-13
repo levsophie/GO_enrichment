@@ -23,8 +23,8 @@ def process_ontology(go_basic):
             if alt_ids:
                 for alt_id in alt_ids:
                     GO_association[alt_id].add(term)
-    print(f'processed {counter} terms')
-    print(f'size of GO_association is {len(GO_association.keys())}')
+    # print(f'processed {counter} terms')
+    # print(f'size of GO_association is {len(GO_association.keys())}')
     return GO_association
 
 def list_names_for_terms(obo_file, go_names):
@@ -49,7 +49,7 @@ def list_names_for_terms(obo_file, go_names):
             additional_name = contents[1].split(' ! ')[1].strip('\n')
             GO[term] = additional_name
             f_def.write(term + '\t' + additional_name + '\n')
-    print(f'wrote {len(GO.keys())} GO terms and names')
+    # print(f'wrote {len(GO.keys())} GO terms and names')
     
     f_def.close()
     f.close()
