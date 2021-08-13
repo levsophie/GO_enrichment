@@ -1,3 +1,7 @@
+import sys 
+sys.path.append('.')
+
+
 def process_ontology(go_basic):
     '''Processes go-basic.obo file to extract higher GO terms'''
     f = open(go_basic, "r")

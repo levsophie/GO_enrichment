@@ -1,5 +1,6 @@
 import sys 
-sys.path.append('.')
+sys.path.append('..')
+
 
 def create_all_go_map(uniprot_proteome, CNAG_to_func):
     '''Creates a dictionary of all GOs from the Uniprot file as keys

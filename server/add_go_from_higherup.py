@@ -27,6 +27,7 @@ def enrich_cnag_map(go_basic, uniprot_proteome, CNAG_to_func, CNAG_to_GO):
         f.write(cnag + '\t' +  str(CNAG_map[cnag]) + '\n')
     # print(f'added {counter} terms')
     f.close()
+    
     return CNAG_map
 
 def enrich_go_map(go_basic, uniprot_proteome, CNAG_to_func, GO_to_CNAG):
