@@ -38,5 +38,5 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "proxy": "http://localhost:5194"
+  "proxy": "http://localhost:5000"
 }
