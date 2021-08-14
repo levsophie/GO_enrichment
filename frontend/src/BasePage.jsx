@@ -23,7 +23,7 @@ const BasePage = ({ children }) => {
     <>
       <div className={classes.root}>
         {/* <SideMenu /> */}
-        Form for CNAG IDs
+      
         <main className={classes.content}>
           {children}
         </main>

@@ -64,43 +64,32 @@ api = Api(app)
 
 session = requests.Session()
 
-class TextDto:
-    text = api.model(
+class GenesDto:
+    genes = api.model(
         "text",
         {
-            "text_title": fields.String(required=True, description="text title"),
-            "text_body": fields.String(required=True, description="text body"),
+            "text_title": fields.List(fields.String),
         },
     )
-_text = TextDto.text
-parser = reqparse.RequestParser()
-parser.add_argument("words")
+_genes = GenesDto.genes
+
 
 @api.response(404, 'Not found')
 @api.response(200, 'OK')
 @api.route('/genes',  methods=['POST'])
-# @api.expect(parser, validate=True)
-@api.expect(_text, validate=True)
+@api.expect(_genes, validate=True)
 class Collections(Resource):
     @api.response(200, "OK")
     @api.response(400, "Bad request")
-    @api.expect(_text, validate=True)
+    @api.expect(_genes, validate=True)
     # @api.marshal_with(_text, envelope="data")
     @api.doc()
     def post(self):
-        search_string = request.args.get("words")
-        words = parser.parse_args()
-       
-        # req = request.get_json(force=True)
-        # genes = req.get('genes', None)
-        print(words)
-        # data = request.json
-        # print(request.args.keys())
-        # return save_new_user(data=data)
+        req = request.get_json(force=True)
+        print(req)
+ 
 
 if __name__ == '__main__':
-    # run the application
-    _text = TextDto.text
     app.run(debug=True)
 
 

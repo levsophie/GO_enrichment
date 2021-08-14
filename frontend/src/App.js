@@ -6,7 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 // import Error from "./layout/Error";
-// import TopBar from "./layout/topbar";
+import TopBar from "./topbar";
 import BasePage from "./BasePage";
 // import SignIn from "./authentication/signin";
 // import SignUp from "./authentication/signup";
@@ -20,7 +20,9 @@ function App() {
     return (
       <div>
         <Router>
+        <TopBar/>
           <BasePage>
+          
             {/* <Switch>
               <Route
                 exact
