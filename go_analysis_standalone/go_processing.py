@@ -54,7 +54,6 @@ def list_names_for_terms(obo_file, go_names):
             GO[term] = additional_name
             f_def.write(term + '\t' + additional_name + '\n')
     # print(f'wrote {len(GO.keys())} GO terms and names')
-    
     f_def.close()
     f.close()
     return GO

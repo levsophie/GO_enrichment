@@ -6,9 +6,9 @@ def parse(input):
            cleaned_input = cleaned_input + ' ' 
         else:
             cleaned_input = cleaned_input + symbol
-    genes = []
+    genes = set()
     gene_list = cleaned_input.split(' ')
     for gene in gene_list:
         if gene.startswith('CNAG_'):
-           genes.append(gene[:10]) 
-    return genes
+           genes.add(gene[:10]) 
+    return list(genes)

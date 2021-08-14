@@ -10,7 +10,7 @@ def enrich_cnag_map(go_basic, uniprot_proteome, CNAG_to_func, CNAG_to_GO):
     as values; includes higher GO categories. Returns CNAG_map['CNAG_XXXXX'] = (GO1, GO2...)'''
     f = open(CNAG_to_GO, "w")  
     counter = 0
-    GO_association = process_ontology() #open file
+    GO_association = process_ontology(go_basic) 
     # print("GO_association", GO_association)
     _, CNAG_map = create_all_go_map(uniprot_proteome, CNAG_to_func)
     # print("CNAG_map", CNAG_map)
@@ -27,7 +27,6 @@ def enrich_cnag_map(go_basic, uniprot_proteome, CNAG_to_func, CNAG_to_GO):
         f.write(cnag + '\t' +  str(CNAG_map[cnag]) + '\n')
     # print(f'added {counter} terms')
     f.close()
-    
     return CNAG_map
 
 def enrich_go_map(go_basic, uniprot_proteome, CNAG_to_func, GO_to_CNAG):
@@ -35,7 +34,7 @@ def enrich_go_map(go_basic, uniprot_proteome, CNAG_to_func, GO_to_CNAG):
     as values; includes higher GO categories'''
     f = open(GO_to_CNAG, "w")
     counter = 0
-    GO_association = process_ontology()  # open file
+    GO_association = process_ontology(go_basic) 
     GO_map, _ = create_all_go_map(uniprot_proteome, CNAG_to_func)
     # print(f'length of GO_map before enrichment {len(GO_map.keys())}') 
     existing_gos = copy.deepcopy(list(GO_map.keys()))

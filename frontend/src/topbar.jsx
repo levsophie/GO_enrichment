@@ -86,6 +86,11 @@ export default function TopBar(props) {
       width: 200,
     },
     {
+      field: "term",
+      headerName: "Term",
+      width: 120,
+    },
+    {
       field: "description",
       headerName: "Description",
       width: 500,
@@ -115,7 +120,7 @@ export default function TopBar(props) {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar color="transparent" variant="contained">
+      <AppBar color="default" variant="contained">
         <Toolbar>
           <Typography variant="h5">
             Functional enrichment analysis for Cryptotccus neoformans var.

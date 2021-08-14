@@ -1,14 +1,7 @@
-CNAG_07636	
-CNAG_07636	
-CNAG_00025	
-CNAG_00025	
-CNAG_07724	
-CNAG_07724	
-CNAG_05655	
-CNAG_05655	
-CNAG_05449	
-CNAG_05449	
-CNAG_00156	SP1
-CNAG_00156	SP1
-CNAG_07701	
-CNAG_07701	
+CNAG_07636	Chitin synthase regulator 2
+CNAG_00025	Vacuolar calcium ion transporter (Vacuolar calcium exchanger)
+CNAG_07724	Copper-dependent transcription factor 1
+CNAG_05655	Calmodulin-like protein 1
+CNAG_05449	Copper metallothionein 1 (Cu-MT 1) (Cu-metallothionein 1) (Copper chelatin 1) (Copper thionein 1)
+CNAG_00156	Transcriptional regulator CRZ1
+CNAG_07701	CUF1-dependent copper transporter 1 (Copper transporter 1)

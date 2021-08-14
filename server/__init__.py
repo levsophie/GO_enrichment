@@ -6,7 +6,7 @@ import os
 from flask.app import Flask
 from flask import Blueprint
 from flask_restplus import Api
-from api import api as user_ns
+from .api import api as user_ns
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 

@@ -1,5 +1,7 @@
 
-import pandas as pd
+import sys 
+sys.path.append('.')
+import flask
 from flask import Flask, Response, request
 from flask import request as req
 from flask_restplus import Resource, Api
@@ -18,7 +20,7 @@ from pprint import pprint
 from flask import abort, make_response, jsonify
 from flask_restx import Namespace, fields
 import flask_cors
-from cnag_list_to_go import main
+from cnag_list_to_go import main_endpoint
 
 app = Flask(__name__)
 cors = flask_cors.CORS()
@@ -51,7 +53,7 @@ class Collections(Resource):
     def post(self):
         req = request.get_json(force=True)
         print(req)
-        return main(req)
+        return flask.jsonify(main_endpoint(req))
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000, debug=True)

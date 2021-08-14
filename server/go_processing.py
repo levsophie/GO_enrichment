@@ -5,6 +5,7 @@ sys.path.append('.')
 def process_ontology(go_basic):
     '''Processes go-basic.obo file to extract higher GO terms'''
     f = open(go_basic, "r")
+    f_asc = open("GO_association.txt", "w")
     counter = 0
     GO_association = {}
     for contents in f:
@@ -29,6 +30,13 @@ def process_ontology(go_basic):
                     GO_association[alt_id].add(term)
     # print(f'processed {counter} terms')
     # print(f'size of GO_association is {len(GO_association.keys())}')
+    for item in GO_association:
+        line = item
+        for term in GO_association[item]:
+            line = line + '\t' + term
+        f_asc.write(line + '\n')
+    f.close()
+    f_asc.close()
     return GO_association
 
 def list_names_for_terms(obo_file, go_names):

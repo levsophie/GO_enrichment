@@ -6,10 +6,11 @@ from scipy.stats import hypergeom, fisher_exact
 from go_processing import list_names_for_terms
 from from_uniprot_get_go import create_all_go_map
 import numpy as np
+from parse_client_input import parse
 
 def create_empty_go_map():
     '''Creates an empty dictionary of all GOs as keys'''
-    names = list_names_for_terms("go-basic.obo", "GO_names.txt")
+    names = list_names_for_terms("go-basic.obo", "GO_names.txt") # GO_names
     empty_GO_map = {}
     for key in names.keys():
         empty_GO_map[key] = []
@@ -47,33 +48,24 @@ def create_all_genes_control():
 
 def find_enriched_groups(sample_test, sample_control, number_of_control_annotations,
                                            number_of_test_annotations, GO_map, definitions, significance):
+    
     enriched_groups = []
+    id = 0
     for term in GO_map.keys():
         if len(sample_test[term]) > 0:
+            # print(len(sample_test[term]), len(sample_control[term]), term)
             a = len(sample_test[term])  
             b = len(sample_control[term]) - a
             c = number_of_test_annotations - a
             d = number_of_control_annotations - len(sample_control[term]) - c
+            # print(a,b,c,d)
             _, p = fisher_exact(np.array([[a,b],[c,d]]))
             if p < significance:
-                enriched_groups.append([round(p, 10), a, b, term, definitions[term]])
-                # print(a,b,c,d)
-    return enriched_groups
-
-def generate_cnag_list(file):
-    '''Generates the list of CNAGS from a given file in any format under  
-    the condition that each line starts with CNAG number'''
-    try:
-        f = open(file)
-        cnags = set()
-        for line in f:
-            if line.startswith('CNAG_'):
-                cnag = line[:10]
-                if not cnag in cnags:
-                    cnags.add(cnag)
-        return list(cnags)
-    except:
-        print("File not found, try again")
+                id += 1
+                enriched_groups.append({'id': id, 'pvalue': round(p, 10),
+                                        'test': a, 'control': b, 'term': term,
+                                        'description': definitions[term]})
+    return sorted(enriched_groups, key = lambda i: i['pvalue'])
 
 
 def more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, sample_control):
@@ -92,31 +84,30 @@ def more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, 
         term_of_interest = input('\nList genes for another GO term? Please copy and paste the term, otherwise "Enter"\n')
 
 
-if __name__ == '__main__':
+def main_endpoint(input):
     GO_map, definitions = create_empty_go_map()
     test = copy.deepcopy(GO_map)
     # The GO_map is initially empty dictionary of all GO groups, gets filled with the unique cnag_list profile.'''
-    # file = "experimental_data/up_in_kcs1.txt"
-    file = input('Please type the name of the text file with gene list (from experimental_data)\n')
-    file = "experimental_data/" + file + ".txt"
-    gene_list = generate_cnag_list(file)
+    gene_list = parse(input)
     sample_test, number_of_test_annotations = process_gene_list(test, gene_list)  # sample_test['GO:0005829'] == 1
 
     all_genes_control = create_all_genes_control()  # uses full list of GO-annotated CNAG numbers
     control = copy.deepcopy(GO_map)
     sample_control, number_of_control_annotations = process_gene_list(control, all_genes_control.keys())
 
-    p_significance = input('\nPlease enter desired P-value threshold, "Enter" for default (0.001)\n')
-    if not p_significance:
-        p_significance = 0.001
+    # p_significance = input('\nPlease enter desired P-value threshold, "Enter" for default (0.001)\n')
+    # if not p_significance:
+    p_significance = 0.001
     print('Processing request...')
     enriched_groups = find_enriched_groups(sample_test, sample_control, number_of_control_annotations,
                                            number_of_test_annotations, GO_map, definitions, significance=float(p_significance))
-    enriched_groups = sorted(enriched_groups)
-    print(f"\nP-value{' '*11}In test     In control  GO ID{' '*13}GO description")
-    for group in enriched_groups:
-        print(f'{group[0]:<18}{group[1]:<12}{group[2]:<12}{group[3]:<18}{group[4]}')
+    # enriched_groups = sorted(enriched_groups)
+    # print(enriched_groups)
+    # print(f"\nP-value{' '*11}In test     In control  GO ID{' '*13}GO description")
+    # for group in enriched_groups:
+    #     print(f'{group[0]:<18}{group[1]:<12}{group[2]:<12}{group[3]:<18}{group[4]}')
 
-    term_of_interest = input('\nList genes for a specific GO term? Please copy and paste the term, otherwise "Enter"\n')
-    if term_of_interest:
-        more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, sample_control)
+    # term_of_interest = input('\nList genes for a specific GO term? Please copy and paste the term, otherwise "Enter"\n')
+    # if term_of_interest:
+    #     more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, sample_control)
+    return enriched_groups
