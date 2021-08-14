@@ -20,6 +20,8 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import { TextareaAutosize, Select, MenuItem } from "@material-ui/core/";
 import DateFnsUtils from "@date-io/date-fns";
 import { useHistory } from "react-router-dom";
+import { DataGrid } from '@material-ui/data-grid';
+import { Button } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -68,29 +70,27 @@ export default function TopBar(props) {
       field: 'pvalue',
       headerName: 'P-value',
       width: 150,
-      editable: true,
     },
     {
         field: 'test',
-        headerName: 'Number in test group',
-        width: 150,
-        editable: true,
+        headerName: 'In test group',
+        width: 200,
       },
       {
         field: 'control',
-        headerName: 'Number in control group',
-        width: 150,
-        editable: true,
+        headerName: 'In control group',
+        width: 200,
       },
       {
         field: 'description',
         headerName: 'Description',
-        width: 150,
-        editable: true,
+        width: 500,
       },
 ]
 
-
+const rows = [
+    { id: 1, pvalue: 0.0004, test: 10, control: 10, description: "very interesting GO group" },
+]
 
   return (
     <React.Fragment>
@@ -109,7 +109,7 @@ export default function TopBar(props) {
         {/* <FormControl className={classes.margin}> */}
         <CssTextField
           id="standard-multiline-static"
-          label="Multiline"
+          label="List of identifiers (CNAG_XXXXX)"
           multiline
           rows={4}
           variant="outlined"
@@ -118,10 +118,34 @@ export default function TopBar(props) {
           inputProps={{ style: { fontFamily: 'nunito', color: 'black'}}}
         ></CssTextField>
         {/* </FormControl> */}
+        <Button
+            className={classes.margin}
+            type="submit"
+            variant = "contained"
+            style={{ display: "inline block" }}
+          >
+            Submit
+          </Button>
+          <Button
+            className={classes.margin}
+            type="submit"
+            variant = "contained"
+            style={{ display: "inline block" }}
+          >
+            Clear
+          </Button>
        </Container> 
        <br></br>
-       <Container maxWidth="sm">
-    
+       <Container maxWidth="lg">
+       <div style={{ height: 400, width: '100%' }}>
+      <DataGrid
+        rows={rows}
+        columns={columns}
+        pageSize={5}
+        disableSelectionOnClick
+        autoHeight
+      />
+    </div>
       </Container>
     </React.Fragment>
   );
