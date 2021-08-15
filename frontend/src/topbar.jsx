@@ -104,6 +104,7 @@ export default function TopBar(props) {
   // }, []);
 
   const handleSubmit = async () => {
+    console.log(input, significance)
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -140,7 +141,7 @@ export default function TopBar(props) {
       <Container maxWidth="sm">
         <Toolbar id="back-to-top-anchor" />
         <br></br>
-        <br></br>
+        
         <CssTextField
           id="standard-multiline-static"
           label="List of identifiers (CNAG_XXXXX)"
@@ -158,16 +159,15 @@ export default function TopBar(props) {
           label="P-value cutoff"
           multiline
           rows={1}
-          inputRef={textInput}
+          // inputRef={textInput}
           defaultValue={0.001}
           variant="outlined"
           style={{ width: "100%" }}
-          onChange={(e) => setInput(e.target.value)}
+          onChange={(e) => setSignificance(e.target.value)}
           inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
         ></CssTextField>
-        
-        
-        <Button
+         
+         <Button
           className={classes.margin}
           type="submit"
           variant="contained"

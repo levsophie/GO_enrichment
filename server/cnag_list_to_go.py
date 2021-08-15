@@ -95,7 +95,7 @@ def more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, 
         term_of_interest = input('\nList genes for another GO term? Please copy and paste the term, otherwise "Enter"\n')
 
 
-def main_endpoint(input):
+def main_endpoint(input, significance):
     GO_map, definitions = create_empty_go_map()
     test = copy.deepcopy(GO_map)
     # The GO_map is initially empty dictionary of all GO groups, gets filled with the unique cnag_list profile.'''
@@ -107,11 +107,10 @@ def main_endpoint(input):
     sample_control, number_of_control_annotations = process_gene_list(control, all_genes_control.keys())
 
     # p_significance = input('\nPlease enter desired P-value threshold, "Enter" for default (0.001)\n')
-    # if not p_significance:
-    p_significance = 0.001
+
     print('Processing request...')
     enriched_groups = find_enriched_groups(sample_test, sample_control, number_of_control_annotations,
-                                           number_of_test_annotations, GO_map, definitions, significance=float(p_significance))
+                                           number_of_test_annotations, GO_map, definitions, significance=float(significance))
     # enriched_groups = sorted(enriched_groups)
     # print(enriched_groups)
     # print(f"\nP-value{' '*11}In test     In control  GO ID{' '*13}GO description")

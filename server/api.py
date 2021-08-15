@@ -54,15 +54,15 @@ class Collections(Resource):
     # @api.doc(params={"significance":"P-value cutoff"})
     def post(self, significance):
         """Enter CNAG IDs in one line separated by comma"""
-        print(significance)
+        print("Significance", significance)
         req = request.get_json(force=True)
-        print(req)
+        # print("Req", req)
         try:
             req = req['gene_list']
         except:
             pass
         
-        return flask.jsonify(main_endpoint(req))
+        return flask.jsonify(main_endpoint(req, significance))
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000, debug=True)
