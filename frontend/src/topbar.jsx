@@ -116,7 +116,7 @@ export default function TopBar(props) {
       console.log(response);
     }
   };
-
+  let textInput = useRef(null);
   return (
     <React.Fragment>
       <CssBaseline />
@@ -137,6 +137,7 @@ export default function TopBar(props) {
           label="List of identifiers (CNAG_XXXXX)"
           multiline
           rows={4}
+          inputRef={textInput}
           variant="outlined"
           style={{ width: "100%" }}
           onChange={(e) => setInput(e.target.value)}
@@ -156,6 +157,7 @@ export default function TopBar(props) {
           type="submit"
           variant="contained"
           style={{ display: "inline block" }}
+          onClick={() => textInput.current.value = ""}
         >
           Clear
         </Button>
