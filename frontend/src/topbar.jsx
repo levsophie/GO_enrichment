@@ -152,6 +152,21 @@ export default function TopBar(props) {
           onChange={(e) => setInput(e.target.value)}
           inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
         ></CssTextField>
+        <br></br><br></br>
+        <CssTextField
+          id="standard-multiline-static"
+          label="P-value cutoff"
+          multiline
+          rows={1}
+          inputRef={textInput}
+          defaultValue={0.001}
+          variant="outlined"
+          style={{ width: "100%" }}
+          onChange={(e) => setInput(e.target.value)}
+          inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
+        ></CssTextField>
+        
+        
         <Button
           className={classes.margin}
           type="submit"

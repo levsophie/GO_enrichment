@@ -42,6 +42,7 @@ search_parser = reqparse.RequestParser()
 search_parser.add_argument("gene_list")
 
 @api.route("/geneontology/<significance>",  methods=['POST'])
+# @api.expect(_genes, validate=True)
 @api.param("significance", "P-value cutoff")
 @api.response(404, 'Not found')
 @api.response(200, 'OK')
