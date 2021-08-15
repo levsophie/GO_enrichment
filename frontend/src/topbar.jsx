@@ -69,6 +69,7 @@ export default function TopBar(props) {
   const [input, setInput] = useState();
   const [pageSize, setPageSize] = useState(10);
   const [page, setPage] = useState(0);
+  const [significance, setSignificance] = useState(0.001)
   
   const columns = [
     { field: "id", headerName: "ID", width: 90, hide: "true" },
@@ -108,7 +109,7 @@ export default function TopBar(props) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(input),
     };
-    const response = await fetch("/geneontology", requestOptions);
+    const response = await fetch(`/geneontology/${significance}`, requestOptions);
     if (response.status === 200) {
       const rows = await response.json();
       console.log(rows);
@@ -131,7 +132,7 @@ export default function TopBar(props) {
       <AppBar color="default" variant="contained">
         <Toolbar>
           <Typography variant="h5">
-            Functional enrichment analysis for Cryptotccus neoformans var.
+            Functional enrichment analysis for Cryptococcus neoformans var.
             grubii
           </Typography>
         </Toolbar>

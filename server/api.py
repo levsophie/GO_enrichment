@@ -41,22 +41,26 @@ _genes = GenesDto.genes
 search_parser = reqparse.RequestParser()
 search_parser.add_argument("gene_list")
 
+@api.route("/geneontology/<significance>",  methods=['POST'])
+@api.param("significance", "P-value cutoff")
 @api.response(404, 'Not found')
 @api.response(200, 'OK')
-@api.route('/geneontology',  methods=['POST'])
-@api.expect(_genes, validate=True)
 class Collections(Resource):
+    # @api.expect(_genes, validate=True)
     @api.response(200, "OK")
     @api.response(400, "Bad request")
     @api.doc()
-    def post(self):
+    # @api.doc(params={"significance":"P-value cutoff"})
+    def post(self, significance):
         """Enter CNAG IDs in one line separated by comma"""
+        print(significance)
         req = request.get_json(force=True)
         print(req)
         try:
             req = req['gene_list']
         except:
             pass
+        
         return flask.jsonify(main_endpoint(req))
 
 if __name__ == '__main__':
