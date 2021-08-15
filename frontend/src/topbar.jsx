@@ -108,7 +108,7 @@ export default function TopBar(props) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(input),
     };
-    const response = await fetch("/genes", requestOptions);
+    const response = await fetch("/geneontology", requestOptions);
     if (response.status === 200) {
       const rows = await response.json();
       console.log(rows);
