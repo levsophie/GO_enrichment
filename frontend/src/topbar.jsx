@@ -67,7 +67,9 @@ export default function TopBar(props) {
   const classes = useStyles();
   const [rows, setRows] = useState([]);
   const [input, setInput] = useState();
-
+  const [pageSize, setPageSize] = useState(10);
+  const [page, setPage] = useState(0);
+  
   const columns = [
     { field: "id", headerName: "ID", width: 90, hide: "true" },
     {
@@ -117,6 +119,12 @@ export default function TopBar(props) {
     }
   };
   let textInput = useRef(null);
+  
+  const handlePageSizeChange = (params) => {
+    setPageSize(params.pageSize);
+  };
+  
+  
   return (
     <React.Fragment>
       <CssBaseline />
@@ -166,11 +174,20 @@ export default function TopBar(props) {
       <Container maxWidth="lg">
         <div style={{ height: 400, width: "100%" }}>
           <DataGrid
-            rows={rows}
+             rows={rows}
             columns={columns}
             pageSize={5}
             disableSelectionOnClick
             autoHeight
+            page={page}
+            onPageChange={(params) => {
+              setPage(params.page);
+            }}
+            pagination
+            pageSize={pageSize}
+            onPageSizeChange={handlePageSizeChange}
+            rowsPerPageOptions={[5, 10, 20]}
+            rowCount={rows.length}
           />
         </div>
       </Container>
