@@ -73,6 +73,7 @@ def find_enriched_groups(sample_test, sample_control, number_of_control_annotati
             _, p = fisher_exact(np.array([[a,b],[c,d]]))
             if p < significance:
                 id += 1
+                print(a,b,c,d)
                 enriched_groups.append({'id': id, 'pvalue': round(p, 10),
                                         'test': a, 'control': b, 'term': term,
                                         'description': definitions[term]})

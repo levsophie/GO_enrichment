@@ -67,7 +67,7 @@ export default function TopBar(props) {
   const classes = useStyles();
   const [rows, setRows] = useState([]);
   const [input, setInput] = useState();
-  const [pageSize, setPageSize] = useState(10);
+  const [pageSize, setPageSize] = useState(9);
   const [page, setPage] = useState(0);
   const [significance, setSignificance] = useState(0.001)
   
@@ -133,7 +133,7 @@ export default function TopBar(props) {
       <AppBar color="default" variant="contained">
         <Toolbar>
           <Typography variant="h5">
-            Functional enrichment analysis for Cryptococcus neoformans var.
+            Gene list functional enrichment analysis for Cryptococcus neoformans var.
             grubii
           </Typography>
         </Toolbar>
@@ -202,7 +202,7 @@ export default function TopBar(props) {
             pagination
             pageSize={pageSize}
             onPageSizeChange={handlePageSizeChange}
-            rowsPerPageOptions={[5, 10, 20]}
+            rowsPerPageOptions={[7, 9, 20]}
             rowCount={rows.length}
           />
         </div>

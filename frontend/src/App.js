@@ -8,6 +8,7 @@ import {
 // import Error from "./layout/Error";
 import TopBar from "./topbar";
 import BasePage from "./BasePage";
+import SignInSide from "./form";
 // import SignIn from "./authentication/signin";
 // import SignUp from "./authentication/signup";
 // import { useAuth } from "./authentication/auth";
@@ -20,9 +21,13 @@ function App() {
     return (
       <div>
         <Router>
+        <Route path="/test">
         <TopBar/>
-          <BasePage>
-          
+          <BasePage/>
+          </Route>
+          <Route path='/testcontrol'>
+          <SignInSide/>
+          </Route>
             {/* <Switch>
               <Route
                 exact
@@ -69,7 +74,7 @@ function App() {
               <Error />
             </Route>
           </Switch> */}
-          </BasePage>
+          {/* </BasePage> */}
         </Router>
       </div>
     );
