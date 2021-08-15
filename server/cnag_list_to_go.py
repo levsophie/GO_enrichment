@@ -10,16 +10,26 @@ from parse_client_input import parse
 
 def create_empty_go_map():
     '''Creates an empty dictionary of all GOs as keys'''
-    names = list_names_for_terms("go-basic.obo", "GO_names.txt") # GO_names
+    f = open('GO_names.txt', 'r')
+    names = {}
     empty_GO_map = {}
-    for key in names.keys():
-        empty_GO_map[key] = []
+    for line in f:
+        line = line.strip('\n')
+        line = line.split('\t')
+        empty_GO_map[line[0]] = []
+        names[line[0]] = line[1]
+    f.close()
     return empty_GO_map, names
 
 def process_gene_list(GO_map, cnag_list):
     '''Processes a given CNAG list assigning each GO group (key) a number of genes from the list (value).
     The GO_map is initially empty dictionary of all GO groups, get filled with the unique cnag_list profile.'''
-    CNAG_GO_map = enrich_cnag_map("go-basic.obo", "uniprot-proteome_UP000010091.tab", "CNAG_to_func.txt", "CNAG_to_GO.txt")   # CNAGs as keys and GO groups in a set as values from read_GO'''
+    f = open("CNAG_to_GO.txt", "r")
+    CNAG_GO_map = {}
+    for line in f:
+        line = line.strip('\n')
+        line = line.split('\t')
+        CNAG_GO_map[line[0]] = line[1:]
     annotated_count = 0
     not_annotated_count = 0
     number_of_annotations = 0
@@ -31,6 +41,7 @@ def process_gene_list(GO_map, cnag_list):
                 number_of_annotations += 1
         else:
             not_annotated_count += 1
+    f.close()
     # print(f'Assigned {annotated_count} genes to GO groups, did not assign {not_annotated_count} genes.')
     return GO_map, number_of_annotations
 

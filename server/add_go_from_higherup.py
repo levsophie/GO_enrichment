@@ -24,10 +24,12 @@ def enrich_cnag_map(go_basic, uniprot_proteome, CNAG_to_func, CNAG_to_GO):
             except:
                 print(f'{go} not found in association table keys')
         CNAG_map[cnag] = set.union(CNAG_map[cnag], temp)
-        f.write(cnag + '\t' +  str(CNAG_map[cnag]) + '\n')
+        set_elements = cnag
+        for e in  CNAG_map[cnag]:
+            set_elements = set_elements +  '\t' + e
+        f.write(set_elements + '\n')
     # print(f'added {counter} terms')
     f.close()
-    
     return CNAG_map
 
 def enrich_go_map(go_basic, uniprot_proteome, CNAG_to_func, GO_to_CNAG):
