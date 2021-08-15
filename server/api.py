@@ -61,9 +61,21 @@ class Collections(Resource):
             req = req['gene_list']
         except:
             pass
-        
         return flask.jsonify(main_endpoint(req, significance))
-
+        
+@api.route("/geneontology/testcontrol",  methods=['POST'])
+@api.response(404, 'Not found')
+@api.response(200, 'OK')
+class TestControl(Resource):
+    @api.response(200, "OK")
+    @api.response(400, "Bad request")
+    @api.doc()
+    def post(self):
+        req = request.get_json(force=True)
+        # print("Req", req)
+        # main_endpoint(req['test'], req['control'], req['significance'])
+        return flask.jsonify(main_endpoint(req['test'], req['control'], req['significance']))
+        # return []
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000, debug=True)
 
