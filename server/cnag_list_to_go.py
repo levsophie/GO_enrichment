@@ -84,17 +84,21 @@ def more_GO_info(gene_list, term_of_interest):
     gene_func = create_all_genes_control() # dictionary key: cnag, value: function
     f = open("GO_to_CNAG.txt", "r")
     test = []
+    gene_list = parse(gene_list)
     control = []
+    cnags = []
     for line in f:
         if line[:10] == term_of_interest:
             items = line.split("'")
             for item in items:
                 if item.startswith("CNAG_"):
                     cnag = item[:10]
-                    if cnag in gene_list:
+                    if cnag in gene_list and not cnag in cnags:
                         test.append({'cnag': cnag, 'function': gene_func[cnag]})
-                    else:
+                        cnags.append(cnag)
+                    elif not cnag in cnags:
                         control.append({'cnag': cnag, 'function': gene_func[cnag]})
+                        cnags.append(cnag)
     print(f'{len(test)} genes in test list, {len(control)} genes in control list')
     return {'test': test, 'control': control}
                 
