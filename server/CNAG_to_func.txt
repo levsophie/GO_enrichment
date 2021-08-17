@@ -6260,7 +6260,7 @@ CNAG_02131	Iron-sulfur cluster assembly protein (Fragment)
 CNAG_05067	Uncharacterized protein
 CNAG_06126	Pin2-interacting protein X1
 CNAG_00345	Delta-aminolevulinic acid dehydratase (EC 4.2.1.24)
-CNAG_06751	BHLH domain-containing protein
+CNAG_06751	BHLH domain-containing protein Pho4
 CNAG_03458	Chromo domain-containing protein
 CNAG_03108	Uncharacterized protein
 CNAG_01682	Mitochondrial outer membrane 72K protein

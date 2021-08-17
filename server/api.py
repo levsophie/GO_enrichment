@@ -61,7 +61,7 @@ class Collections(Resource):
             req = req['gene_list']
         except:
             pass
-        return flask.jsonify(main_endpoint(req, significance))
+        return flask.jsonify(main_endpoint(req, [], significance))
         
 @api.route("/geneontology/testcontrol",  methods=['POST'])
 @api.response(404, 'Not found')

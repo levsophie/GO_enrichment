@@ -38,6 +38,8 @@ def create_all_go_map(uniprot_proteome, CNAG_to_func):
                     except:
                         GO_map[term] = set()
                         GO_map[term].add(cnag)
+                    # if term == 'GO:0006796':
+                    #     print(cnag)
                     CNAG_map[cnag].add(term)
     f_func.close()
     f.close()
