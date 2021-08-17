@@ -23,7 +23,9 @@ import { useHistory } from "react-router-dom";
 import { DataGrid } from "@material-ui/data-grid";
 import { Button } from "@material-ui/core";
 import { useState, useEffect, useRef, Fetch } from "react";
-
+import ScrollDialog from "./dialog";
+import { Link } from 'react-router-dom';
+import { Redirect } from "react-router";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -122,9 +124,58 @@ export default function TopBar(props) {
   };
   let textInput = useRef(null);
   
+  
   const handlePageSizeChange = (params) => {
     setPageSize(params.pageSize);
   };
+  const history = useHistory();
+    // follow or unfollow another user
+    const handleCellClick = async (param, event) => {
+      console.log(param);
+      console.log(event);
+      if (param.colDef.field === 'test') {
+        console.log('display test group');
+        // history.push(`/user/${param.row.username}`);
+      } else if (param.colDef.field === 'control') {
+        console.log('display control group');
+      
+        // handling change in following status
+        // const networkUsername = param.row.username;
+        // history.push(`user/${networkUsername}`)
+        // sending backend 'followers' status update
+        // const payload = {
+        //   method: 'PATCH',
+        //   url: '/user/' + username + '/following',
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //     Authorization: token,
+        //   },
+        //   data: { user_to_follow: networkUsername },
+        // };
+        // console.log('Payload', payload);
+        // const response = await axios(payload);
+        // console.log('Response', response);
+        // if (response.status === 201) {
+        //   setRequestToFollow(true);
+        //   console.log('Params', param);
+        // } else {
+        //   toast.error('Error retrieving response from server.');
+        // }
+      } else if (param.colDef.field === 'term'){
+        console.log("GO term", param.row.term) 
+        let term = param.row.term
+        // textInput.current.value = ""
+        // setRows([])
+        // sessionStorage.clear()
+        
+        // window.location.href = 'https://www.ebi.ac.uk/QuickGO/term/GO:0034637'
+        window.open(`https://www.ebi.ac.uk/QuickGO/term/${term}`) 
+   
+      }  
+      
+      event.stopPropagation();
+    };
+  
   
   
   return (
@@ -133,7 +184,7 @@ export default function TopBar(props) {
       <AppBar color="default" variant="contained">
         <Toolbar>
           <Typography variant="h5">
-            Gene list functional enrichment analysis for Cryptococcus neoformans var.
+            Gene set functional enrichment analysis for Cryptococcus neoformans var.
             grubii
           </Typography>
         </Toolbar>
@@ -204,6 +255,7 @@ export default function TopBar(props) {
             onPageSizeChange={handlePageSizeChange}
             rowsPerPageOptions={[7, 9, 20]}
             rowCount={rows.length}
+            onCellClick={handleCellClick}
           />
         </div>
       </Container>
