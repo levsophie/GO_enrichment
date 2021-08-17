@@ -46,13 +46,13 @@ def enrich_go_map(go_basic, uniprot_proteome, CNAG_to_func, GO_to_CNAG):
             for additional_go in GO_association[go]:
                 try:
                     GO_map[additional_go] = set.union(GO_map[additional_go], GO_map[go])
-                    f.write(additional_go + '\t' + str(GO_map[additional_go]) + '\n')
+                    f.write(additional_go + '\t' + str(GO_map[additional_go])[1:-1] + '\n')
                     counter += 1
                 except: 
                     GO_map[additional_go] = GO_map[go]
-                    f.write(additional_go + '\t' + str(GO_map[additional_go]) + '\n')
+                    f.write(additional_go + '\t' + str(GO_map[additional_go])[1:-1] + '\n')
                     counter += 1
-            f.write(go + '\t' + str(GO_map[go]) + '\n')
+            f.write(go + '\t' + str(GO_map[go])[1:-1] + '\n')
             counter += 1
         except:
             print(f'{go} not found in association table keys')

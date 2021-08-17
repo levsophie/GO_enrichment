@@ -80,21 +80,24 @@ def find_enriched_groups(sample_test, sample_control, number_of_control_annotati
     return sorted(enriched_groups, key = lambda i: i['pvalue'])
 
 
-def more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, sample_control):
-    while term_of_interest:
-        term_of_interest = term_of_interest.strip(' ').rstrip(' ')
-        try:
-            print(f'Sample genes for GO term {term_of_interest}, {definitions[term_of_interest]}')
-            for gene in sample_test[term_of_interest]:
-                print(gene, '\t', all_genes_control[gene])
-            print(f'\nControl genes for term {term_of_interest}, {definitions[term_of_interest]}')
-            for gene in sample_control[term_of_interest]:
-                if not gene in sample_test[term_of_interest]:
-                    print(gene, '\t', all_genes_control[gene])
-        except:
-            print('Wrong input, exiting...')
-        term_of_interest = input('\nList genes for another GO term? Please copy and paste the term, otherwise "Enter"\n')
-
+def more_GO_info(gene_list, term_of_interest):
+    gene_func = create_all_genes_control() # dictionary key: cnag, value: function
+    f = open("GO_to_CNAG.txt", "r")
+    test = []
+    control = []
+    for line in f:
+        if line[:10] == term_of_interest:
+            items = line.split("'")
+            for item in items:
+                if item.startswith("CNAG_"):
+                    cnag = item[:10]
+                    if cnag in gene_list:
+                        test.append({'cnag': cnag, 'function': gene_func[cnag]})
+                    else:
+                        control.append({'cnag': cnag, 'function': gene_func[cnag]})
+    print(f'{len(test)} genes in test list, {len(control)} genes in control list')
+    return {'test': test, 'control': control}
+                
 
 def main_endpoint(test_input, control_input, significance):
     print('Processing request...')

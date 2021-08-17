@@ -20,7 +20,7 @@ from pprint import pprint
 from flask import abort, make_response, jsonify
 from flask_restx import Namespace, fields
 import flask_cors
-from cnag_list_to_go import main_endpoint
+from cnag_list_to_go import main_endpoint, more_GO_info
 
 app = Flask(__name__)
 cors = flask_cors.CORS()
@@ -56,12 +56,27 @@ class Collections(Resource):
         """Enter CNAG IDs in one line separated by comma"""
         print("Significance", significance)
         req = request.get_json(force=True)
-        # print("Req", req)
+        print("Req", req)
         try:
             req = req['gene_list']
         except:
             pass
         return flask.jsonify(main_endpoint(req, [], significance))
+        
+        
+@api.route("/geneontology/terms",  methods=['POST'])
+@api.response(404, 'Not found')
+@api.response(200, 'OK')
+class Details(Resource):
+    @api.response(200, "OK")
+    @api.response(400, "Bad request")
+    @api.doc()
+    # @api.doc(params={"significance":"P-value cutoff"})
+    def post(self):
+        req = request.get_json(force=True)
+        # print(req)
+        return flask.jsonify(more_GO_info(req['gene_list'], req['term']))
+
         
 @api.route("/geneontology/testcontrol",  methods=['POST'])
 @api.response(404, 'Not found')

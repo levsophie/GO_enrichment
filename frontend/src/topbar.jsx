@@ -141,8 +141,9 @@ export default function TopBar(props) {
     
   const [open, setOpen] = useState(false);
   const [scroll, setScroll] = useState('paper');
-
-
+  const [currentTerm, setCurrentTerm] = useState()
+  const [currentTermDescription, setCurrentTermDescription] = useState()
+  const [listOfGenes, setListOfGenes] = useState([])
 
   const handleClose = () => {
     setOpen(false);
@@ -161,55 +162,43 @@ export default function TopBar(props) {
     const handleCellClick = async (param, event) => {
       console.log(param);
       console.log(event);
-      if (param.colDef.field === 'test') {
-        console.log('display test group');
-        setOpen(true);
-        // setScroll(scrollType);
-        // ScrollDialog(param.row.test)
-      
-
-
-
-
-      
-      
-      
-      
-      } else if (param.colDef.field === 'control') {
-        console.log('display control group');
-      
-      
-      
-      
-      
-        // handling change in following status
-        // const networkUsername = param.row.username;
-        // history.push(`user/${networkUsername}`)
-        // sending backend 'followers' status update
-        // const payload = {
-        //   method: 'PATCH',
-        //   url: '/user/' + username + '/following',
-        //   headers: {
-        //     'Content-Type': 'application/json',
-        //     Authorization: token,
-        //   },
-        //   data: { user_to_follow: networkUsername },
-        // };
-        // console.log('Payload', payload);
-        // const response = await axios(payload);
-        // console.log('Response', response);
-        // if (response.status === 201) {
-        //   setRequestToFollow(true);
-        //   console.log('Params', param);
-        // } else {
-        //   toast.error('Error retrieving response from server.');
-        // }
-      } else if (param.colDef.field === 'term'){
+      if (param.colDef.field === 'term'){
         console.log("GO term", param.row.term) 
         let term = param.row.term
         window.open(`https://www.ebi.ac.uk/QuickGO/term/${term}`) 
+      } 
+      else {
+        setOpen(true);
+        setCurrentTerm(param.row.term) 
+        setCurrentTermDescription(param.row.description) 
+      let data = {
+        gene_list: input,
+        term: param.row.term,
+      };
+      console.log(input, param.row.term);
+      const requestOptions = {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      };
+      const response = await fetch("/geneontology/terms", requestOptions);
+      if (response.status === 200) {
+        const resp = await response.json();
+        console.log(resp);
+        
+      
+      if (param.colDef.field === 'test') {
+        console.log('display test group', resp.test);
+        setListOfGenes(resp.test)
+        // setScroll(scrollType);
+        // ScrollDialog(param.row.test)
+      } else {
+        console.log('display control group', resp.control);
+        setListOfGenes(resp.control)
+      }
       }  
-      event.stopPropagation();
+    }
+       event.stopPropagation();
     };
   
   
@@ -303,29 +292,27 @@ export default function TopBar(props) {
           aria-labelledby="scroll-dialog-title"
           aria-describedby="scroll-dialog-description"
         >
-          <DialogTitle id="scroll-dialog-title">Subscribe</DialogTitle>
+          <DialogTitle id="scroll-dialog-title">{currentTerm} - {currentTermDescription}</DialogTitle>
           <DialogContent dividers={scroll === 'paper'}>
             <DialogContentText
-              id="scroll-dialog-description"
+              id="cnag"
               ref={descriptionElementRef}
               tabIndex={-1}
-            >
-              {[...new Array(50)]
-                .map(
-                  () => `Cras mattis consectetur purus sit amet fermentum.
-  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-  Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-  Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
-                )
-                .join('\n')}
+            >{
+              listOfGenes.map(dataIn => (
+                <div key={dataIn.cnag}>
+                  <Typography variant="body2" component={'span'} color="textPrimary">
+                    {`${dataIn.cnag} ${dataIn.function}`}
+                  </Typography>
+                  </div>
+               ))  
+            }
+              
             </DialogContentText>
           </DialogContent>
           <DialogActions>
             <Button onClick={handleClose} color="primary">
-              Cancel
-            </Button>
-            <Button onClick={handleClose} color="primary">
-              Subscribe
+              Close
             </Button>
           </DialogActions>
         </Dialog>
