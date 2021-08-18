@@ -25,7 +25,7 @@ class GoEnrichment(Resource):
         """CNAG IDs in a list"""
         print("Significance", significance)
         req = request.get_json(force=True)
-        return flask.jsonify(main_endpoint(req, [], significance))
+        return flask.jsonify(main_endpoint(req, significance))
         
         
 @api.route("/geneontology/terms",  methods=['POST'])

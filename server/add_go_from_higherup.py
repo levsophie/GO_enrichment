@@ -5,12 +5,12 @@ from from_uniprot_get_go import create_all_go_map
 import copy 
 
 
-def enrich_cnag_map(go_basic, uniprot_proteome, CNAG_to_func, CNAG_to_GO):
+def enrich_cnag_map(go_basic, uniprot_proteome, CNAG_to_func, CNAG_to_GO, GO_to_CNAG, go_association):
     '''Creates a dictionary and a file with CNAG IDs as keys and GO terms
     as values; includes higher GO categories. Returns CNAG_map['CNAG_XXXXX'] = (GO1, GO2...)'''
     f = open(CNAG_to_GO, "w")  
     counter = 0
-    GO_association = process_ontology(go_basic)
+    GO_association = process_ontology(go_basic, go_association)
     # print("GO_association", GO_association)
     _, CNAG_map = create_all_go_map(uniprot_proteome, CNAG_to_func)
     # print("CNAG_map", CNAG_map)
@@ -34,7 +34,7 @@ def enrich_cnag_map(go_basic, uniprot_proteome, CNAG_to_func, CNAG_to_GO):
 
     '''Creates a dictionary and a file with GO terms as keys and CNAG IDs 
     as values; includes higher GO categories'''
-    f = open("GO_to_CNAG.txt", "w")
+    f = open(GO_to_CNAG, "w")
     f_cnag = open(CNAG_to_GO, "r")
     GO_map = {}
     # GO_map, _ = create_all_go_map(uniprot_proteome, CNAG_to_func)  # GO_map[term] = cnag from Uniprot
@@ -82,5 +82,5 @@ def enrich_cnag_map(go_basic, uniprot_proteome, CNAG_to_func, CNAG_to_GO):
 #     return GO_map
     
 if __name__ == '__main__':
-    enrich_cnag_map("GO-basic.obo", "uniprot-proteome_UP000010091.tab", "CNAG_to_func.txt", "CNAG_to_GO.txt")
+    enrich_cnag_map("GO-basic.obo", "uniprot-proteome_UP000010091.tab", "CNAG_to_func.txt", "CNAG_to_GO.txt", "GO_to_CNAG.txt", "GO_association.txt")
     # enrich_go_map("GO-basic.obo", "uniprot-proteome_UP000010091.tab", "CNAG_to_func.txt", "GO_to_CNAG.txt")

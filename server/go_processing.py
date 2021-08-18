@@ -2,16 +2,15 @@ import sys
 sys.path.append('.')
 
 
-def process_ontology(go_basic):
+def process_ontology(go_basic, go_association):
     '''Processes go-basic.obo file to extract higher GO terms'''
     f = open(go_basic, "r")
-    f_asc = open("GO_association.txt", "w")
+    f_asc = open(go_association, "w")
     counter = 0
     GO_association = {}
     for contents in f:
         contents = contents.split(': ')
         if contents[0] == 'id':
-            alt_id = False
             alt_ids = []
             id = contents[1].strip('\n')
             assert(id.startswith('GO'))
@@ -67,5 +66,5 @@ def list_names_for_terms(obo_file, go_names):
 
 
 if __name__ == '__main__':
-    GO_association = process_ontology("go-basic.obo")
+    GO_association = process_ontology("go-basic.obo", "GO_association.txt")
     GO = list_names_for_terms("go-basic.obo", "GO_names.txt")

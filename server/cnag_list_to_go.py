@@ -54,22 +54,18 @@ def create_all_genes_control():
         cnag = line[0][:10]
         gene_func[cnag] = line[1].rstrip('\n')
     f.close()
-    # print(f'total number of genes is {len(gene_func.keys())}')
     return gene_func
 
 def find_enriched_groups(sample_test, sample_control, number_of_control_annotations,
                                            number_of_test_annotations, GO_map, definitions, significance):
-    
     enriched_groups = []
     id = 0
     for term in GO_map.keys():
         if len(sample_test[term]) > 0:
-            # print(len(sample_test[term]), len(sample_control[term]), term)
             a = len(sample_test[term])  
             b = len(sample_control[term]) - a
             c = number_of_test_annotations - a
             d = number_of_control_annotations - len(sample_control[term]) - c
-            # print(a,b,c,d)
             _, p = fisher_exact(np.array([[a,b],[c,d]]))
             if p < significance:
                 id += 1
@@ -103,7 +99,7 @@ def more_GO_info(gene_list, term_of_interest):
     return {'test': test, 'control': control}
                 
 
-def main_endpoint(test_input, control_input, significance):
+def main_endpoint(test_input, significance):
     print('Processing request...')
     # The GO_map is initially empty dictionary of all GO groups, gets filled with the unique cnag_list profile.'''
     GO_map, definitions = create_empty_go_map()
@@ -119,34 +115,6 @@ def main_endpoint(test_input, control_input, significance):
     sample_test, number_of_test_annotations = process_gene_list(test, test_gene_list)  # sample_test['GO:0005829'] == 1
     enriched_groups_test = find_enriched_groups(sample_test, all_genes_control, number_of_all_annotations,
                                            number_of_test_annotations, GO_map, definitions, significance=float(significance))
-    
-    # Operations on the control list
-    if control_input:
-        control = copy.deepcopy(GO_map)
-        control_gene_list = parse(control_input)
-        sample_control, number_of_control_annotations = process_gene_list(control, control_gene_list)
-        enriched_groups_control = find_enriched_groups(sample_control, all_genes_control, number_of_all_annotations,
-                                           number_of_control_annotations, GO_map, definitions, significance=float(significance))
- 
-        controls = []
-        for group in enriched_groups_control:
-            controls.append(group['term'])
-        for group in enriched_groups_test:
-            if group['term'] in controls:
-               enriched_groups_test.remove(group)
-               print(f"Removed {group['description']}")
-        # print(enriched_groups_test)       
-        return enriched_groups_test  
     return  enriched_groups_test
     
-    
-    # enriched_groups = sorted(enriched_groups)
-    # print(enriched_groups)
-    # print(f"\nP-value{' '*11}In test     In control  GO ID{' '*13}GO description")
-    # for group in enriched_groups:
-    #     print(f'{group[0]:<18}{group[1]:<12}{group[2]:<12}{group[3]:<18}{group[4]}')
-
-    # term_of_interest = input('\nList genes for a specific GO term? Please copy and paste the term, otherwise "Enter"\n')
-    # if term_of_interest:
-    #     more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, sample_control)
   
