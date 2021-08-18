@@ -14,5 +14,4 @@ go-basic.obo
 
 4. Add manual GO annotation based on literature. 
 
-5. GO term enrichment is calculated using Fisher test.   
-[a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
+5. GO term enrichment is calculated using Fisher test [a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
