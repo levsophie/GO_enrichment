@@ -63,4 +63,5 @@ def find_enriched_groups(sample_test, sample_control, number_of_control_annotati
 def more_GO_info(term_of_interest, definitions, all_genes_control, sample_test, sample_control)
 
 
-## 2x2 Contingency table, Fisher test without alternatives [https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact]
+## 2x2 Contingency table, Fisher test without alternatives  
+[a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
