@@ -1,9 +1,9 @@
 ## Workflow for GO analysis for Cryptococcus neoformans var. grubii Serotype A strain H99
 
-Download GO annotations for Cryptococcus neoformans from Uniprot [https://www.uniprot.org/uniprot/?query=yourlist:M202108126320BA52A5CE8FCD097CB85A53697A3510768EK&sort=yourlist:M202108126320BA52A5CE8FCD097CB85A53697A3510768EK&columns=yourlist(M202108126320BA52A5CE8FCD097CB85A53697A3510768EK),isomap(M202108126320BA52A5CE8FCD097CB85A53697A3510768EK),id,genes,genes(ALTERNATIVE),protein%20names,genes(PREFERRED),genes(ORF),genes(OLN),entry%20name]
-uniprot-proteome_UP000010091.tab
+Download GO annotations for Cryptococcus neoformans from Uniprot [a link](https://www.uniprot.org/uniprot/?query=yourlist:M202108126320BA52A5CE8FCD097CB85A53697A3510768EK&sort=yourlist:M202108126320BA52A5CE8FCD097CB85A53697A3510768EK&columns=yourlist(M202108126320BA52A5CE8FCD097CB85A53697A3510768EK),isomap(M202108126320BA52A5CE8FCD097CB85A53697A3510768EK),id,genes,genes(ALTERNATIVE),protein%20names,genes(PREFERRED),genes(ORF),genes(OLN),entry%20name]
+uniprot-proteome_UP000010091.tab)
 
-Download GO structure from GENEONTOLOGY [http://geneontology.org/docs/download-ontology/#go_basic]
+Download GO structure from GENEONTOLOGY [a link](http://geneontology.org/docs/download-ontology/#go_basic)
 go-basic.obo
 
 1. From Uniprot record, find GO terms for each CNAG; map GO groups to CNAG IDs and CNAG IDs to GO groups.
