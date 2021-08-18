@@ -31,24 +31,9 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
+import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    "& .MuiTextField-root": {
-      margin: theme.spacing(1),
-      width: "25ch",
-    },
-  },
-  margin: {
-    margin: theme.spacing(1),
-  },
-  textarea: {
-    resize: "both",
-    width: "100ch",
-  },
-}));
-
-const CssTextField = withStyles({
   root: {
     "& label.Mui-focused": {
       color: "grey",
@@ -66,9 +51,28 @@ const CssTextField = withStyles({
       "&.Mui-focused fieldset": {
         borderColor: "black",
       },
+      "&.MuiContainer-maxWidthLg": {
+        width: "2280px",
+      },
     },
   },
-})(TextField);
+  paper: {
+    padding: theme.spacing(1),
+    textAlign: "center",
+    color: theme.palette.text.secondary,
+    square: "true",
+  },
+  form: {
+    width: "100%", // Fix IE 11 issue.
+    marginTop: theme.spacing(1),
+  },
+  submit: {
+    margin: theme.spacing(3, 0, 2),
+  },
+  margin: {
+    margin: theme.spacing(1),
+  },
+}));
 
 export default function TopBar(props) {
   const classes = useStyles();
@@ -106,7 +110,7 @@ export default function TopBar(props) {
     {
       field: "description",
       headerName: "Description",
-      width: 500,
+      width: 490,
     },
   ];
   // useEffect(() => {
@@ -163,7 +167,10 @@ export default function TopBar(props) {
   const handleCellClick = async (param, event) => {
     // console.log(param);
     // console.log(event);
-    if (param.colDef.field === "pvalue" || param.colDef.field === "description") {
+    if (
+      param.colDef.field === "pvalue" ||
+      param.colDef.field === "description"
+    ) {
       console.log("Clicked P-value", param.colDef.field);
       setOpen(false);
       event.stopPropagation();
@@ -220,114 +227,145 @@ export default function TopBar(props) {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Container maxWidth="sm">
+      <Container maxWidth="lg">
         <Toolbar id="back-to-top-anchor" />
         <br></br>
+        <Grid container component="main" className={classes.root}>
+          <CssBaseline />
+          <Grid item xs={12} sm={8} md={6} component={Paper}>
+            <div className={classes.paper}>
+              <TextField
+                id="standard-multiline-static"
+                label="List of identifiers (CNAG_XXXXX)"
+                multiline
+                rows={5}
+                inputRef={textInput}
+                variant="outlined"
+                style={{ width: "100%" }}
+                onChange={(e) => setInput(e.target.value)}
+                inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
+              ></TextField>
+              <br></br>
+            </div>
+          </Grid>
 
-        <CssTextField
-          id="standard-multiline-static"
-          label="List of identifiers (CNAG_XXXXX)"
-          multiline
-          rows={4}
-          inputRef={textInput}
-          variant="outlined"
-          style={{ width: "100%" }}
-          onChange={(e) => setInput(e.target.value)}
-          inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
-        ></CssTextField>
-        <br></br>
-        <br></br>
-        <CssTextField
-          id="standard-multiline-static"
-          label="P-value cutoff"
-          multiline
-          rows={1}
-          // inputRef={textInput}
-          defaultValue={0.001}
-          variant="outlined"
-          style={{ width: "100%" }}
-          onChange={(e) => setSignificance(e.target.value)}
-          inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
-        ></CssTextField>
-
-        <Button
-          className={classes.margin}
-          type="submit"
-          variant="contained"
-          style={{ display: "inline block" }}
-          onClick={(e) => handleSubmit(e.target.value)}
-        >
-          Submit
-        </Button>
-        <Button
-          className={classes.margin}
-          type="submit"
-          variant="contained"
-          style={{ display: "inline block" }}
-          onClick={() => (textInput.current.value = "")}
-        >
-          Clear
-        </Button>
-      </Container>
-      <br></br>
-      <Container maxWidth="lg">
-        <div style={{ height: 400, width: "100%" }}>
-          <DataGrid
-            rows={rows}
-            columns={columns}
-            pageSize={5}
-            disableSelectionOnClick
-            autoHeight
-            page={page}
-            onPageChange={(params) => {
-              setPage(params.page);
-            }}
-            pagination
-            pageSize={pageSize}
-            onPageSizeChange={handlePageSizeChange}
-            rowsPerPageOptions={[7, 9, 20]}
-            rowCount={rows.length}
-            onCellClick={handleCellClick}
-          />
-        </div>
-
-        <div>
-          <Dialog
-            open={open}
-            onClose={handleClose}
-            scroll={scroll}
-            aria-labelledby="scroll-dialog-title"
-            aria-describedby="scroll-dialog-description"
-          >
-            <DialogTitle id="scroll-dialog-title">
-              {currentTerm} - {currentTermDescription}
-            </DialogTitle>
-            <DialogContent dividers={scroll === "paper"}>
-              <DialogContentText
-                id="cnag"
-                ref={descriptionElementRef}
-                tabIndex={-1}
+          <Grid item xs={12} sm={8} md={6} component={Paper}>
+            <div className={classes.paper}>
+              <TextField
+                id="standard-multiline-static"
+                label="P-value cutoff"
+                multiline
+                rows={1}
+                // inputRef={textInput}
+                defaultValue={0.001}
+                variant="outlined"
+                style={{ width: "100%" }}
+                onChange={(e) => setSignificance(e.target.value)}
+                inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
+              ></TextField>
+              <br></br>
+              <br></br>
+              <Button
+                className={classes.margin}
+                type="submit"
+                variant="contained"
+                size="large"
+                style={{
+                  display: "inline block",
+                  maxWidth: "200px",
+                  maxHeight: "60px",
+                  minWidth: "200px",
+                  minHeight: "30px",
+                }}
+                onClick={(e) => handleSubmit(e.target.value)}
               >
-                {listOfGenes.map((dataIn) => (
-                  <div key={dataIn.cnag}>
-                    <Typography
-                      variant="body2"
-                      component={"span"}
-                      color="textPrimary"
-                    >
-                      {`${dataIn.cnag} ${dataIn.function}`}
-                    </Typography>
-                  </div>
-                ))}
-              </DialogContentText>
-            </DialogContent>
-            <DialogActions>
-              <Button onClick={handleClose} color="primary">
-                Close
+                Submit
               </Button>
-            </DialogActions>
-          </Dialog>
-        </div>
+              <Button
+                className={classes.margin}
+                type="submit"
+                variant="contained"
+                size="large"
+                style={{
+                  display: "inline block",
+                  maxWidth: "200px",
+                  maxHeight: "60px",
+                  minWidth: "200px",
+                  minHeight: "30px",
+                }}
+                onClick={() => (textInput.current.value = "")}
+              >
+                Clear
+              </Button>
+
+              <br></br>
+            </div>
+          </Grid>
+
+          <Grid item lg={12} sm={8} md={5} component={Paper}>
+            <div className={classes.paper}>
+              <Container maxWidth="lg">
+                <div style={{  width: "100%" }}>
+                  <DataGrid
+                    rows={rows}
+                    columns={columns}
+                    pageSize={5}
+                    disableSelectionOnClick
+                    autoHeight
+                    page={page}
+                    onPageChange={(params) => {
+                      setPage(params.page);
+                    }}
+                    pagination
+                    pageSize={pageSize}
+                    onPageSizeChange={handlePageSizeChange}
+                    rowsPerPageOptions={[7, 9, 20]}
+                    rowCount={rows.length}
+                    onCellClick={handleCellClick}
+                  />
+                </div>
+
+                <div>
+                  <Dialog
+                    open={open}
+                    onClose={handleClose}
+                    scroll={scroll}
+                    aria-labelledby="scroll-dialog-title"
+                    aria-describedby="scroll-dialog-description"
+                  >
+                    <DialogTitle id="scroll-dialog-title">
+                      {currentTerm} - {currentTermDescription}
+                    </DialogTitle>
+                    <DialogContent dividers={scroll === "paper"}>
+                      <DialogContentText
+                        id="cnag"
+                        ref={descriptionElementRef}
+                        tabIndex={-1}
+                      >
+                        {listOfGenes.map((dataIn) => (
+                          <div key={dataIn.cnag}>
+                            <Typography
+                              variant="body2"
+                              component={"span"}
+                              color="textPrimary"
+                            >
+                              {`${dataIn.cnag} ${dataIn.function}`}
+                            </Typography>
+                          </div>
+                        ))}
+                      </DialogContentText>
+                    </DialogContent>
+                    <DialogActions>
+                      <Button onClick={handleClose} color="primary">
+                        Close
+                      </Button>
+                    </DialogActions>
+                  </Dialog>
+                </div>
+              </Container>
+            </div>
+          </Grid>
+        </Grid>
       </Container>
     </React.Fragment>
   );
