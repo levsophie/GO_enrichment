@@ -7,6 +7,9 @@ function App() {
   return (
     <div>
       <Router>
+        <Route exact path="/">
+          <GoDataGathering />
+        </Route>
         <Route path="/godata">
           <GoDataGathering />
         </Route>
