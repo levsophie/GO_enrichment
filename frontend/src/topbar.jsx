@@ -24,13 +24,13 @@ import { DataGrid } from "@material-ui/data-grid";
 import { Button } from "@material-ui/core";
 import { useState, useEffect, useRef, Fetch } from "react";
 import ScrollDialog from "./dialog";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { Redirect } from "react-router";
 import { Dialog } from "@material-ui/core";
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -76,8 +76,8 @@ export default function TopBar(props) {
   const [input, setInput] = useState();
   const [pageSize, setPageSize] = useState(9);
   const [page, setPage] = useState(0);
-  const [significance, setSignificance] = useState(0.001)
-  
+  const [significance, setSignificance] = useState(0.001);
+
   const columns = [
     { field: "id", headerName: "ID", width: 90, hide: "true" },
     {
@@ -100,10 +100,9 @@ export default function TopBar(props) {
       headerName: "Term",
       width: 120,
       renderCell: (params) => (
-        <div style={{ color: "blue" }}>
-        {params.value}
-            </div>
-       )},
+        <div style={{ color: "blue" }}>{params.value}</div>
+      ),
+    },
     {
       field: "description",
       headerName: "Description",
@@ -115,40 +114,42 @@ export default function TopBar(props) {
   // }, []);
 
   const handleSubmit = async () => {
-    console.log(input, significance)
+    // console.log(input, significance);
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(input),
     };
-    const response = await fetch(`/geneontology/${significance}`, requestOptions);
+    const response = await fetch(
+      `/geneontology/${significance}`,
+      requestOptions
+    );
     if (response.status === 200) {
       const rows = await response.json();
-      console.log(rows);
+      // console.log(rows);
       setRows(rows);
     } else {
       setRows([]);
-      console.log(response);
+      // console.log(response);
     }
   };
   let textInput = useRef(null);
-  
-  
+
   const handlePageSizeChange = (params) => {
     setPageSize(params.pageSize);
   };
   const history = useHistory();
-    
+
   const [open, setOpen] = useState(false);
-  const [scroll, setScroll] = useState('paper');
-  const [currentTerm, setCurrentTerm] = useState()
-  const [currentTermDescription, setCurrentTermDescription] = useState()
-  const [listOfGenes, setListOfGenes] = useState([])
+  const [scroll, setScroll] = useState("paper");
+  const [currentTerm, setCurrentTerm] = useState();
+  const [currentTermDescription, setCurrentTermDescription] = useState();
+  const [listOfGenes, setListOfGenes] = useState([]);
 
   const handleClose = () => {
     setOpen(false);
   };
-  
+
   const descriptionElementRef = React.useRef(null);
   React.useEffect(() => {
     if (open) {
@@ -158,24 +159,30 @@ export default function TopBar(props) {
       }
     }
   }, [open]);
-  
-    const handleCellClick = async (param, event) => {
-      console.log(param);
-      console.log(event);
-      if (param.colDef.field === 'term'){
-        console.log("GO term", param.row.term) 
-        let term = param.row.term
-        window.open(`https://www.ebi.ac.uk/QuickGO/term/${term}`) 
-      } 
-      else {
-        setOpen(true);
-        setCurrentTerm(param.row.term) 
-        setCurrentTermDescription(param.row.description) 
+
+  const handleCellClick = async (param, event) => {
+    // console.log(param);
+    // console.log(event);
+    if (param.colDef.field === "pvalue" || param.colDef.field === "description") {
+      console.log("Clicked P-value", param.colDef.field);
+      setOpen(false);
+      event.stopPropagation();
+    } else if (param.colDef.field === "term") {
+      console.log("GO term", param.row.term);
+      let term = param.row.term;
+      window.open(`https://www.ebi.ac.uk/QuickGO/term/${term}`);
+    } else if (
+      param.colDef.field === "test" ||
+      param.colDef.field === "control"
+    ) {
+      setOpen(true);
+      setCurrentTerm(param.row.term);
+      setCurrentTermDescription(param.row.description);
       let data = {
         gene_list: input,
         term: param.row.term,
       };
-      console.log(input, param.row.term);
+      // console.log(input, param.row.term);
       const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -184,40 +191,39 @@ export default function TopBar(props) {
       const response = await fetch("/geneontology/terms", requestOptions);
       if (response.status === 200) {
         const resp = await response.json();
-        console.log(resp);
-        
-      
-      if (param.colDef.field === 'test') {
-        console.log('display test group', resp.test);
-        setListOfGenes(resp.test)
-        // setScroll(scrollType);
-        // ScrollDialog(param.row.test)
-      } else {
-        console.log('display control group', resp.control);
-        setListOfGenes(resp.control)
+        // console.log(resp);
+
+        if (param.colDef.field === "test") {
+          // console.log('display test group', resp.test);
+          setListOfGenes(resp.test);
+          // event.stopPropagation();
+          // setScroll(scrollType);
+          // ScrollDialog(param.row.test)
+        } else {
+          // console.log('display control group', resp.control);
+          setListOfGenes(resp.control);
+          // event.stopPropagation();
+        }
       }
-      }  
     }
-       event.stopPropagation();
-    };
-  
-  
-  
+    // event.stopPropagation();
+  };
+
   return (
     <React.Fragment>
       <CssBaseline />
       <AppBar color="default" variant="contained">
         <Toolbar>
           <Typography variant="h5">
-            Gene set functional enrichment analysis for Cryptococcus neoformans var.
-            grubii
+            Gene set functional enrichment analysis for Cryptococcus neoformans
+            var. grubii
           </Typography>
         </Toolbar>
       </AppBar>
       <Container maxWidth="sm">
         <Toolbar id="back-to-top-anchor" />
         <br></br>
-        
+
         <CssTextField
           id="standard-multiline-static"
           label="List of identifiers (CNAG_XXXXX)"
@@ -229,7 +235,8 @@ export default function TopBar(props) {
           onChange={(e) => setInput(e.target.value)}
           inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
         ></CssTextField>
-        <br></br><br></br>
+        <br></br>
+        <br></br>
         <CssTextField
           id="standard-multiline-static"
           label="P-value cutoff"
@@ -242,8 +249,8 @@ export default function TopBar(props) {
           onChange={(e) => setSignificance(e.target.value)}
           inputProps={{ style: { fontFamily: "nunito", color: "black" } }}
         ></CssTextField>
-         
-         <Button
+
+        <Button
           className={classes.margin}
           type="submit"
           variant="contained"
@@ -257,7 +264,7 @@ export default function TopBar(props) {
           type="submit"
           variant="contained"
           style={{ display: "inline block" }}
-          onClick={() => textInput.current.value = ""}
+          onClick={() => (textInput.current.value = "")}
         >
           Clear
         </Button>
@@ -266,7 +273,7 @@ export default function TopBar(props) {
       <Container maxWidth="lg">
         <div style={{ height: 400, width: "100%" }}>
           <DataGrid
-             rows={rows}
+            rows={rows}
             columns={columns}
             pageSize={5}
             disableSelectionOnClick
@@ -283,42 +290,45 @@ export default function TopBar(props) {
             onCellClick={handleCellClick}
           />
         </div>
- 
+
         <div>
           <Dialog
-          open={open}
-          onClose={handleClose}
-          scroll={scroll}
-          aria-labelledby="scroll-dialog-title"
-          aria-describedby="scroll-dialog-description"
-        >
-          <DialogTitle id="scroll-dialog-title">{currentTerm} - {currentTermDescription}</DialogTitle>
-          <DialogContent dividers={scroll === 'paper'}>
-            <DialogContentText
-              id="cnag"
-              ref={descriptionElementRef}
-              tabIndex={-1}
-            >{
-              listOfGenes.map(dataIn => (
-                <div key={dataIn.cnag}>
-                  <Typography variant="body2" component={'span'} color="textPrimary">
-                    {`${dataIn.cnag} ${dataIn.function}`}
-                  </Typography>
+            open={open}
+            onClose={handleClose}
+            scroll={scroll}
+            aria-labelledby="scroll-dialog-title"
+            aria-describedby="scroll-dialog-description"
+          >
+            <DialogTitle id="scroll-dialog-title">
+              {currentTerm} - {currentTermDescription}
+            </DialogTitle>
+            <DialogContent dividers={scroll === "paper"}>
+              <DialogContentText
+                id="cnag"
+                ref={descriptionElementRef}
+                tabIndex={-1}
+              >
+                {listOfGenes.map((dataIn) => (
+                  <div key={dataIn.cnag}>
+                    <Typography
+                      variant="body2"
+                      component={"span"}
+                      color="textPrimary"
+                    >
+                      {`${dataIn.cnag} ${dataIn.function}`}
+                    </Typography>
                   </div>
-               ))  
-            }
-              
-            </DialogContentText>
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={handleClose} color="primary">
-              Close
-            </Button>
-          </DialogActions>
-        </Dialog>
-      </div>
+                ))}
+              </DialogContentText>
+            </DialogContent>
+            <DialogActions>
+              <Button onClick={handleClose} color="primary">
+                Close
+              </Button>
+            </DialogActions>
+          </Dialog>
+        </div>
       </Container>
     </React.Fragment>
-    
   );
 }
