@@ -21,7 +21,7 @@ CNAG_00623	Glucosylceramidase (EC 3.2.1.45) (Endoglycoceramidase-related protein
 CNAG_04358	Iron-sulfur clusters transporter ATM1, mitochondrial (EC 7.-.-.-)
 CNAG_05799	Chitin deacetylase 1 (EC 3.5.1.41)
 CNAG_02415	Annexin C1
-CNAG_05404	Histone-lysine N-methyltransferase, H3 lysine-9 specific (EC 2.1.1.-) (Histone H3-K9 methyltransferase) (H3-K9-HMTase)
+CNAG_05404	Histone-lysine N-methyltransferase SUV39H, variant 1 (Histone-lysine N-methyltransferase SUV39H, variant 2)
 CNAG_00306	Copper metallothionein 2 (Cu-MT 2) (Cu-metallothionein 2) (Copper chelatin 2) (Copper thionein 2)
 CNAG_02775	Copper acquisition factor BIM1 (BCS-inducible membrane protein 1) (Lytic polysaccharide monooxygenase-like protein BIM1) (LPMO-like protein BIM1) (EC 1.14.99.-)
 CNAG_01239	Chitin deacetylase 3 (EC 3.5.1.41)
@@ -47,7 +47,7 @@ CNAG_06487	Chitin synthase 6 (EC 2.4.1.16)
 CNAG_00239	AP-1-like transcription factor yap1 (BZIP domain-containing transcription factor yap1)
 CNAG_00162	Alternative oxidase, mitochondrial (EC 1.-.-.-)
 CNAG_03326	Chitin synthase 2 (EC 2.4.1.16)
-CNAG_00979	Copper transport protein CTR4 (Copper transporter 4)
+CNAG_00979	Copper transporter
 CNAG_01537	ATP-dependent RNA helicase VAD1 (EC 3.6.4.13) (Virulence-associated DEAD box protein 1)
 CNAG_05583	Ceramide glucosyltransferase (EC 2.4.1.80) (GLCT-1) (Glucosylceramide synthase) (GCS) (UDP-glucose ceramide glucosyltransferase) (UDP-glucose:N-acylsphingosine D-glucosyltransferase)
 CNAG_00546	Chitin synthase 4 (EC 2.4.1.16)
@@ -67,7 +67,7 @@ CNAG_03464	Laccase-2 (EC 1.10.3.2) (Diphenol oxidase 2)
 CNAG_04678	Serine/threonine-protein kinase YPK1 (EC 2.7.11.1)
 CNAG_05540	Urease (EC 3.5.1.5) (Urea amidohydrolase)
 CNAG_04871	Uncharacterized protein
-CNAG_04219	Lactoylglutathione lyase, variant
+CNAG_04219	Lactoylglutathione lyase (EC 4.4.1.5) (Glyoxalase I)
 CNAG_02599	2,4-dihydroxyhept-2-ene-1,7-dioic acid aldolase
 CNAG_04055	Cell cycle checkpoint protein
 CNAG_05675	Epsilon-trimethyllysine 2-oxoglutarate dioxygenase (EC 1.14.11.8) (TML hydroxylase) (TML-alpha-ketoglutarate dioxygenase)
@@ -78,8 +78,8 @@ CNAG_04709	Uncharacterized protein
 CNAG_06437	MICOS complex subunit MIC10
 CNAG_05237	DUF262 domain-containing protein
 CNAG_05462	Cytochrome b5 reductase
-CNAG_01952	Aryl-alcohol dehydrogenase
-CNAG_00303	High-affinity nicotinic acid transporter
+CNAG_01952	Aryl-alcohol dehydrogenase, variant
+CNAG_00303	High-affinity nicotinic acid transporter, variant
 CNAG_00454	Uncharacterized protein
 CNAG_03830	Uncharacterized protein
 CNAG_06139	Uncharacterized protein
@@ -89,7 +89,7 @@ CNAG_01281	Uncharacterized protein
 CNAG_04765	Actin-related protein 2/3 complex subunit 3
 CNAG_00843	Salicylate hydroxylase
 CNAG_00438	Uncharacterized protein
-CNAG_02105	Methylated-DNA-protein-cysteine methyltransferase
+CNAG_02105	Methylated-DNA-protein-cysteine methyltransferase, variant
 CNAG_07711	Uncharacterized protein
 CNAG_02786	6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase (EC 2.5.1.15) (EC 2.7.6.3) (7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase) (Dihydropteroate synthase)
 CNAG_04441	Polyadenylate-binding protein (PABP)
@@ -109,7 +109,7 @@ CNAG_02371	Coiled-coil domain-containing protein 130
 CNAG_01695	Uncharacterized protein
 CNAG_08017	Epimerase domain-containing protein
 CNAG_00135	Cyclophilin
-CNAG_04947	High-affinity nicotinic acid transporter
+CNAG_04947	High-affinity nicotinic acid transporter, variant 1 (High-affinity nicotinic acid transporter, variant 2)
 CNAG_05744	2-dehydropantoate 2-reductase
 CNAG_04287	Mitochondrial import inner membrane translocase subunit
 CNAG_05721	Multifunctional beta-oxidation protein
@@ -129,11 +129,11 @@ CNAG_07892	Uncharacterized protein
 CNAG_01821	Uncharacterized protein
 CNAG_03834	C4-hydroxylase
 CNAG_01899	Prefoldin alpha subunit
-CNAG_03016	Chaperone regulator
+CNAG_03016	Chaperone regulator, variant
 CNAG_03311	3-hydroxy-3-methylglutaryl coenzyme A synthase (HMG-CoA synthase) (EC 2.3.3.10)
 CNAG_01481	Uncharacterized protein
 CNAG_05509	Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)
-CNAG_07520	Endopeptidase, variant 1
+CNAG_07520	Endopeptidase
 CNAG_05522	Uncharacterized protein
 CNAG_07176	Uncharacterized protein
 CNAG_07389	Flavin-containing monooxygenase
@@ -144,7 +144,7 @@ CNAG_04095	Alpha-L-rhamnosidase
 CNAG_07768	Uncharacterized protein
 CNAG_06373	Mitotic spindle assembly checkpoint protein MAD2B
 CNAG_07893	Uncharacterized protein
-CNAG_01612	CAMK/CAMKL protein kinase, variant
+CNAG_01612	CAMK/CAMKL protein kinase
 CNAG_04299	Uncharacterized protein
 CNAG_04056	Rhomboid domain-containing protein
 CNAG_02964	Uncharacterized protein
@@ -158,7 +158,7 @@ CNAG_01570	Methyltransf_11 domain-containing protein
 CNAG_04728	DNA-directed RNA polymerase III subunit RPC8
 CNAG_06393	RNA polymerase II transcription factor B subunit 2
 CNAG_04986	Prefoldin subunit 1
-CNAG_04813	V-type ATPase, C subunit
+CNAG_04813	V-type ATPase, C subunit, variant
 CNAG_06976	Ferric-chelate reductase
 CNAG_04357	Uncharacterized protein
 CNAG_07587	Uncharacterized protein
@@ -183,8 +183,8 @@ CNAG_04561	Monooxygenase
 CNAG_05548	Uncharacterized protein
 CNAG_06036	Uncharacterized protein
 CNAG_06895	Uncharacterized protein
-CNAG_03153	Sec14 cytosolic factor, variant
-CNAG_06050	UDP-glucose 4-epimerase, variant
+CNAG_03153	Sec14 cytosolic factor
+CNAG_06050	UDP-glucose 4-epimerase (EC 5.1.3.2)
 CNAG_06669	Thiamine_BP domain-containing protein
 CNAG_02948	Peptide chain release factor 1
 CNAG_03698	E3 ubiquitin-protein ligase UBR7
@@ -248,7 +248,7 @@ CNAG_01753	Uncharacterized protein
 CNAG_02419	Uncharacterized protein
 CNAG_02741	Mitochondrial intermediate peptidase (EC 3.4.24.59)
 CNAG_07572	Elongator complex protein 3 (EC 2.3.1.-)
-CNAG_04440	Thiamine pyrophosphokinase (EC 2.7.6.2)
+CNAG_04440	Thiamine pyrophosphokinase, variant
 CNAG_01028	t-SNARE coiled-coil homology domain-containing protein
 CNAG_06288	RNA binding protein
 CNAG_04473	Zn(2)-C6 fungal-type domain-containing protein
@@ -256,7 +256,7 @@ CNAG_02268	Nuclear membrane protein
 CNAG_02809	tRNA-specific adenosine deaminase 3
 CNAG_07670	SWIM-type domain-containing protein
 CNAG_06454	Serine/threonine-protein kinase RIO1 (EC 2.7.11.1)
-CNAG_04005	Cytoplasmic protein, variant
+CNAG_04005	Cytoplasmic protein
 CNAG_06829	Squalene monooxygenase (EC 1.14.14.17)
 CNAG_01152	40S ribosomal protein S6
 CNAG_05180	FHA domain-containing protein
@@ -264,7 +264,7 @@ CNAG_00110	Drf_GBD domain-containing protein
 CNAG_05354	U4/U6.U5 tri-snRNP component SNU23
 CNAG_02683	Uncharacterized protein
 CNAG_07529	Threonine dehydratase (EC 4.3.1.19) (Threonine deaminase)
-CNAG_05109	CBS and PB1 domain-containing protein, variant
+CNAG_05109	CBS and PB1 domain-containing protein
 CNAG_06724	DNA repair and recombination protein RAD52
 CNAG_05496	2-isopropylmalate synthase
 CNAG_03267	Splicing factor 3B subunit 2
@@ -311,16 +311,16 @@ CNAG_00420	Dolichol-phosphate mannosyltransferase subunit 3
 CNAG_06679	Anthranilate synthase (EC 4.1.3.27)
 CNAG_01565	Biotin-[acetyl-CoA-carboxylase] ligase
 CNAG_06899	26S proteasome regulatory subunit RPN7
-CNAG_00834	Phosphatidylserine decarboxylase
+CNAG_00834	Phosphatidylserine decarboxylase, variant
 CNAG_07805	Insulysin
 CNAG_07436	Uncharacterized protein
 CNAG_03961	Uncharacterized protein
 CNAG_02366	4-aminobutyrate aminotransferase (EC 2.6.1.19) (GABA aminotransferase) (Gamma-amino-N-butyrate transaminase)
 CNAG_01364	Guanylate kinase (EC 2.7.4.8)
-CNAG_06978	Cytoplasmic protein
+CNAG_06978	Cytoplasmic protein, variant
 CNAG_01384	MFS domain-containing protein
 CNAG_03021	Uncharacterized protein
-CNAG_00400	Secondary thiamine-phosphate synthase enzyme
+CNAG_00400	Secondary thiamine-phosphate synthase enzyme, variant
 CNAG_04973	Importin N-terminal domain-containing protein
 CNAG_01800	Uncharacterized protein
 CNAG_07928	Uncharacterized protein
@@ -343,7 +343,7 @@ CNAG_07177	NADH dehydrogenase (Ubiquinone) Fe-S protein 3
 CNAG_02685	Uncharacterized protein
 CNAG_03243	2-nitropropane dioxygenase
 CNAG_07972	Uncharacterized protein
-CNAG_03128	Gamma-glutamyltransferase
+CNAG_03128	Gamma-glutamyltransferase, variant
 CNAG_04295	Uncharacterized protein
 CNAG_05471	Alpha-glucosidase
 CNAG_03798	Uncharacterized protein
@@ -359,14 +359,14 @@ CNAG_07816	2-hydroxyacid dehydrogenase
 CNAG_04397	Uncharacterized protein
 CNAG_02794	Dihydroorotate dehydrogenase (quinone), mitochondrial (DHOdehase) (EC 1.3.5.2)
 CNAG_03191	WD_REPEATS_REGION domain-containing protein
-CNAG_00877	Adenylate kinase
+CNAG_00877	GTP:AMP phosphotransferase, mitochondrial (EC 2.7.4.10) (Adenylate kinase 3) (AK 3)
 CNAG_02528	Uncharacterized protein
 CNAG_00104	Elongation factor 3
 CNAG_03763	IQ domain-containing GTPase activating protein
 CNAG_07634	Uncharacterized protein
 CNAG_04997	Cytoplasmic protein
 CNAG_03418	Exportin-1
-CNAG_03523	Solute carrier family 25, member 38, variant
+CNAG_03523	Mitochondrial glycine transporter (Solute carrier family 25 member 38 homolog)
 CNAG_05416	Pre-mRNA-processing protein 45
 CNAG_06181	Uncharacterized protein
 CNAG_04062	Ribosome biogenesis protein ENP2
@@ -381,7 +381,7 @@ CNAG_03543	RING-type domain-containing protein
 CNAG_06862	Palmitoyltransferase (EC 2.3.1.225)
 CNAG_03171	Wee protein kinase
 CNAG_05539	Uncharacterized protein
-CNAG_04224	Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase
+CNAG_04224	Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase, variant
 CNAG_00193	GATA type zinc finger protein asd-4
 CNAG_01687	Non-specific serine/threonine protein kinase (EC 2.7.11.1)
 CNAG_06568	RAN protein kinase
@@ -403,7 +403,6 @@ CNAG_00562	BTB domain-containing protein
 CNAG_04742	DNA primase large subunit
 CNAG_00270	Mitochondrial pyruvate carrier
 CNAG_07669	Sorting nexin-3
-CNAG_01268	Uncharacterized protein
 CNAG_04189	Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial (EC 1.3.5.1)
 CNAG_01639	Elongation factor G, mitochondrial (EF-Gmt) (Elongation factor G 1, mitochondrial) (mEF-G 1) (Elongation factor G1)
 CNAG_05355	E3 ubiquitin-protein ligase (EC 2.3.2.26)
@@ -413,7 +412,7 @@ CNAG_00566	DNA ligase 1
 CNAG_05227	Uncharacterized protein
 CNAG_03484	Kinetochore protein Mis13/DSN1
 CNAG_00192	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_01055	Phospholipid transporter, variant
+CNAG_01055	Phospholipid transporter
 CNAG_00415	CMGC/CDK protein kinase
 CNAG_00972	PP28 domain-containing protein
 CNAG_01143	U-box domain-containing protein
@@ -439,7 +438,7 @@ CNAG_01128	Glyoxalase II (EC 3.1.2.6)
 CNAG_07697	Uncharacterized protein
 CNAG_00364	tRNA N6-adenosine threonylcarbamoyltransferase (EC 2.3.1.234) (t(6)A37 threonylcarbamoyladenosine biosynthesis protein KAE1) (tRNA threonylcarbamoyladenosine biosynthesis protein KAE1)
 CNAG_05730	Acyl-protein thioesterase 1
-CNAG_01604	TIGR01458 family HAD hydrolase, variant
+CNAG_01604	TIGR01458 family HAD hydrolase
 CNAG_06226	NADH dehydrogenase (Ubiquinone) 1 alpha subcomplex 5
 CNAG_01124	HIT-type domain-containing protein
 CNAG_03927	Uncharacterized protein
@@ -499,7 +498,7 @@ CNAG_04487	Transcription regulator
 CNAG_00915	Uncharacterized protein
 CNAG_01681	Cytosine permease
 CNAG_07027	Protein SPT2
-CNAG_00060	Chaperone regulator
+CNAG_00060	Chaperone regulator, variant
 CNAG_00754	ATP-binding cassette, sub-family E, member 1
 CNAG_02714	Elongation factor 1-beta
 CNAG_06610	MFS transporter
@@ -514,12 +513,11 @@ CNAG_03238	Dioxygenase subfamily protein
 CNAG_05469	RING-type E3 ubiquitin transferase (EC 2.3.2.27)
 CNAG_06782	Uncharacterized protein
 CNAG_06235	Uncharacterized protein
-CNAG_00060	Chaperone regulator, variant
 CNAG_03971	Uncharacterized protein
 CNAG_07765	Pyrid_ox_like domain-containing protein
 CNAG_04859	Rho family protein
 CNAG_07447	Uncharacterized protein
-CNAG_00985	Long chronological lifespan protein 2
+CNAG_00985	Uncharacterized protein
 CNAG_03562	D-amino-acid oxidase
 CNAG_00984	Glucose and ribitol dehydrogenase
 CNAG_00537	Carnitine O-acetyltransferase
@@ -541,7 +539,7 @@ CNAG_03181	Uncharacterized protein
 CNAG_03069	Hydrolase
 CNAG_01000	Nuclear pore complex protein Nup155
 CNAG_07613	Uncharacterized protein
-CNAG_02497	Thaumatin family protein, variant
+CNAG_02497	Thaumatin family protein
 CNAG_01381	RNase_PH domain-containing protein (Fragment)
 CNAG_01309	Arf/Sar family protein
 CNAG_02205	pH-response regulator protein palC
@@ -565,7 +563,6 @@ CNAG_01941	Glucan synthesis regulatory protein
 CNAG_00709	Uracil-DNA glycosylase (UDG) (EC 3.2.2.27)
 CNAG_02171	DNA polymerase eta subunit
 CNAG_06202	Uncharacterized protein
-CNAG_00937	Uncharacterized protein
 CNAG_00093	Uncharacterized protein
 CNAG_04792	Phosphatidylserine decarboxylase proenzyme 2 (EC 4.1.1.65) [Cleaved into: Phosphatidylserine decarboxylase 2 beta chain; Phosphatidylserine decarboxylase 2 alpha chain]
 CNAG_07583	Zn(2)-C6 fungal-type domain-containing protein
@@ -586,7 +583,7 @@ CNAG_06749	Uncharacterized protein
 CNAG_02233	Non-specific serine/threonine protein kinase (EC 2.7.11.1)
 CNAG_01304	Polynucleotide 5'-hydroxyl-kinase GRC3
 CNAG_06967	Phytase
-CNAG_03645	NET1-associated nuclear protein 1 (U3 small nucleolar RNA-associated protein 17)
+CNAG_03645	NET1-associated nuclear protein 1 (U3 small nucleolar RNA-associated protein 17), variant
 CNAG_04970	Uncharacterized protein
 CNAG_04197	CMGC/DYRK/YAK protein kinase
 CNAG_00362	ORC_WH_C domain-containing protein
@@ -595,7 +592,6 @@ CNAG_01442	Cysteine desulfurase (EC 2.8.1.7)
 CNAG_02007	Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase) (ATP:AMP phosphotransferase) (Adenylate kinase cytosolic and mitochondrial) (Adenylate monophosphate kinase)
 CNAG_04168	Histone H1
 CNAG_07842	V-SNARE coiled-coil homology domain-containing protein
-CNAG_07573	DNA ligase (EC 6.5.1.1)
 CNAG_03589	Adrenodoxin-type ferredoxin
 CNAG_04254	BTB domain-containing protein
 CNAG_02143	Uncharacterized protein
@@ -604,7 +600,7 @@ CNAG_04750	Pyridox_oxase_2 domain-containing protein
 CNAG_02265	Exportin-T (Exportin(tRNA)) (tRNA exportin)
 CNAG_07474	AP-2 complex subunit mu-1
 CNAG_02905	Uncharacterized protein
-CNAG_06310	CAMK/CAMKL protein kinase
+CNAG_06310	CAMK/CAMKL protein kinase, variant 1 (CAMK/CAMKL protein kinase, variant 2)
 CNAG_07349	Uncharacterized protein
 CNAG_00413	Nuclear protein
 CNAG_02303	Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16
@@ -616,7 +612,7 @@ CNAG_06117	Uncharacterized protein
 CNAG_00128	CxC1 domain-containing protein
 CNAG_02730	Sorting nexin-41
 CNAG_02983	Uncharacterized protein
-CNAG_06290	High-affinity glucose transporter SNF3
+CNAG_06290	High-affinity glucose transporter SNF3, variant
 CNAG_02253	Uncharacterized protein
 CNAG_04206	CENP-V/GFA domain-containing protein
 CNAG_02601	Uncharacterized protein
@@ -627,7 +623,7 @@ CNAG_03305	Calcium binding protein 39
 CNAG_07788	Uncharacterized protein
 CNAG_05376	3-dehydroshikimate dehydratase
 CNAG_03050	DAO domain-containing protein
-CNAG_06249	Taurine catabolism dioxygenase TauD, variant
+CNAG_06249	Taurine catabolism dioxygenase TauD
 CNAG_05111	Uncharacterized protein
 CNAG_02427	Isochorismatase domain-containing protein
 CNAG_00034	Large subunit ribosomal protein L9e
@@ -639,19 +635,18 @@ CNAG_00288	Oligoribonuclease
 CNAG_05758	Protein transport protein SFT2
 CNAG_03395	NifU-like protein c
 CNAG_03041	DUF4939 domain-containing protein
-CNAG_01135	Delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase
+CNAG_01135	Delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, variant 1 (Delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, variant 2)
 CNAG_03300	Ribosomal RNA-processing protein 1
 CNAG_04731	Nudix hydrolase domain-containing protein
 CNAG_05188	Uncharacterized protein
-CNAG_03181	Uncharacterized protein
 CNAG_05409	Replication factor C subunit 2/4
 CNAG_04671	EXS domain-containing protein
-CNAG_00906	Nucleolar pre-ribosomal-associated protein 1, variant
+CNAG_00906	Nucleolar pre-ribosomal-associated protein 1
 CNAG_02688	OGFr_N domain-containing protein
 CNAG_01991	Cytochrome c oxidase subunit 4
 CNAG_05658	L-iditol 2-dehydrogenase
 CNAG_05116	DNA polymerase (EC 2.7.7.7)
-CNAG_05017	GabA permease, variant
+CNAG_05017	GabA permease
 CNAG_06189	DDE_3 domain-containing protein
 CNAG_00318	Actin-related protein 2/3 complex subunit 5
 CNAG_00639	OHCU_decarbox domain-containing protein
@@ -723,7 +718,7 @@ CNAG_02883	Rho family protein
 CNAG_05705	Flavin_Reduct domain-containing protein
 CNAG_06438	Uncharacterized protein
 CNAG_05189	Uncharacterized protein
-CNAG_05266	Membrane protein
+CNAG_05266	Membrane protein, variant
 CNAG_03179	Uncharacterized protein
 CNAG_02444	Uncharacterized protein
 CNAG_04366	Uncharacterized protein
@@ -753,14 +748,13 @@ CNAG_00565	Dynamin GTPase
 CNAG_03157	F-box domain-containing protein
 CNAG_00581	Saccharopepsin
 CNAG_04255	DUF667 domain-containing protein
-CNAG_05676	Tyrosine aminotransferase
+CNAG_05676	Tyrosine aminotransferase, variant
 CNAG_00475	WSC domain-containing protein
 CNAG_00968	Fe2OG dioxygenase domain-containing protein
 CNAG_07335	Cystinosin
 CNAG_01825	Uncharacterized protein
-CNAG_06862	Palmitoyltransferase (EC 2.3.1.225)
 CNAG_05976	Nucleolar protein 58
-CNAG_07942	Cell division control protein 25
+CNAG_07942	Cell division control protein 25, variant
 CNAG_04129	Uncharacterized protein
 CNAG_03450	ATP-binding cassette transporter
 CNAG_02302	Uncharacterized protein
@@ -768,9 +762,8 @@ CNAG_05373	Elongator complex protein 4
 CNAG_00065	Ran-binding protein 1
 CNAG_05920	tRNA(adenine(34)) deaminase (EC 3.5.4.33)
 CNAG_07015	DH domain-containing protein
-CNAG_05266	Membrane protein, variant
 CNAG_03494	SAP domain-containing protein
-CNAG_01632	Triacylglycerol lipase, variant
+CNAG_01632	Triacylglycerol lipase
 CNAG_00860	Uncharacterized protein
 CNAG_05962	Uncharacterized protein
 CNAG_04984	Pleiotropic drug resistance protein
@@ -815,7 +808,7 @@ CNAG_00372	Chromatin structure-remodeling complex protein RSC7
 CNAG_04026	ATP-dependent DNA helicase CHL1 (ATP-dependent DNA helicase chl1) (Chromosome loss protein 1)
 CNAG_02470	Phosphoric monoester hydrolase
 CNAG_06450	UBA domain-containing protein
-CNAG_04545	CTD kinase subunit gamma, variant
+CNAG_04545	CTD kinase subunit gamma
 CNAG_01905	Serine/threonine protein kinase
 CNAG_00964	Uncharacterized protein
 CNAG_03175	Uncharacterized protein
@@ -827,7 +820,7 @@ CNAG_01353	Uncharacterized protein
 CNAG_05990	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_07591	Mitochondrial metalloendopeptidase OMA1
 CNAG_06729	Uncharacterized protein
-CNAG_06032	ADP-ribosylation factor-like 2, variant
+CNAG_06032	ADP-ribosylation factor-like 2
 CNAG_00513	Ribosome biogenesis protein NOP53
 CNAG_02165	Cytoplasmic protein
 CNAG_03155	ENTH domain-containing protein
@@ -839,7 +832,6 @@ CNAG_01676	tRNA (adenine(58)-N(1))-methyltransferase non-catalytic subunit TRM6 
 CNAG_00035	GATA-type domain-containing protein
 CNAG_06915	Uncharacterized protein
 CNAG_07532	Chromatin modification-related protein
-CNAG_07583	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_06440	DNA dependent ATPase
 CNAG_04566	Beta-flanking protein
 CNAG_06185	Uncharacterized protein
@@ -873,7 +865,7 @@ CNAG_01295	Acyl carrier protein
 CNAG_04460	RNA polymerase II transcription factor
 CNAG_07703	Uncharacterized protein
 CNAG_02452	Uncharacterized protein
-CNAG_05413	Phosphatidylinositol glycan, class Q, variant
+CNAG_05413	Phosphatidylinositol glycan, class Q
 CNAG_02932	Rad51 domain-containing protein
 CNAG_07491	Glutaredoxin
 CNAG_03652	Dynactin subunit 6
@@ -897,7 +889,6 @@ CNAG_03569	Uncharacterized protein
 CNAG_07984	Uncharacterized protein
 CNAG_06340	Pre-rRNA-processing protein TSR4
 CNAG_04632	Uracil permease
-CNAG_02427	Isochorismatase domain-containing protein
 CNAG_04956	High-affinity nicotinic acid transporter
 CNAG_04031	Ribosomal RNA large subunit methyltransferase J
 CNAG_02546	Transferase
@@ -908,7 +899,7 @@ CNAG_03422	Calcineurin temperature suppressor Cts1
 CNAG_05529	FCP1 homology domain-containing protein
 CNAG_06691	Tuftelin-interacting protein 11
 CNAG_01886	Uncharacterized protein
-CNAG_06697	TTK protein kinase, variant
+CNAG_06697	TTK protein kinase
 CNAG_04322	Uncharacterized protein
 CNAG_00668	Uncharacterized protein
 CNAG_06136	Uncharacterized protein
@@ -931,11 +922,10 @@ CNAG_00812	Cohesin complex subunit SA-1/2
 CNAG_00845	Uncharacterized protein
 CNAG_00490	Acetyl-CoA acyltransferase
 CNAG_04752	Uncharacterized protein
-CNAG_04224	Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase, variant
 CNAG_06636	C3H1-type domain-containing protein
 CNAG_02672	60S ribosomal export protein NMD3
 CNAG_03152	Calcium-binding protein
-CNAG_04226	U4/U6.U5 tri-snRNP-associated protein 1
+CNAG_04226	U4/U6.U5 tri-snRNP-associated protein 1, variant
 CNAG_03393	Acyl-CoA thioesterase II
 CNAG_01916	DNA mismatch repair protein
 CNAG_04557	Cleavage stimulation factor subunit 2
@@ -979,7 +969,7 @@ CNAG_07874	Sugar transporter
 CNAG_04021	Large subunit ribosomal protein L24
 CNAG_07780	Geranylgeranyl diphosphate synthase, type III
 CNAG_01498	Arylsulfatase
-CNAG_00866	Transketolase, variant
+CNAG_00866	Transketolase
 CNAG_05584	Methylthioribulose-1-phosphate dehydratase (MTRu-1-P dehydratase) (EC 4.2.1.109)
 CNAG_02330	Large subunit ribosomal protein L21e
 CNAG_06285	Uncharacterized protein
@@ -1000,7 +990,7 @@ CNAG_03199	FAD dependent oxidoreductase
 CNAG_04746	Uncharacterized protein
 CNAG_07944	Urea carboxylase
 CNAG_00784	Uncharacterized protein
-CNAG_04437	Nicotinamide riboside kinase
+CNAG_04437	Nicotinamide riboside kinase, variant
 CNAG_03573	Kynurenine 3-monooxygenase
 CNAG_05886	Ubiquitin-conjugating enzyme E2
 CNAG_03972	Uncharacterized protein
@@ -1014,14 +1004,14 @@ CNAG_07826	Uncharacterized protein
 CNAG_03532	3-beta hydroxysteroid dehydrogenase/isomerase
 CNAG_03065	ER-derived vesicles protein ERV14
 CNAG_04327	Uncharacterized protein
-CNAG_01314	Vacuolar protein
+CNAG_01314	Vacuolar protein, variant
 CNAG_06055	Uncharacterized protein
 CNAG_00414	PfkB domain-containing protein
 CNAG_05212	Uncharacterized protein
 CNAG_07864	U3 small nucleolar ribonucleoprotein IMP3
 CNAG_06650	Uncharacterized protein
 CNAG_03146	Alpha-amylase
-CNAG_00030	D-3-phosphoglycerate dehydrogenase
+CNAG_00030	D-3-phosphoglycerate dehydrogenase, variant
 CNAG_06562	Uncharacterized protein
 CNAG_07834	Uncharacterized protein
 CNAG_02847	dTMP kinase (EC 2.7.4.9)
@@ -1065,7 +1055,7 @@ CNAG_03836	Uncharacterized protein
 CNAG_02715	Mannosyltransferase (EC 2.4.1.-)
 CNAG_05843	Translation initiation factor 4E
 CNAG_02790	Galactinol synthase
-CNAG_02810	Pumilio-family RNA binding protein, variant
+CNAG_02810	Pumilio-family RNA binding protein
 CNAG_07476	Uncharacterized protein
 CNAG_01392	Uncharacterized protein
 CNAG_03608	Uncharacterized protein
@@ -1087,7 +1077,7 @@ CNAG_00528	WD-repeat protein 23
 CNAG_00138	2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial (EC 2.1.1.201) (Ubiquinone biosynthesis methyltransferase COQ5)
 CNAG_05176	Homeobox domain-containing protein
 CNAG_06460	Uncharacterized protein
-CNAG_06452	Integral membrane protein, variant
+CNAG_06452	Integral membrane protein
 CNAG_03023	MRC1 domain-containing protein
 CNAG_06060	Uncharacterized protein
 CNAG_00761	Coiled-coil domain-containing protein 12
@@ -1098,13 +1088,12 @@ CNAG_02985	Splicing factor YJU2
 CNAG_05725	Ketol-acid reductoisomerase, mitochondrial (EC 1.1.1.86) (Acetohydroxy-acid reductoisomerase) (Alpha-keto-beta-hydroxylacyl reductoisomerase)
 CNAG_01577	Glutamate dehydrogenase
 CNAG_02892	Mannosyltransferase (EC 2.4.1.-)
-CNAG_00257	Kinesin family member 21A
+CNAG_00257	Kinesin family member 21A, variant
 CNAG_01209	1-phosphatidylinositol-3-phosphate 5-kinase (EC 2.7.1.150)
 CNAG_00764	ATP-dependent RNA helicase DBP4
 CNAG_05919	Uncharacterized protein
 CNAG_06157	Uncharacterized protein
 CNAG_03978	Uncharacterized protein
-CNAG_07015	DH domain-containing protein
 CNAG_07381	ATP-dependent RNA helicase prh1
 CNAG_04039	Iron-sulfur cluster assembly protein
 CNAG_00592	Dolichol-phosphate mannosyltransferase
@@ -1131,15 +1120,13 @@ CNAG_06507	GST N-terminal domain-containing protein
 CNAG_04975	Uncharacterized protein
 CNAG_05037	Uncharacterized protein
 CNAG_07492	Uncharacterized protein
-CNAG_02010	Tartrate transporter
+CNAG_02010	Tartrate transporter, variant
 CNAG_06369	Geranylgeranyl transferase type-2 subunit alpha (EC 2.5.1.60) (Geranylgeranyl transferase type II subunit alpha)
-CNAG_05676	Tyrosine aminotransferase, variant
 CNAG_05820	Tryptophan aminotransferase
 CNAG_01210	Uncharacterized protein
 CNAG_07990	Uncharacterized protein
 CNAG_01521	Metallo-beta-lactamase
 CNAG_03252	Uncharacterized protein
-CNAG_07958	Uncharacterized protein
 CNAG_01597	Uncharacterized protein
 CNAG_00911	Phytanoyl-CoA dioxygenase
 CNAG_00749	Alternative sulfate transporter
@@ -1151,17 +1138,14 @@ CNAG_02157	Copper transport protein 86
 CNAG_04525	Glycosylphosphatidylinositol transamidase
 CNAG_07758	Uncharacterized protein
 CNAG_01823	Inositol-1-monophosphatase (EC 3.1.3.25)
-CNAG_00400	Secondary thiamine-phosphate synthase enzyme, variant
 CNAG_03857	Uncharacterized protein
 CNAG_07438	3-keto sterol reductase
-CNAG_04476	Uncharacterized protein
 CNAG_02748	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)
 CNAG_07419	Uncharacterized protein
 CNAG_06591	Uncharacterized protein
 CNAG_07725	HMG box factor
 CNAG_02950	Grx4 family monothiol glutaredoxin
 CNAG_00971	Vacuolar fusion protein MON1
-CNAG_03523	Mitochondrial glycine transporter (Solute carrier family 25 member 38 homolog)
 CNAG_02596	Uncharacterized protein
 CNAG_02220	MHYT domain-containing protein
 CNAG_05543	Uncharacterized protein
@@ -1191,16 +1175,16 @@ CNAG_07310	Uncharacterized protein
 CNAG_02698	Uncharacterized protein
 CNAG_00665	DNA topoisomerase 2-associated protein PAT1
 CNAG_01435	Seryl-tRNA synthetase (EC 6.1.1.11) (Seryl-tRNA(Ser/Sec) synthetase)
-CNAG_07537	Mitochondrial GTPase 1
+CNAG_07537	Mitochondrial GTPase 1, variant
 CNAG_01601	Lipase
-CNAG_00522	C2 domain-containing protein, variant
+CNAG_00522	C2 domain-containing protein
 CNAG_06824	WD_REPEATS_REGION domain-containing protein
 CNAG_00640	40S ribosomal protein S4
 CNAG_01474	Uncharacterized protein
-CNAG_04848	mRNA binding protein, variant
+CNAG_04848	mRNA binding protein
 CNAG_02578	Thyroid hormone receptor interactor 13
 CNAG_05579	Uncharacterized protein
-CNAG_03036	Potassium ion transporter
+CNAG_03036	Potassium ion transporter, variant
 CNAG_01014	Uncharacterized protein
 CNAG_05146	DNA-directed RNA polymerase subunit
 CNAG_05936	DNA-directed RNA polymerase subunit (EC 2.7.7.6)
@@ -1211,7 +1195,7 @@ CNAG_03283	Large subunit ribosomal protein L24e
 CNAG_00008	Uncharacterized protein
 CNAG_06155	Component of oligomeric Golgi complex 4 (Conserved oligomeric Golgi complex subunit 4)
 CNAG_02506	3,4-dihydroxy-2-butanone 4-phosphate synthase (DHBP synthase) (EC 4.1.99.12)
-CNAG_03839	CCR4-NOT transcription complex subunit 4
+CNAG_03839	CCR4-NOT transcription complex subunit 4, variant 1 (CCR4-NOT transcription complex subunit 4, variant 2)
 CNAG_05968	Cell division control protein 42 homolog (EC 3.6.5.2)
 CNAG_06367	U3 small nucleolar RNA-associated protein 3
 CNAG_02533	Uncharacterized protein
@@ -1222,7 +1206,7 @@ CNAG_05518	Exocyst complex component Sec8 (Fragment)
 CNAG_02110	Peptide alpha-N-acetyltransferase
 CNAG_01530	Suppressor protein SPT23
 CNAG_02341	Cyclin binding protein
-CNAG_03247	Sterol 3beta-glucosyltransferase
+CNAG_03247	Sterol 3beta-glucosyltransferase, variant
 CNAG_03539	SprT-like domain-containing protein
 CNAG_04736	Uncharacterized protein
 CNAG_00705	RuvB-like helicase (EC 3.6.4.12)
@@ -1233,7 +1217,7 @@ CNAG_05621	Folylpolyglutamate synthase
 CNAG_00368	Vacuolar-sorting protein 53 long isoform
 CNAG_02498	Lgl_C domain-containing protein
 CNAG_03634	DNA-directed RNA polymerase I subunit RPA49
-CNAG_02996	Flavoprotein oxygenase, variant 1
+CNAG_02996	Flavoprotein oxygenase
 CNAG_07574	Uncharacterized protein
 CNAG_05372	B2-aldehyde-forming enzyme
 CNAG_03999	Uncharacterized protein
@@ -1245,7 +1229,6 @@ CNAG_05062	Component of oligomeric Golgi complex 2 (Conserved oligomeric Golgi c
 CNAG_03896	Uncharacterized protein
 CNAG_02348	NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3
 CNAG_00637	Cystathionine beta-synthase
-CNAG_02160	DNA polymerase (EC 2.7.7.7)
 CNAG_00311	3-hydroxyisobutyryl-CoA hydrolase, mitochondrial (EC 3.1.2.4) (3-hydroxyisobutyryl-coenzyme A hydrolase)
 CNAG_03080	Elongation of fatty acids protein (EC 2.3.1.199) (Very-long-chain 3-oxoacyl-CoA synthase)
 CNAG_06077	mRNA export factor
@@ -1254,7 +1237,6 @@ CNAG_02552	Transketolase (EC 2.2.1.1)
 CNAG_06632	Atypical/ABC1 protein kinase
 CNAG_03373	HYPK_UBA domain-containing protein
 CNAG_00126	2-deoxy-D-gluconate 3-dehydrogenase
-CNAG_06290	High-affinity glucose transporter SNF3, variant
 CNAG_06587	Cytoplasmic protein
 CNAG_06570	Uncharacterized protein
 CNAG_02554	Sugar transporter
@@ -1265,7 +1247,6 @@ CNAG_05722	Alanine--tRNA ligase (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)
 CNAG_05125	Diphosphomevalonate decarboxylase (EC 4.1.1.33)
 CNAG_01701	Integral membrane protein
 CNAG_00791	BHLH domain-containing protein
-CNAG_02080	Uncharacterized protein
 CNAG_07994	Uncharacterized protein
 CNAG_03784	Uncharacterized protein
 CNAG_02987	Uncharacterized protein
@@ -1284,7 +1265,7 @@ CNAG_04782	Metallophos domain-containing protein
 CNAG_05707	Golgi apparatus membrane protein TVP38 (Golgi apparatus membrane protein tvp38)
 CNAG_01207	DUF4203 domain-containing protein
 CNAG_02423	Uncharacterized protein
-CNAG_03024	AGC protein kinase, variant
+CNAG_03024	AGC protein kinase
 CNAG_03003	Chromatin structure-remodeling complex subunit SFH1
 CNAG_01178	Nuclear envelope-endoplasmic reticulum network protein
 CNAG_04512	Uncharacterized protein
@@ -1331,16 +1312,16 @@ CNAG_03596	Dihydrolipoyllysine-residue succinyltransferase (EC 2.3.1.61)
 CNAG_02531	Mitogen-activated protein kinase (EC 2.7.11.24)
 CNAG_01660	eIF-2B GDP-GTP exchange factor subunit alpha
 CNAG_00437	Anaphase-promoting complex subunit 11
-CNAG_05746	Swi5-dependent recombination DNA repair protein 1
+CNAG_05746	Swi5-dependent recombination DNA repair protein 1, variant
 CNAG_03329	Chromatin modification-related protein
 CNAG_06726	Chitin synthase regulator 3
 CNAG_04090	Activating transcription factor
 CNAG_07862	Fumarate reductase
 CNAG_03917	Nuclear pore complex protein Nup85
-CNAG_00305	Chaperone activator, variant
+CNAG_00305	Chaperone activator
 CNAG_04371	WD_REPEATS_REGION domain-containing protein
 CNAG_00794	Uncharacterized protein
-CNAG_05747	Vacuolar protein sorting-associated protein VTA1, variant 2
+CNAG_05747	Vacuolar protein sorting-associated protein VTA1 (Vacuolar protein sorting-associated protein VTA1, variant 1)
 CNAG_04193	Uncharacterized protein
 CNAG_06948	Essential nuclear protein 1
 CNAG_04408	Choline kinase
@@ -1373,7 +1354,7 @@ CNAG_05394	Cation:cation antiporter
 CNAG_07895	Uncharacterized protein
 CNAG_00247	Lysine ketoglutarate reductase (EC 1.5.1.8) (EC 1.5.1.9) (Saccharopine dehydrogenase)
 CNAG_05775	Phosphatidylinositol glycan, class S
-CNAG_07485	Membrane protein
+CNAG_07485	Membrane protein, variant
 CNAG_03870	Delta 8-(E)-sphingolipid desaturase (EC 1.14.19.18)
 CNAG_05221	Histone H2A
 CNAG_06524	FAD-binding FR-type domain-containing protein
@@ -1391,7 +1372,7 @@ CNAG_07740	Uncharacterized protein
 CNAG_03441	Small subunit ribosomal protein S21
 CNAG_07707	Beta-glucosidase (EC 3.2.1.21)
 CNAG_06250	DAO domain-containing protein
-CNAG_05273	1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase, variant
+CNAG_05273	1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase (EC 1.13.11.54) (Acireductone dioxygenase (Fe(2+)-requiring)) (ARD) (Fe-ARD)
 CNAG_04953	Uncharacterized protein
 CNAG_06722	F-box domain-containing protein
 CNAG_03442	Phosphatidylinositol glycan, class T
@@ -1414,7 +1395,6 @@ CNAG_06245	Uncharacterized protein
 CNAG_07022	Uncharacterized protein
 CNAG_03019	Long-chain acyl-CoA synthetase
 CNAG_03660	Putative lipoate-protein ligase A
-CNAG_03141	Uncharacterized protein
 CNAG_00137	Uncharacterized protein
 CNAG_00155	Uncharacterized protein
 CNAG_04068	Large subunit ribosomal protein L28e
@@ -1435,7 +1415,7 @@ CNAG_00153	CCHC-type domain-containing protein
 CNAG_01288	Solute carrier family 25, member 33/36
 CNAG_06758	Efflux protein
 CNAG_04252	UDENN domain-containing protein
-CNAG_01191	Long-chain fatty acid transporter, variant 2
+CNAG_01191	Long-chain fatty acid transporter
 CNAG_04331	Uncharacterized protein
 CNAG_04270	Syntaxin 8
 CNAG_01907	Serine/threonine-protein kinase (EC 2.7.11.21)
@@ -1459,13 +1439,12 @@ CNAG_05152	Phospholipid:diacylglycerol acyltransferase
 CNAG_01093	Uncharacterized protein
 CNAG_06921	Homeobox domain-containing protein
 CNAG_01536	Myosin heavy chain
-CNAG_03314	YTH domain family 2, variant
+CNAG_03314	YTH domain family 2
 CNAG_00062	26S proteasome regulatory subunit N3
 CNAG_02848	Uncharacterized protein
 CNAG_05363	Pre-mRNA-splicing factor SYF2
 CNAG_01614	U4/U6.U5 tri-snRNP-associated protein 2
 CNAG_03492	Uncharacterized protein
-CNAG_03756	Foie-gras_1 domain-containing protein
 CNAG_06379	RNA cytidine acetyltransferase (EC 2.3.1.-) (18S rRNA cytosine acetyltransferase)
 CNAG_05764	Small subunit ribosomal protein S5
 CNAG_06771	Uncharacterized protein
@@ -1504,7 +1483,7 @@ CNAG_07884	Uncharacterized protein
 CNAG_07502	CTP synthase (EC 6.3.4.2) (UTP--ammonia ligase)
 CNAG_01120	Acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)
 CNAG_00641	Transcription elongation factor SPT5
-CNAG_06840	Elongation factor 2
+CNAG_06840	Elongation factor 2, variant
 CNAG_03009	Uncharacterized protein
 CNAG_01267	N-acetyltransferase domain-containing protein
 CNAG_06761	Siderophore-iron transporter Str1
@@ -1514,7 +1493,6 @@ CNAG_03096	UDP-glucose 4-epimerase
 CNAG_05672	25S rRNA adenine-N(1) methyltransferase (EC 2.1.1.-)
 CNAG_01090	Alpha/beta hydrolase fold protein
 CNAG_00876	Ferric-chelate reductase
-CNAG_06117	Uncharacterized protein
 CNAG_07604	Metalloreductase
 CNAG_02159	Uncharacterized protein
 CNAG_05666	Uncharacterized protein
@@ -1574,7 +1552,6 @@ CNAG_06544	Non-histone chromosomal protein 6
 CNAG_02834	Sterol 3-beta-glucosyltransferase (EC 2.4.1.173) (Autophagy-related protein 26)
 CNAG_00606	Transcription initiation factor TFIID subunit 7
 CNAG_03818	Osomolarity two-component system, response regulator SSK1
-CNAG_04005	Cytoplasmic protein
 CNAG_02569	Uncharacterized protein
 CNAG_05367	4F5 domain-containing protein
 CNAG_06213	Peptidase A1 domain-containing protein
@@ -1590,7 +1567,6 @@ CNAG_03526	Chromosome transmission fidelity protein 8
 CNAG_04530	DNA-binding protein
 CNAG_06849	Saccharopine dehydrogenase [NAD(+), L-lysine-forming] (SDH) (EC 1.5.1.7) (Lysine--2-oxoglutarate reductase)
 CNAG_07375	Guanyl-nucleotide exchange factor
-CNAG_04339	Exocyst complex component EXO84
 CNAG_07916	Uncharacterized protein
 CNAG_05610	Trafficking protein particle complex subunit
 CNAG_01549	Splicing factor 3A subunit 3
@@ -1599,8 +1575,8 @@ CNAG_05607	Cytoplasmic protein
 CNAG_04409	Uncharacterized protein
 CNAG_02501	Uncharacterized protein
 CNAG_02013	Uncharacterized protein
-CNAG_01988	Bacteriophytochrome histidine kinase, variant
-CNAG_01827	Uncharacterized protein
+CNAG_01988	Bacteriophytochrome histidine kinase
+CNAG_01827	VHS domain-containing protein
 CNAG_00927	Guanyl nucleotide binding protein
 CNAG_03000	Small subunit ribosomal protein S19e
 CNAG_07936	Uncharacterized protein
@@ -1651,7 +1627,7 @@ CNAG_06815	Fe2OG dioxygenase domain-containing protein
 CNAG_07358	Uncharacterized protein
 CNAG_01274	Coatomer subunit gamma
 CNAG_01109	Uncharacterized protein
-CNAG_03482	Peroxiredoxin (Alkyl hydroperoxide reductase subunit C), variant
+CNAG_03482	Peroxiredoxin (Alkyl hydroperoxide reductase subunit C)
 CNAG_04060	Uncharacterized protein
 CNAG_00326	J domain-containing protein
 CNAG_01362	Cell cycle control protein cwf19
@@ -1683,14 +1659,13 @@ CNAG_01080	Glycolate oxidase
 CNAG_00100	Stress-induced-phosphoprotein 1
 CNAG_02930	Uncharacterized protein
 CNAG_01050	Hexosyltransferase (EC 2.4.1.-)
-CNAG_05273	1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase (EC 1.13.11.54) (Acireductone dioxygenase (Fe(2+)-requiring)) (ARD) (Fe-ARD)
 CNAG_00493	Uncharacterized protein
 CNAG_03266	Malate dehydrogenase (EC 1.1.1.37)
 CNAG_04334	Uncharacterized protein
 CNAG_03212	Forkhead domain-containing protein
 CNAG_00152	Rad60-SLD domain-containing protein
 CNAG_00031	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_00183	Alternative cyclin Pcl12
+CNAG_00183	Alternative cyclin Pcl12, variant
 CNAG_07860	Peptidylprolyl isomerase (EC 5.2.1.8)
 CNAG_07959	Uncharacterized protein
 CNAG_06086	CMGC/CDK/CDK8 protein kinase
@@ -1704,7 +1679,7 @@ CNAG_00678	Urease accessory protein UreG
 CNAG_00285	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_01092	Uncharacterized protein
 CNAG_00063	Histone H3
-CNAG_07651	DEAD-box ATP-dependent RNA helicase 26
+CNAG_07651	DEAD-box ATP-dependent RNA helicase 26, variant
 CNAG_00133	PC4 domain-containing protein
 CNAG_00160	Uncharacterized protein
 CNAG_07794	Uncharacterized protein
@@ -1730,7 +1705,6 @@ CNAG_03914	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_00480	Uncharacterized protein
 CNAG_03336	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_05032	Uncharacterized protein
-CNAG_06697	TTK protein kinase
 CNAG_02773	Exosome complex exonuclease RRP6
 CNAG_00550	DNA mismatch repair protein MSH5
 CNAG_05112	Zn(2)-C6 fungal-type domain-containing protein
@@ -1750,7 +1724,6 @@ CNAG_02935	Malonic semialdehyde reductase
 CNAG_00394	Diphthamide biosynthesis protein 3
 CNAG_05694	CMGC/CK2 protein kinase
 CNAG_05055	DNA/RNA-binding protein KIN17
-CNAG_04437	Nicotinamide riboside kinase, variant
 CNAG_01939	Uncharacterized protein
 CNAG_02509	Uncharacterized protein
 CNAG_06595	Uncharacterized protein
@@ -1771,7 +1744,7 @@ CNAG_02582	Uncharacterized protein
 CNAG_05011	Ferroxidase (EC 1.16.3.1)
 CNAG_00289	Uncharacterized protein
 CNAG_01745	Glycerol-3-phosphate dehydrogenase [NAD(+)] (EC 1.1.1.8)
-CNAG_05096	Histone deacetylase 1/2, variant 2
+CNAG_05096	Histone deacetylase 1/2, variant 1
 CNAG_01599	Ribosomal_S7 domain-containing protein
 CNAG_06601	Amidohydrolase
 CNAG_00742	Serine palmitoyltransferase
@@ -1792,7 +1765,6 @@ CNAG_07454	Uncharacterized protein
 CNAG_02439	Isochorismatase domain-containing protein
 CNAG_01873	Uncharacterized protein
 CNAG_03519	Ferulic acid decarboxylase 1 (EC 4.1.1.102) (Phenacrylate decarboxylase)
-CNAG_03661	Uncharacterized protein
 CNAG_07437	3-keto sterol reductase
 CNAG_04855	Uncharacterized protein
 CNAG_01995	Uncharacterized protein
@@ -1808,12 +1780,11 @@ CNAG_06436	Uncharacterized protein
 CNAG_01509	Uncharacterized protein
 CNAG_01818	ATP synthase mitochondrial F1 complex assembly factor 2
 CNAG_00416	F-box/wd-repeat protein lin-23
-CNAG_02595	MFS domain-containing protein
 CNAG_01485	D-lactate dehydrogenase (Cytochrome)
 CNAG_00645	2,5-diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one reductase (EC 1.1.1.302) (2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate synthase) (2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase)
 CNAG_03508	Protein YIP
-CNAG_02756	Geranylgeranyl transferase type-1 subunit beta
-CNAG_03912	Membrane protein, variant
+CNAG_02756	Geranylgeranyl transferase type-1 subunit beta, variant
+CNAG_03912	Membrane protein
 CNAG_02055	Uncharacterized protein
 CNAG_05145	DNA helicase
 CNAG_05726	ER membrane protein complex subunit 3
@@ -1834,7 +1805,7 @@ CNAG_03936	NAD(P)H:quinone oxidoreductase, type IV
 CNAG_08007	Uncharacterized protein
 CNAG_03576	Cytochrome C assembly protein
 CNAG_00521	Uncharacterized protein
-CNAG_06031	Beta-glucan synthesis-associated protein, variant
+CNAG_06031	Beta-glucan synthesis-associated protein
 CNAG_02449	Long-chain fatty acid CoA ligase
 CNAG_00321	DRaptor
 CNAG_04598	Uncharacterized protein
@@ -1848,8 +1819,7 @@ CNAG_06531	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_02164	Uncharacterized protein
 CNAG_00512	Mitochondrial carrier protein
 CNAG_05632	Uncharacterized protein
-CNAG_00556	CK1/CK1/CK1-G protein kinase, variant
-CNAG_00153	CCHC-type domain-containing protein
+CNAG_00556	CK1/CK1/CK1-G protein kinase
 CNAG_00024	Uncharacterized protein
 CNAG_02129	Uncharacterized protein
 CNAG_04191	SCYL protein kinase
@@ -1881,16 +1851,14 @@ CNAG_07967	PHD-type domain-containing protein
 CNAG_06131	Uncharacterized protein
 CNAG_01030	Uncharacterized protein
 CNAG_02492	Peptidyl-prolyl cis-trans isomerase (PPIase) (EC 5.2.1.8)
-CNAG_03543	RING-type domain-containing protein
 CNAG_06420	Solute carrier family 25 (Mitochondrial citrate transporter), member 1
-CNAG_07485	Membrane protein, variant
 CNAG_07814	Replication termination factor 2
 CNAG_05563	Histone deacetylase (EC 3.5.1.98)
 CNAG_04081	Uncharacterized protein
 CNAG_03164	Uncharacterized protein
 CNAG_00741	ATP-dependent RNA helicase SUB2
 CNAG_00872	ATP-dependent DNA helicase (EC 3.6.4.12)
-CNAG_03192	tRNA-specific adenosine deaminase 1, variant
+CNAG_03192	tRNA-specific adenosine deaminase 1
 CNAG_03242	Solute carrier family 25 (Peroxisomal adenine nucleotide transporter), member 17
 CNAG_05375	BHLH domain-containing protein
 CNAG_01874	Glutathione S-transferase
@@ -1902,7 +1870,6 @@ CNAG_02553	Short-chain dehydrogenase
 CNAG_06545	Pim1 protein RNA transporter 2
 CNAG_02034	CBFD_NFYB_HMF domain-containing protein
 CNAG_01853	Splicing factor subunit
-CNAG_01490	Uncharacterized protein
 CNAG_06924	Beta-fructofuranosidase
 CNAG_02424	Uncharacterized protein
 CNAG_07465	DNA-directed RNA polymerase III subunit RPC9
@@ -1931,7 +1898,6 @@ CNAG_01675	Fructose-bisphosphate aldolase (FBP aldolase) (EC 4.1.2.13)
 CNAG_03952	Uncharacterized protein
 CNAG_04877	Uncharacterized protein
 CNAG_04810	Uncharacterized protein
-CNAG_03482	Peroxiredoxin (Alkyl hydroperoxide reductase subunit C)
 CNAG_00980	Uncharacterized protein
 CNAG_05061	Uncharacterized protein
 CNAG_07370	BZIP domain-containing protein
@@ -1941,13 +1907,12 @@ CNAG_00254	NADH dehydrogenase
 CNAG_01514	Uncharacterized protein
 CNAG_03480	Uncharacterized protein
 CNAG_02580	Fe2OG dioxygenase domain-containing protein
-CNAG_05078	tRNA '-O-ribosylphosphate transferase, variant 3
+CNAG_05078	tRNA '-O-ribosylphosphate transferase (tRNA '-O-ribosylphosphate transferase, variant 1) (tRNA '-O-ribosylphosphate transferase, variant 2)
 CNAG_07043	Uncharacterized protein
 CNAG_08027	Uncharacterized protein
 CNAG_05728	Uncharacterized protein
 CNAG_00466	Adaptin ear-binding coat-associated protein 2
 CNAG_06253	Sugar transporter
-CNAG_06524	FAD-binding FR-type domain-containing protein
 CNAG_02337	Uracil phosphoribosyltransferase
 CNAG_06326	Solute carrier family 40 protein
 CNAG_07992	Uncharacterized protein
@@ -1959,7 +1924,6 @@ CNAG_05971	Uncharacterized protein
 CNAG_01238	Arginine biosynthesis bifunctional protein ArgJ, mitochondrial [Cleaved into: Arginine biosynthesis bifunctional protein ArgJ alpha chain; Arginine biosynthesis bifunctional protein ArgJ beta chain] [Includes: Glutamate N-acetyltransferase (GAT) (EC 2.3.1.35) (Ornithine acetyltransferase) (OATase) (Ornithine transacetylase); Amino-acid acetyltransferase (EC 2.3.1.1) (N-acetylglutamate synthase) (AGS)]
 CNAG_07594	Uncharacterized protein
 CNAG_01201	CBFD_NFYB_HMF domain-containing protein
-CNAG_03946	Galactokinase (EC 2.7.1.6) (Galactose kinase)
 CNAG_05532	Arylformamidase
 CNAG_06935	Isochorismatase hydrolase
 CNAG_01758	Polygalacturonase
@@ -1983,7 +1947,6 @@ CNAG_03320	Mannose-1-phosphate guanylyltransferase
 CNAG_04084	Uncharacterized protein
 CNAG_06772	Nucleoporin SEH1
 CNAG_04485	Long-chain acyl-CoA synthetase
-CNAG_06840	Elongation factor 2, variant
 CNAG_06115	Acid phosphatase
 CNAG_02374	Spindle pole body component
 CNAG_03922	NmrA domain-containing protein
@@ -1999,7 +1962,6 @@ CNAG_01640	Uncharacterized protein
 CNAG_02137	Uncharacterized protein
 CNAG_05519	Restriction of telomere capping protein 4
 CNAG_01959	Condensin complex subunit 1
-CNAG_01950	Uncharacterized protein
 CNAG_02849	Glutathione transferase
 CNAG_05733	Cytoplasmic protein
 CNAG_07681	MAGE domain-containing protein
@@ -2011,7 +1973,6 @@ CNAG_02882	Uncharacterized protein
 CNAG_01134	Uncharacterized protein
 CNAG_05435	Uncharacterized protein
 CNAG_02941	PARP-type domain-containing protein
-CNAG_01827	Uncharacterized protein
 CNAG_03312	Uncharacterized protein
 CNAG_07348	Phosphopantothenoylcysteine decarboxylase
 CNAG_04063	Selenoprotein W
@@ -2034,7 +1995,6 @@ CNAG_01558	Chlorophyll synthesis pathway protein BchC
 CNAG_04310	Uncharacterized protein
 CNAG_06557	Membrane protein
 CNAG_02227	Uncharacterized protein
-CNAG_03519	Ferulic acid decarboxylase 1 (EC 4.1.1.102) (Phenacrylate decarboxylase)
 CNAG_04258	Arf/Sar family protein
 CNAG_05092	Uncharacterized protein
 CNAG_01978	Prenyl protein peptidase
@@ -2058,15 +2018,15 @@ CNAG_03413	Alginate lyase
 CNAG_07662	Uncharacterized protein
 CNAG_03134	3-hydroxybutyryl-CoA dehydrogenase
 CNAG_07767	Uncharacterized protein
-CNAG_01059	Vacuolar membrane protein
+CNAG_01059	Vacuolar membrane protein, variant
 CNAG_04711	Uncharacterized protein
 CNAG_05828	UDP-N-acetylglucosamine pyrophosphorylase
 CNAG_04946	DAO domain-containing protein
 CNAG_02901	U6 snRNA-associated Sm-like protein LSm4
 CNAG_02495	Cytoplasmic protein
 CNAG_01742	Aquaporin-associated protein
-CNAG_03213	UV damage endonuclease UvdE
-CNAG_04380	Peptidase, variant
+CNAG_03213	UV damage endonuclease UvdE, variant
+CNAG_04380	Peptidase
 CNAG_00235	Ammonium transporter
 CNAG_05793	Uncharacterized protein
 CNAG_00828	Pathway-specific nitrogen regulator
@@ -2093,7 +2053,7 @@ CNAG_02516	BHLH domain-containing protein
 CNAG_01466	Uncharacterized protein
 CNAG_06506	Uncharacterized protein
 CNAG_06801	HNHc domain-containing protein
-CNAG_02969	Thioesterase
+CNAG_02969	Thioesterase, variant
 CNAG_03929	Solute carrier family 35, member C2
 CNAG_06191	Uncharacterized protein
 CNAG_05792	Proteasome subunit alpha type
@@ -2106,7 +2066,6 @@ CNAG_02332	Uncharacterized protein
 CNAG_07539	Replication factor C subunit 1
 CNAG_02304	Mitochondrial distribution and morphology protein 34
 CNAG_01602	IQ domain-containing calmodulin-binding protein
-CNAG_04782	Metallophos domain-containing protein
 CNAG_00166	ATP-dependent RNA helicase DBP8
 CNAG_04576	Uncharacterized protein
 CNAG_01626	Transcriptional adapter 2
@@ -2118,7 +2077,6 @@ CNAG_03203	DNA polymerase epsilon p12 subunit
 CNAG_01844	Tetracycline efflux protein
 CNAG_06130	Uncharacterized protein
 CNAG_04959	Syntaxin 16
-CNAG_02510	Uncharacterized protein
 CNAG_01402	Actin binding protein
 CNAG_07372	6-phosphofructo-2-kinase/fructose-2, 6-bisphosphatase
 CNAG_03624	Pescadillo homolog (Nucleolar protein 7 homolog)
@@ -2128,14 +2086,12 @@ CNAG_00698	Uncharacterized protein
 CNAG_06001	Phosphomevalonate kinase (EC 2.7.4.2)
 CNAG_00465	Uncharacterized protein
 CNAG_05928	Uncharacterized protein
-CNAG_02143	Uncharacterized protein
 CNAG_02718	NAD binding dehydrogenase
 CNAG_05400	Minor histocompatibility antigen H13
 CNAG_06770	Fructose-bisphosphate aldolase (FBP aldolase) (EC 4.1.2.13)
 CNAG_03086	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_03348	MYND-type domain-containing protein
 CNAG_01234	Spore wall assembly-associated protein
-CNAG_07419	Uncharacterized protein
 CNAG_00551	Poly(A) polymerase (EC 2.7.7.19)
 CNAG_04165	Uncharacterized protein
 CNAG_06894	Uncharacterized protein
@@ -2156,9 +2112,8 @@ CNAG_04749	Uncharacterized protein
 CNAG_04102	Uncharacterized protein
 CNAG_01813	Mannose-1-phosphate guanyltransferase
 CNAG_01928	Xaa-Pro aminopeptidase
-CNAG_03992	GTP-binding protein 1
-CNAG_02420	Uncharacterized protein
-CNAG_03461	Uncharacterized protein
+CNAG_03992	GTP-binding protein 1, variant
+CNAG_02420	DH domain-containing protein
 CNAG_03686	UDP-N-acetylglucosamine transferase subunit ALG14 (Asparagine-linked glycosylation protein 14)
 CNAG_03147	Rhomboid-like protein
 CNAG_01213	Uncharacterized protein
@@ -2167,7 +2122,7 @@ CNAG_01567	Uncharacterized protein
 CNAG_07980	Uncharacterized protein
 CNAG_06063	Cytochrome c oxidase assembly protein subunit 15
 CNAG_05219	WD_REPEATS_REGION domain-containing protein
-CNAG_04177	COP9 signalosome complex subunit 7, variant
+CNAG_04177	COP9 signalosome complex subunit 7
 CNAG_00085	Anti-silencing function protein 1
 CNAG_02767	Transcription initiation factor IIE subunit alpha
 CNAG_00280	Complement component 1 Q subcomponent-binding protein, mitochondrial
@@ -2177,7 +2132,7 @@ CNAG_04116	Uncharacterized protein
 CNAG_01265	Charged multivesicular body protein 6
 CNAG_06928	PH domain-containing protein
 CNAG_04496	Rab GTPase activator
-CNAG_04262	E3 ubiquitin-protein ligase NRDP1, variant
+CNAG_04262	E3 ubiquitin-protein ligase NRDP1
 CNAG_01363	GPN-loop GTPase (EC 3.6.5.-)
 CNAG_06658	RHOMBOID-like protein (EC 3.4.21.-) (Rhomboid-like protein)
 CNAG_06301	AGC/Akt protein kinase
@@ -2213,7 +2168,6 @@ CNAG_06204	High-affinity nicotinic acid transporter
 CNAG_01035	Proteasome subunit alpha type
 CNAG_00001	Uncharacterized protein
 CNAG_07945	Uncharacterized protein
-CNAG_05734	Actin cytoskeleton-regulatory complex protein SLA1
 CNAG_07377	Transformation/transcription domain-associated protein
 CNAG_02085	Deacetylase sirtuin-type domain-containing protein
 CNAG_03904	26S protease regulatory subunit 6B
@@ -2224,20 +2178,19 @@ CNAG_05141	Uncharacterized protein
 CNAG_06372	Uncharacterized protein
 CNAG_01013	Chromatin binding protein
 CNAG_01990	Small subunit ribosomal protein S5
-CNAG_02953	Tuberin
+CNAG_02953	Tuberin, variant
 CNAG_07607	Chaperone regulator
 CNAG_06071	Cupin_5 domain-containing protein
 CNAG_06698	Phosphatase
 CNAG_05980	Large subunit ribosomal protein L7/L12
 CNAG_04591	Uncharacterized protein
-CNAG_05741	Uncharacterized protein
 CNAG_04969	UDP-glucose 6-dehydrogenase (EC 1.1.1.22)
 CNAG_01845	Protein kinase C (EC 2.7.11.13)
 CNAG_04444	Splicing factor 3B subunit 1
 CNAG_07924	RNA polymerase II transcription factor
 CNAG_04461	ATP-dependent DNA helicase HFM1/MER3
 CNAG_07995	F-box domain-containing protein
-CNAG_04028	RNA binding protein, variant
+CNAG_04028	RNA binding protein
 CNAG_02566	Hepatocyte nuclear factor
 CNAG_05446	Kexin
 CNAG_00829	E3 ubiquitin ligase complex SCF subunit
@@ -2257,21 +2210,20 @@ CNAG_04049	Serine/threonine protein phosphatase 5 phosphatase
 CNAG_00583	Uncharacterized protein
 CNAG_02024	CLASP_N domain-containing protein
 CNAG_07554	Capsular associated protein
-CNAG_05991	Glycosyl hydrolase family 88, variant
+CNAG_05991	Glycosyl hydrolase family 88
 CNAG_01945	Uncharacterized protein
 CNAG_04982	Cytosine-purine permease
 CNAG_06774	tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33) (Transfer RNA methyltransferase 8) (tRNA (guanine(46)-N(7))-methyltransferase) (tRNA(m7G46)-methyltransferase)
 CNAG_00255	Uncharacterized protein
 CNAG_03531	3-beta hydroxysteroid dehydrogenase/isomerase
 CNAG_05542	DDE Tnp4 domain-containing protein
-CNAG_03153	Sec14 cytosolic factor
 CNAG_02815	Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3)
 CNAG_01787	Uncharacterized protein
 CNAG_07969	Uncharacterized protein
 CNAG_05790	OPT family small oligopeptide transporter
 CNAG_03363	PRELI/MSF1 domain-containing protein
 CNAG_07658	Uncharacterized protein
-CNAG_05386	Glutamate 5-kinase, variant
+CNAG_05386	Glutamate 5-kinase
 CNAG_00087	NudC domain-containing protein 1
 CNAG_02961	F-type H-transporting ATPase subunit J
 CNAG_03892	Chaperonin GroES
@@ -2295,7 +2247,6 @@ CNAG_02758	NADH:flavin oxidoreductase/NADH oxidase
 CNAG_03085	EthD domain-containing protein
 CNAG_05345	Amino acid transporter
 CNAG_01024	Translocation protein SEC72
-CNAG_04598	Uncharacterized protein
 CNAG_03664	Nickel/cobalt efflux system
 CNAG_07392	Uncharacterized protein
 CNAG_07736	Glucan endo-1,3-alpha-glucosidase agn1
@@ -2305,27 +2256,24 @@ CNAG_00118	Uncharacterized protein
 CNAG_07426	Proteasome maturation protein
 CNAG_00161	Auxin-induced protein
 CNAG_04931	MFS domain-containing protein
-CNAG_06156	Fungal_trans domain-containing protein
+CNAG_06156	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_07416	Exosome complex component RRP41
 CNAG_05679	Pre-mRNA-splicing factor ini1
 CNAG_06880	Mitochondrial protein
-CNAG_02996	Flavoprotein oxygenase, variant 2
 CNAG_06505	Uncharacterized protein
 CNAG_05246	ADF-H domain-containing protein
 CNAG_04663	Uncharacterized protein
 CNAG_01884	Large subunit ribosomal protein L3
 CNAG_04004	40S ribosomal protein S1
-CNAG_03247	Sterol 3beta-glucosyltransferase, variant
 CNAG_03049	Ubiquitin-like domain-containing protein
 CNAG_07863	26S proteasome regulatory subunit RPN1
 CNAG_01321	Acyl carrier protein
 CNAG_02328	Pre-rRNA-processing protein TSR1
 CNAG_02710	T-complex protein 1 subunit gamma
-CNAG_03339	Biotin transporter, variant
+CNAG_03339	Biotin transporter
 CNAG_01004	DH domain-containing protein
 CNAG_00441	Inosine-5'-monophosphate dehydrogenase (IMP dehydrogenase) (IMPD) (IMPDH) (EC 1.1.1.205)
 CNAG_00732	BZIP domain-containing protein
-CNAG_07537	Mitochondrial GTPase 1, variant
 CNAG_00766	Uncharacterized protein
 CNAG_00563	Uncharacterized protein
 CNAG_00401	Phosphatidylinositol glycan, class U
@@ -2341,7 +2289,7 @@ CNAG_04463	Mediator of RNA polymerase II transcription subunit 10 (Mediator comp
 CNAG_06145	Uncharacterized protein
 CNAG_04785	Stress-response A/B barrel domain-containing protein
 CNAG_01360	Pumilio domain-containing protein c
-CNAG_02527	Multidrug transporter, variant
+CNAG_02527	Multidrug transporter
 CNAG_03245	Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)
 CNAG_02200	Uncharacterized protein
 CNAG_04540	Translocation protein SEC62
@@ -2364,11 +2312,9 @@ CNAG_05154	Membrane fraction protein
 CNAG_05239	Cytoplasmic protein
 CNAG_06000	Glycoprotein
 CNAG_03299	Coatomer subunit beta (Beta-coat protein)
-CNAG_03230	Protein yippee-like
 CNAG_03169	Uncharacterized protein
 CNAG_04447	Uncharacterized protein
 CNAG_04817	Uncharacterized protein
-CNAG_05188	Uncharacterized protein
 CNAG_03900	F-actin-capping protein subunit beta
 CNAG_00439	Uncharacterized protein
 CNAG_01081	Uncharacterized protein
@@ -2379,7 +2325,7 @@ CNAG_06966	Alkaline phosphatase D
 CNAG_08014	Uncharacterized protein
 CNAG_06712	Uncharacterized protein
 CNAG_03856	Glyco_hydro_cc domain-containing protein
-CNAG_00176	Glutamate carboxypeptidase
+CNAG_00176	Glutamate carboxypeptidase, variant
 CNAG_03091	Uncharacterized protein
 CNAG_03641	Eukaryotic translation initiation factor 3 subunit D (eIF3d)
 CNAG_01436	Serine/threonine-protein phosphatase (EC 3.1.3.16)
@@ -2394,7 +2340,7 @@ CNAG_04627	COP9 signalosome complex subunit 12
 CNAG_05097	ATP-dependent (S)-NAD(P)H-hydrate dehydratase (EC 4.2.1.93) (ATP-dependent NAD(P)HX dehydratase)
 CNAG_05595	Uncharacterized protein
 CNAG_00250	Glyco_hydro_cc domain-containing protein
-CNAG_05029	Meiotic Sister-Chromatid recombination aldehyde dehydrogenase
+CNAG_05029	Meiotic Sister-Chromatid recombination aldehyde dehydrogenase, variant
 CNAG_05998	Rho family protein
 CNAG_01147	Actin-related protein 2/3 complex subunit 4
 CNAG_02072	Uncharacterized protein
@@ -2412,24 +2358,21 @@ CNAG_05570	Ubiquitin-like domain-containing protein
 CNAG_01423	Uncharacterized protein
 CNAG_01921	Uncharacterized protein
 CNAG_06399	SH3 domain-containing protein
-CNAG_04868	Diphthamide synthase (EC 6.3.1.14) (Diphthamide synthetase) (Diphthine--ammonia ligase)
 CNAG_05226	ATP_transf domain-containing protein
 CNAG_00395	Structure-specific endonuclease subunit SLX1 (EC 3.1.-.-)
 CNAG_06105	Uncharacterized protein
 CNAG_06113	HABP4_PAI-RBP1 domain-containing protein
-CNAG_05350	Uncharacterized protein
 CNAG_04267	Mitochondrial genome maintenance protein MGM101
 CNAG_07435	Transcriptional activator HAP2
 CNAG_00191	Etoposide-induced protein
 CNAG_05075	Phosphate transporter
 CNAG_03899	Hypoxia up-regulated 1
 CNAG_01282	GRIP domain-containing protein
-CNAG_01642	DNA mismatch repair protein MSH3
+CNAG_01642	DNA mismatch repair protein MSH3, variant
 CNAG_06784	Uncharacterized protein
 CNAG_00651	ATP-binding cassette, subfamily D (ALD), peroxisomal long-chain fatty acid import protein
 CNAG_03994	Leucine carboxyl methyltransferase 1 (EC 2.1.1.233)
 CNAG_00492	Uncharacterized protein
-CNAG_01030	Uncharacterized protein
 CNAG_06621	Biotin synthase (EC 2.8.1.6)
 CNAG_02487	Very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase (EC 4.2.1.134)
 CNAG_01559	Uds1 domain-containing protein
@@ -2447,7 +2390,7 @@ CNAG_04740	Uncharacterized protein
 CNAG_01738	Uncharacterized protein
 CNAG_00814	Uncharacterized protein
 CNAG_06884	Uncharacterized protein
-CNAG_05472	Meiotic recombination protein SPO11
+CNAG_05472	Meiotic recombination protein SPO11, variant 1
 CNAG_02309	Peptidylprolyl isomerase (EC 5.2.1.8)
 CNAG_00676	Vacuolar protein sorting-associated protein 28 (ESCRT-I complex subunit VPS28)
 CNAG_01926	Peroxisome targeting signal receptor
@@ -2467,7 +2410,7 @@ CNAG_01984	Transaldolase (EC 2.2.1.2)
 CNAG_05441	Lipid particle protein
 CNAG_04210	MFS transporter, SP family, general alpha glucoside:H symporter
 CNAG_00499	Solute carrier family 25 (Mitochondrial carnitine/acylcarnitine transporter), member 20/29
-CNAG_03234	Cell wall surface anchor protein
+CNAG_03234	Cell wall surface anchor protein, variant
 CNAG_06984	Uncharacterized protein
 CNAG_05975	Ribonuclease Z (EC 3.1.26.11)
 CNAG_05230	Sentrin/sumo-specific protease
@@ -2504,7 +2447,6 @@ CNAG_05301	Coronin
 CNAG_01190	Protein transport protein SEC22
 CNAG_04529	Cytochrome c oxidase assembly protein COX16, mitochondrial (Cytochrome c oxidase assembly protein cox16, mitochondrial)
 CNAG_01220	Sulfhydryl oxidase (EC 1.8.3.2)
-CNAG_00031	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_05008	Uncharacterized protein
 CNAG_03487	DNAJ domain-containing protein
 CNAG_02119	Uncharacterized protein
@@ -2520,7 +2462,6 @@ CNAG_07518	Ribonuclease P/MRP protein subunit POP5 (EC 3.1.26.5)
 CNAG_03361	Lactamase_B domain-containing protein
 CNAG_02951	C3H1-type domain-containing protein
 CNAG_02428	GC-rich sequence DNA-binding factor
-CNAG_05835	Uncharacterized protein
 CNAG_06823	Uncharacterized protein
 CNAG_02091	Nucleosome assembly protein 1-like 1
 CNAG_00175	Uncharacterized protein
@@ -2551,7 +2492,7 @@ CNAG_03407	Uncharacterized protein
 CNAG_01875	WD-repeat protein
 CNAG_07596	Uncharacterized protein
 CNAG_06008	Asparaginase (EC 3.5.1.1)
-CNAG_04314	NAD kinase, variant
+CNAG_04314	NAD kinase
 CNAG_03483	Protein GET1 (Guided entry of tail-anchored proteins 1)
 CNAG_01968	Uncharacterized protein
 CNAG_04521	Oxidoreductase
@@ -2581,7 +2522,6 @@ CNAG_00523	Uncharacterized protein
 CNAG_01365	Uncharacterized protein
 CNAG_02910	Uncharacterized protein
 CNAG_01333	Non-specific serine/threonine protein kinase (EC 2.7.11.1)
-CNAG_04380	Peptidase
 CNAG_03214	tRNA (uracil-O(2)-)-methyltransferase (EC 2.1.1.211)
 CNAG_02412	rRNA-processing protein
 CNAG_01625	Uncharacterized protein
@@ -2593,7 +2533,6 @@ CNAG_00533	Mitochondrial import inner membrane translocase subunit TIM50
 CNAG_01712	Uncharacterized protein
 CNAG_07769	HECT-type E3 ubiquitin transferase (EC 2.3.2.26)
 CNAG_06752	Uncharacterized protein
-CNAG_03836	Uncharacterized protein
 CNAG_04412	Uncharacterized protein
 CNAG_05255	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_05629	Endoribonuclease YSH1
@@ -2606,7 +2545,7 @@ CNAG_01731	TPR_REGION domain-containing protein
 CNAG_04694	Periodic tryptophan protein 1
 CNAG_05287	Uncharacterized protein
 CNAG_00027	Transcriptional activator
-CNAG_07781	ATP-dependent bile acid transporter, variant
+CNAG_07781	ATP-dependent bile acid transporter
 CNAG_04395	Protein BFR2
 CNAG_02092	Protein EFR3
 CNAG_04748	Protein OS-9 homolog
@@ -2619,7 +2558,7 @@ CNAG_02178	Component of oligomeric Golgi complex 3 (Conserved oligomeric Golgi c
 CNAG_05869	Endopeptidase
 CNAG_04518	Uncharacterized protein
 CNAG_06167	Metal homeostatis protein bsd2
-CNAG_00681	Condensin complex subunit 3, variant
+CNAG_00681	Condensin complex subunit 3
 CNAG_06870	Uncharacterized protein
 CNAG_07796	Uroporphyrinogen-III C-methyltransferase
 CNAG_06931	Beta-glucosidase (EC 3.2.1.21)
@@ -2630,10 +2569,9 @@ CNAG_02853	Amidophosphoribosyltransferase (ATase) (EC 2.4.2.14) (Glutamine phosp
 CNAG_01527	FSH1 domain-containing protein
 CNAG_06526	HNHc domain-containing protein
 CNAG_01914	Mitochondrial protein
-CNAG_03199	FAD dependent oxidoreductase
 CNAG_01624	Uncharacterized protein
 CNAG_02107	Uncharacterized protein
-CNAG_04690	Acylpyruvate hydrolase
+CNAG_04690	Acylpyruvate hydrolase, variant
 CNAG_03291	Uncharacterized protein
 CNAG_01933	Uncharacterized protein
 CNAG_06463	Uncharacterized protein
@@ -2677,7 +2615,6 @@ CNAG_02973	tRNA-intron endonuclease Sen2 (EC 4.6.1.16)
 CNAG_05592	Potassium/sodium efflux P-type ATPase, fungal-type
 CNAG_04845	Mannose-P-dolichol utilization defect 1 protein homolog
 CNAG_00572	General transcription and DNA repair factor IIH helicase subunit XPD (EC 3.6.4.12)
-CNAG_01827	Uncharacterized protein
 CNAG_07982	Uncharacterized protein
 CNAG_04316	NAD kinase
 CNAG_00809	ATP-dependent RNA helicase ded1
@@ -2685,7 +2622,7 @@ CNAG_02104	Phosphatidylinositol transfer protein SFH5 (PITP SFH5)
 CNAG_00865	Maltose O-acetyltransferase
 CNAG_05514	Uncharacterized protein
 CNAG_00686	Uncharacterized protein
-CNAG_07867	Fungal_trans domain-containing protein
+CNAG_07867	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_03567	AGC/NDR/NDR protein kinase
 CNAG_01882	Histone-lysine N-methyltransferase, H3 lysine-79 specific (EC 2.1.1.360) (Histone H3-K79 methyltransferase)
 CNAG_07852	Uncharacterized protein
@@ -2694,7 +2631,7 @@ CNAG_01159	Pre-mRNA-splicing factor SLU7
 CNAG_03855	GPI mannosyltransferase 1 (EC 2.4.1.-) (GPI mannosyltransferase I)
 CNAG_03463	Uncharacterized protein
 CNAG_06495	RNA exonuclease 1
-CNAG_04465	Small nuclear ribonucleoprotein
+CNAG_04465	Small nuclear ribonucleoprotein, variant
 CNAG_02590	3-hydroxyisobutyrate dehydrogenase
 CNAG_04932	Uncharacterized protein
 CNAG_02063	Uncharacterized protein
@@ -2733,7 +2670,7 @@ CNAG_01399	Uncharacterized protein
 CNAG_06192	Uncharacterized protein
 CNAG_01957	Proteasome subunit beta
 CNAG_00066	Membrane protein
-CNAG_04705	Stealth_CR3 domain-containing protein
+CNAG_04705	Uncharacterized protein
 CNAG_04708	Uncharacterized protein
 CNAG_03683	Short-chain dehydrogenase/reductase SDR
 CNAG_07444	Uncharacterized protein
@@ -2782,9 +2719,8 @@ CNAG_03638	Heterokaryon incompatibility protein HET-C
 CNAG_04042	Uncharacterized protein
 CNAG_04281	Uncharacterized protein
 CNAG_07631	CBM21 domain-containing protein
-CNAG_01753	Uncharacterized protein
 CNAG_07329	Uncharacterized protein
-CNAG_04534	Zn(2)-C6 fungal-type domain-containing protein
+CNAG_04534	Fungal_trans domain-containing protein
 CNAG_01568	CCT-alpha (T-complex protein 1 subunit alpha)
 CNAG_06560	Esterase
 CNAG_03068	Methyltranfer_dom domain-containing protein
@@ -2811,7 +2747,6 @@ CNAG_05160	Uncharacterized protein
 CNAG_01262	Guanine nucleotide-binding protein subunit beta
 CNAG_02761	Inorganic phosphate transporter pho88
 CNAG_05770	Proteasome subunit beta type-5 (EC 3.4.25.1)
-CNAG_01297	JmjC domain-containing protein
 CNAG_06977	L-iditol 2-dehydrogenase
 CNAG_05894	Dynein heavy chain, cytoplasmic (Dynein heavy chain, cytosolic)
 CNAG_05357	Uncharacterized protein
@@ -2836,7 +2771,7 @@ CNAG_07163	Preprotein translocase subunit YidC
 CNAG_05935	Uridylate kinase (UK) (EC 2.7.4.14) (ATP:UMP phosphotransferase) (Deoxycytidylate kinase) (CK) (dCMP kinase) (Uridine monophosphate kinase) (UMP kinase) (UMPK)
 CNAG_01250	tRNA ligase
 CNAG_03950	Chromatin elongation factor SPT6 (Transcription elongation factor SPT6)
-CNAG_01608	Nuclear GTP-binding protein
+CNAG_01608	Nuclear GTP-binding protein, variant
 CNAG_03561	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_03104	Uncharacterized protein
 CNAG_03522	Uncharacterized protein
@@ -2846,7 +2781,7 @@ CNAG_03282	Uncharacterized protein
 CNAG_05834	Uncharacterized protein
 CNAG_04602	Uncharacterized protein
 CNAG_04952	ADP-ribosylation factor 6
-CNAG_06821	Ferric reductase transmembrane component 4
+CNAG_06821	Ferric reductase transmembrane component 4, variant
 CNAG_00181	Macrophage erythroblast attacher isoform 1
 CNAG_00096	Uncharacterized protein
 CNAG_03172	Uncharacterized protein
@@ -2866,7 +2801,6 @@ CNAG_09000	NADH-ubiquinone oxidoreductase chain 1 (EC 7.1.1.2)
 CNAG_03617	Clampless protein 1
 CNAG_04937	Peroxin-12
 CNAG_00545	Sister chromatid cohesion protein
-CNAG_00556	CK1/CK1/CK1-G protein kinase
 CNAG_06468	Nucleolar GTP-binding protein 1
 CNAG_00919	Carboxypeptidase (EC 3.4.16.-)
 CNAG_03908	WD-repeat protein
@@ -2904,7 +2838,6 @@ CNAG_05745	Cytoplasmic protein
 CNAG_05402	Protein CMS1
 CNAG_07848	FYVE-type domain-containing protein
 CNAG_04448	Ribosomal protein L19
-CNAG_01368	Uncharacterized protein
 CNAG_06897	Uncharacterized protein
 CNAG_02261	Uncharacterized protein
 CNAG_05445	Smooth muscle cell associated protein-1 isoform 2
@@ -2939,7 +2872,7 @@ CNAG_02174	Signal recognition particle 54 kDa protein
 CNAG_02782	Cytoplasmic protein
 CNAG_00729	Helitron_like_N domain-containing protein
 CNAG_04607	t-SNARE coiled-coil homology domain-containing protein
-CNAG_05406	Cell cycle arrest protein BUB2, variant
+CNAG_05406	Cell cycle arrest protein BUB2
 CNAG_04092	Sugar transporter
 CNAG_07766	DNA polymerase lambda (EC 2.7.7.7)
 CNAG_01273	Cellular nucleic acid-binding protein
@@ -2961,7 +2894,7 @@ CNAG_06816	CMP/dCMP-type deaminase domain-containing protein
 CNAG_04290	Uncharacterized protein
 CNAG_01638	Mitotic spindle assembly checkpoint protein MAD2
 CNAG_01607	Thioredoxin
-CNAG_03281	Glycine-rich RNA binding protein
+CNAG_03281	Glycine-rich RNA binding protein, variant 2
 CNAG_05992	MFS domain-containing protein
 CNAG_00967	Uncharacterized protein
 CNAG_04656	Arginyltransferase (EC 2.3.2.8)
@@ -2978,7 +2911,6 @@ CNAG_04096	Racemase
 CNAG_01900	Nudix hydrolase domain-containing protein
 CNAG_05906	Uncharacterized protein
 CNAG_04346	Dihydrodipicolinate synthase
-CNAG_00866	Transketolase
 CNAG_06002	tRNA-5-taurinomethyluridine 2-sulfurtransferase (EC 2.8.1.14)
 CNAG_07610	Uncharacterized protein
 CNAG_07897	MFS transporter, SP family, general alpha glucoside:H symporter
@@ -2993,7 +2925,6 @@ CNAG_03474	Efflux protein EncT
 CNAG_07365	Oxidoreductase
 CNAG_03544	Uncharacterized protein
 CNAG_06578	Uncharacterized protein
-CNAG_07651	DEAD-box ATP-dependent RNA helicase 26, variant
 CNAG_01438	Transcription factor
 CNAG_03296	Tyrosine specific protein phosphatase
 CNAG_03433	Alpha-galactosidase (EC 3.2.1.22)
@@ -3018,7 +2949,6 @@ CNAG_00373	Glucan 1,3-beta-glucosidase
 CNAG_04604	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)
 CNAG_05503	LIM domain-containing protein
 CNAG_07481	Uncharacterized protein
-CNAG_05771	Serine/threonine-protein kinase Tel1 (EC 2.7.11.1)
 CNAG_00055	BZIP domain-containing protein
 CNAG_05415	Uncharacterized protein
 CNAG_05996	Solute carrier family 32 (Vesicular inhibitory amino acid transporter)
@@ -3028,26 +2958,20 @@ CNAG_01806	Uncharacterized protein
 CNAG_02209	Nucleolar protein 56
 CNAG_06535	Ribosome biogenesis protein UTP30
 CNAG_07453	Uncharacterized protein
-CNAG_01827	VHS domain-containing protein
-CNAG_07781	ATP-dependent bile acid transporter
-CNAG_03771	DNA binding protein Ncp1
+CNAG_03771	DNA binding protein Ncp1, variant
 CNAG_06331	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_05308	Beta-catenin-like protein 1
+CNAG_05308	Beta-catenin-like protein 1, variant
 CNAG_01082	ANK_REP_REGION domain-containing protein
 CNAG_01425	Uncharacterized protein
 CNAG_05616	ABC transporter
 CNAG_03025	V-type H-transporting ATPase subunit D
 CNAG_06227	Fanconi-associated nuclease (EC 3.1.4.1)
 CNAG_05545	Bis(5'-adenosyl)-triphosphatase
-CNAG_07940	BZIP domain-containing protein
 CNAG_04001	Proteasome subunit alpha type
 CNAG_04902	SEL1 protein
-CNAG_06821	Ferric reductase transmembrane component 4, variant
-CNAG_01642	DNA mismatch repair protein MSH3, variant
 CNAG_00174	Uncharacterized protein
 CNAG_03301	Mitochondrial import inner membrane translocase subunit
-CNAG_03024	AGC protein kinase
-CNAG_07434	HAD hydrolase, family IIID
+CNAG_07434	HAD hydrolase, family IIID, variant
 CNAG_01670	Uncharacterized protein
 CNAG_01526	Cleavage and polyadenylation specificity factor subunit 4
 CNAG_06160	Guanyl nucleotide exchange factor Sql2
@@ -3062,7 +2986,6 @@ CNAG_00833	Uncharacterized protein
 CNAG_03945	Uncharacterized protein
 CNAG_00419	DNA polymerase (EC 2.7.7.7)
 CNAG_05787	Symplekin
-CNAG_00893	Uncharacterized protein
 CNAG_04783	Monosaccharide transporter
 CNAG_03236	AMME syndrome candidate protein
 CNAG_04738	Fimbrin
@@ -3081,7 +3004,7 @@ CNAG_05260	Glutamate decarboxylase (EC 4.1.1.15)
 CNAG_07802	Class III aminotransferase
 CNAG_03794	Endoplasmic reticulum protein
 CNAG_05689	Pre-mRNA-splicing factor SPF27
-CNAG_06934	Hexose transporter protein, variant 3
+CNAG_06934	Hexose transporter protein (Hexose transporter protein, variant 1) (Hexose transporter protein, variant 2)
 CNAG_00308	Gly-X carboxypeptidase
 CNAG_05079	Uncharacterized protein
 CNAG_07933	Uncharacterized protein
@@ -3089,18 +3012,14 @@ CNAG_01637	COPII-coated vesicle component Erv46
 CNAG_06003	Uncharacterized protein
 CNAG_03980	Uncharacterized protein
 CNAG_03640	CUE domain-containing protein
-CNAG_06503	Uridine permease
-CNAG_02105	Methylated-DNA-protein-cysteine methyltransferase, variant
-CNAG_06864	Uncharacterized protein
+CNAG_06503	Uridine permease, variant
 CNAG_02384	Uncharacterized protein
 CNAG_04894	Uncharacterized protein
 CNAG_07905	Uncharacterized protein
 CNAG_05711	Uncharacterized protein
 CNAG_07674	Uncharacterized protein
-CNAG_08014	Uncharacterized protein
 CNAG_03414	Exonuclease domain-containing protein
 CNAG_04378	NADH dehydrogenase (Ubiquinone) 1 alpha subcomplex 13
-CNAG_01297	JmjC domain-containing protein
 CNAG_01555	DDE Tnp4 domain-containing protein
 CNAG_01797	37S ribosomal protein S24, mitochondrial
 CNAG_03619	Solute carrier family 29 (Equilibrative nucleoside transporter), member 1/2/3
@@ -3113,9 +3032,8 @@ CNAG_00189	Uncharacterized protein
 CNAG_01872	Copper transporter
 CNAG_01166	Urease accessory protein
 CNAG_01027	Succinate-semialdehyde dehydrogenase (NADP )
-CNAG_06463	Uncharacterized protein
 CNAG_02289	Rab family protein
-CNAG_01518	Phosphoglycerate mutase
+CNAG_01518	Phosphoglycerate mutase, variant
 CNAG_01033	Exosome complex component CSL4
 CNAG_00736	Exocyst complex component SEC5
 CNAG_01026	Gamma-glutamyltransferase
@@ -3131,7 +3049,7 @@ CNAG_02437	rRNA biogenesis protein RRP5
 CNAG_05289	Uncharacterized protein
 CNAG_04703	DNA clamp loader
 CNAG_02035	Triosephosphate isomerase (EC 5.3.1.1)
-CNAG_02943	Cytoplasmic protein, variant
+CNAG_02943	Cytoplasmic protein
 CNAG_04139	Uncharacterized protein
 CNAG_05385	Conserved oligomeric Golgi complex subunit 6 (COG complex subunit 6) (Component of oligomeric Golgi complex 6)
 CNAG_07390	Uncharacterized protein
@@ -3141,7 +3059,7 @@ CNAG_06109	Uncharacterized protein
 CNAG_01236	rRNA-processing protein EBP2
 CNAG_01105	Uncharacterized protein
 CNAG_02466	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_05753	Acetylglutamate kinase (EC 2.7.2.8) (N-acetyl-L-glutamate 5-phosphotransferase) (NAG kinase)
+CNAG_05753	Acetylglutamate kinase (EC 1.2.1.38) (EC 2.7.2.8) (N-acetyl-L-glutamate 5-phosphotransferase) (N-acetyl-gamma-glutamyl-phosphate reductase) (N-acetyl-glutamate semialdehyde dehydrogenase) (NAG kinase)
 CNAG_06908	Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing) (EC 4.3.3.6)
 CNAG_03988	Solute carrier family 38 (Sodium-coupled neutral amino acid transporter), member 11
 CNAG_04957	RRM Nup35-type domain-containing protein
@@ -3156,7 +3074,6 @@ CNAG_03276	Smg4_UPF3 domain-containing protein
 CNAG_00046	26S proteasome regulatory subunit N8
 CNAG_03553	Uncharacterized protein
 CNAG_03161	Uncharacterized protein
-CNAG_07405	GATA-type domain-containing protein
 CNAG_04151	Oxysterol-binding protein
 CNAG_01728	SH3 domain-containing protein
 CNAG_02340	Uncharacterized protein
@@ -3170,7 +3087,6 @@ CNAG_04356	TPR repeat-containing protein
 CNAG_05628	Uncharacterized protein
 CNAG_06741	ATP-dependent RNA helicase DBP10 (EC 3.6.4.13)
 CNAG_06599	Associated with spindles and kinetochores protein 1 (DASH complex subunit ASK1) (Outer kinetochore protein ASK1)
-CNAG_06145	Uncharacterized protein
 CNAG_04497	GCR1_C domain-containing protein
 CNAG_00424	Choline-phosphate cytidylyltransferase
 CNAG_03226	Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial (EC 1.3.5.1)
@@ -3208,18 +3124,16 @@ CNAG_07988	Telomerase reverse transcriptase (EC 2.7.7.49) (Telomerase catalytic 
 CNAG_00986	Adenylyltransferase and sulfurtransferase UBA4 (Ubiquitin-like protein activator 4) [Includes: Adenylyltransferase UBA4 (EC 2.7.7.-); Sulfurtransferase UBA4 (EC 2.8.1.-)]
 CNAG_04724	HECT-type E3 ubiquitin transferase (EC 2.3.2.26)
 CNAG_03653	Uncharacterized protein
-CNAG_05139	Solute carrier family 35 (UDP-sugar transporter), member A1/2/3
+CNAG_05139	Solute carrier family 35 (UDP-sugar transporter), member A1/2/3, variant
 CNAG_06902	PH domain-containing protein
 CNAG_05346	Sarcosine oxidase
 CNAG_02189	Alpha-amylase (EC 3.2.1.1)
-CNAG_01376	Stress response protein NST1
 CNAG_05599	Uncharacterized protein
 CNAG_05244	Uncharacterized protein
 CNAG_05864	Uncharacterized protein
 CNAG_00147	Pre-mRNA-processing-splicing factor 8
-CNAG_00030	D-3-phosphoglycerate dehydrogenase, variant
 CNAG_04597	Uncharacterized protein
-CNAG_03032	Dynactin 2
+CNAG_03032	Dynactin 2, variant
 CNAG_01493	Uncharacterized protein
 CNAG_07673	Uncharacterized protein
 CNAG_05090	Quinone oxidoreductase
@@ -3227,7 +3141,6 @@ CNAG_02377	Aldehyde dehydrogenase
 CNAG_04704	MFS transporter, SHS family, lactate transporter
 CNAG_06911	Uncharacterized protein
 CNAG_05232	Large subunit ribosomal protein L8
-CNAG_06395	Uncharacterized protein
 CNAG_07486	Uncharacterized protein
 CNAG_00393	1,4-alpha-glucan-branching enzyme (EC 2.4.1.18) (Glycogen-branching enzyme)
 CNAG_05310	Nipsnap family protein
@@ -3238,12 +3151,11 @@ CNAG_06760	Uncharacterized protein
 CNAG_04800	Phenylalanine--tRNA ligase (EC 6.1.1.20)
 CNAG_04713	Citrate lyase subunit beta-like protein
 CNAG_00988	Importin subunit beta-1
-CNAG_03992	GTP-binding protein 1, variant
 CNAG_05091	Uncharacterized protein
 CNAG_03113	Trehalose synthase
 CNAG_01920	Polyubiquitin
 CNAG_03717	Uncharacterized protein
-CNAG_06527	MFS transporter, SP family, general alpha glucoside:H symporter, variant 2
+CNAG_06527	MFS transporter, SP family, general alpha glucoside:H symporter (MFS transporter, SP family, general alpha glucoside:H symporter, variant 1)
 CNAG_05379	Regucalcin
 CNAG_05651	Uncharacterized protein
 CNAG_07719	26S protease regulatory subunit 7
@@ -3288,7 +3200,6 @@ CNAG_00854	C-8 sterol isomerase
 CNAG_06742	Pre-60S factor REI1
 CNAG_07913	Uncharacterized protein
 CNAG_01340	ATPase
-CNAG_01244	Uncharacterized protein
 CNAG_05601	Calpain-like protease palB/RIM13
 CNAG_03833	Uncharacterized protein
 CNAG_00287	Cytoplasmic protein
@@ -3297,7 +3208,6 @@ CNAG_04826	Homocysteine S-methyltransferase
 CNAG_04777	Methyltransferase-like protein (EC 2.1.1.-)
 CNAG_00278	Methionine aminopeptidase (EC 3.4.11.18)
 CNAG_07373	Aspartate carbamoyltransferase (EC 2.1.3.2) (EC 6.3.5.5)
-CNAG_04970	Uncharacterized protein
 CNAG_03727	PH domain-containing protein
 CNAG_07328	CNH domain-containing protein
 CNAG_07478	Uncharacterized protein
@@ -3324,11 +3234,10 @@ CNAG_06839	Phosphatidyl-N-methylethanolamine N-methyltransferase (EC 2.1.1.71) (
 CNAG_00388	1-phosphatidylinositol-4-phosphate 5-kinase
 CNAG_07351	PINc domain-containing protein
 CNAG_02555	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_07730	Tricarboxylate transporter
+CNAG_07730	Tricarboxylate transporter, variant
 CNAG_03590	Casein kinase II subunit beta (CK II beta)
 CNAG_02605	Tbc1 domain family protein
 CNAG_01826	Transcription initiation factor TFIIH subunit 1
-CNAG_00877	GTP:AMP phosphotransferase, mitochondrial (EC 2.7.4.10) (Adenylate kinase 3) (AK 3)
 CNAG_06024	Peroxin-14
 CNAG_05430	Uncharacterized protein
 CNAG_00461	Glucosidase 2 subunit beta (Glucosidase II subunit beta)
@@ -3337,12 +3246,10 @@ CNAG_04960	Uncharacterized protein
 CNAG_03385	G1/s-specific cyclin pcl1
 CNAG_04596	Prolyl endopeptidase (EC 3.4.21.-)
 CNAG_01415	Cytoplasmic protein
-CNAG_06650	Uncharacterized protein
 CNAG_01047	Uncharacterized protein
 CNAG_01955	Alcohol dehydrogenase
 CNAG_06123	Leucyl-tRNA synthetase (EC 6.1.1.4)
 CNAG_05082	Translation initiation factor 2D
-CNAG_03679	Acylphosphatase (EC 3.6.1.7)
 CNAG_04471	FAD dependent oxidoreductase
 CNAG_05697	Velvet domain-containing protein
 CNAG_05973	Serine carboxypeptidase
@@ -3355,25 +3262,22 @@ CNAG_04351	Methylmalonate-semialdehyde dehydrogenase (CoA acylating) (EC 1.2.1.2
 CNAG_03823	RING-box protein 1
 CNAG_03444	Uncharacterized protein
 CNAG_04577	Nucleoside diphosphate kinase
-CNAG_03281	Glycine-rich RNA binding protein, variant 1
 CNAG_05587	Uncharacterized protein
 CNAG_07685	Autophagy-related protein
 CNAG_07330	Uncharacterized protein
 CNAG_06388	Uncharacterized protein
 CNAG_07480	Cytochrome b5 reductase
-CNAG_06031	Beta-glucan synthesis-associated protein
 CNAG_00795	Uncharacterized protein
 CNAG_04950	PRA1 family protein
 CNAG_06234	Uncharacterized protein
 CNAG_04112	Oxidoreductase
 CNAG_01929	Uncharacterized protein
-CNAG_03830	Uncharacterized protein
 CNAG_04668	Ubiquitin-conjugating enzyme E2 M
 CNAG_07695	Gamma-aminobutyric acid transporter
 CNAG_07621	Uncharacterized protein
-CNAG_00680	Kinetochore protein Nuf2, variant
+CNAG_00680	Kinetochore protein Nuf2
 CNAG_01633	Anaphase-promoting complex subunit 5
-CNAG_03953	Sua5/YciO/YrdC/YwlC family protein, variant
+CNAG_03953	Sua5/YciO/YrdC/YwlC family protein
 CNAG_01351	5'-deoxynucleotidase (EC 3.1.3.89)
 CNAG_04888	Uncharacterized protein
 CNAG_02689	Sm domain-containing protein
@@ -3393,9 +3297,8 @@ CNAG_04313	NADPH2 dehydrogenase
 CNAG_02704	MICOS complex subunit MIC12 (Altered inheritance of mitochondria protein 5, mitochondrial) (Found in mitochondrial proteome protein 51)
 CNAG_01181	Small subunit ribosomal protein S27Ae
 CNAG_05256	Catalase
-CNAG_03713	Efflux protein EncT, variant
+CNAG_03713	Efflux protein EncT
 CNAG_03402	Uncharacterized protein
-CNAG_05406	Cell cycle arrest protein BUB2
 CNAG_02400	RPN13_C domain-containing protein
 CNAG_01606	Uncharacterized protein
 CNAG_05800	Large subunit ribosomal protein L33-b
@@ -3411,12 +3314,10 @@ CNAG_07402	Pantothenate transporter
 CNAG_01737	Methylsterol monooxygenase
 CNAG_07338	N-acyl-phosphatidylethanolamine-hydrolyzing phospholipase D
 CNAG_02558	Uncharacterized protein
-CNAG_03980	Uncharacterized protein
 CNAG_06800	Uncharacterized protein
 CNAG_00019	Mitochondrial import inner membrane translocase subunit TIM9
 CNAG_00115	Chlorophyll synthesis pathway protein BchC
 CNAG_07741	Cytoplasmic protein
-CNAG_00834	Phosphatidylserine decarboxylase, variant
 CNAG_01336	Uncharacterized protein
 CNAG_07352	MICOS complex subunit
 CNAG_04858	Uncharacterized protein
@@ -3437,7 +3338,6 @@ CNAG_00121	Glycerol-3-phosphate dehydrogenase [NAD(+)] (EC 1.1.1.8)
 CNAG_05498	Component of oligomeric Golgi complex 8 (Conserved oligomeric Golgi complex subunit 8)
 CNAG_06802	Uncharacterized protein
 CNAG_04320	Polysaccharide synthase Cps1p
-CNAG_07008	Uncharacterized protein
 CNAG_04510	Vesicle-fusing ATPase (EC 3.6.4.6)
 CNAG_04014	26S proteasome regulatory subunit N9
 CNAG_00838	YCII domain-containing protein
@@ -3457,7 +3357,6 @@ CNAG_02473	Endoplasmic reticulum protein
 CNAG_01157	Uncharacterized protein
 CNAG_02659	Uncharacterized protein
 CNAG_06064	Uncharacterized protein
-CNAG_02205	pH-response regulator protein palC
 CNAG_07705	Uncharacterized protein
 CNAG_00491	Fe-S_biosyn domain-containing protein
 CNAG_03403	Mitochondrial protein
@@ -3475,7 +3374,6 @@ CNAG_06744	Chromatin structure-remodeling complex subunit RSC9
 CNAG_01833	Translation initiation factor 4E
 CNAG_02017	Uncharacterized protein
 CNAG_06298	Uncharacterized protein
-CNAG_07454	Uncharacterized protein
 CNAG_03389	Alpha-ketoglutarate catabolism dioxygenase
 CNAG_07657	U3 small nucleolar RNA-associated protein 19
 CNAG_01223	SCP domain-containing protein
@@ -3495,21 +3393,16 @@ CNAG_01949	Chlorophyll synthesis pathway protein BchC
 CNAG_04592	Uncharacterized protein
 CNAG_01278	Phospholipid-transporting ATPase (EC 7.6.2.1)
 CNAG_03933	Protein kish
-CNAG_05139	Solute carrier family 35 (UDP-sugar transporter), member A1/2/3, variant
 CNAG_01186	Uncharacterized protein
 CNAG_05388	DNA-(apurinic or apyrimidinic site) lyase (EC 4.2.99.18)
-CNAG_02705	Uncharacterized protein
 CNAG_07519	MFS domain-containing protein
 CNAG_01495	Myo-inositol 2-dehydrogenase
 CNAG_00903	Uncharacterized protein
-CNAG_07505	Uncharacterized protein
 CNAG_06087	Kinetochore protein Spc7/SPC105
 CNAG_00263	Protein-tyrosine-phosphatase (EC 3.1.3.48)
 CNAG_04307	Uricase (EC 1.7.3.3) (Urate oxidase)
 CNAG_02053	Uncharacterized protein
-CNAG_04587	Uncharacterized protein
 CNAG_06236	RNA exonuclease NGL2
-CNAG_05740	Protein farnesyltransferase subunit beta (FTase-beta) (EC 2.5.1.58)
 CNAG_01917	Ribonuclease P protein subunit POP4
 CNAG_00547	DH domain-containing protein
 CNAG_04874	GH16 domain-containing protein
@@ -3536,10 +3429,8 @@ CNAG_05085	Deoxyhypusine hydroxylase (DOHH) (EC 1.14.99.29) (Deoxyhypusine dioxy
 CNAG_04837	BHLH domain-containing protein
 CNAG_00804	GTP-binding protein
 CNAG_08015	Uncharacterized protein
-CNAG_01612	CAMK/CAMKL protein kinase
 CNAG_06597	Transcriptional activator SPT8
 CNAG_00346	Type 1 phosphatases regulator
-CNAG_01988	Bacteriophytochrome histidine kinase
 CNAG_03672	Trafficking protein particle complex subunit
 CNAG_02240	Cytoplasmic protein
 CNAG_03357	Uncharacterized protein
@@ -3551,13 +3442,11 @@ CNAG_02312	Patatin-like phospholipase domain-containing protein
 CNAG_02299	MFS domain-containing protein
 CNAG_05852	Heme oxygenase 2
 CNAG_01885	Polynucleotide adenylyltransferase (EC 2.7.7.19)
-CNAG_03192	tRNA-specific adenosine deaminase 1
 CNAG_06898	Chitin synthase export chaperone
-CNAG_03339	Biotin transporter
 CNAG_03235	THO complex subunit 1
 CNAG_04047	3'-5' exonuclease domain-containing protein
 CNAG_01468	Uncharacterized protein
-CNAG_00358	tRNA dimethylallyltransferase
+CNAG_00358	tRNA dimethylallyltransferase, variant
 CNAG_03693	Large subunit ribosomal protein L11
 CNAG_02455	Choline transporter
 CNAG_04248	Ubiquitinyl hydrolase 1 (EC 3.4.19.12)
@@ -3566,11 +3455,9 @@ CNAG_05668	Uncharacterized protein
 CNAG_03077	Uncharacterized protein
 CNAG_05678	Membrane protein
 CNAG_04105	Uncharacterized protein
-CNAG_06451	Chromatin modification-related protein EAF6
 CNAG_04719	Solute carrier family 41
 CNAG_04853	Derlin
 CNAG_05448	Uncharacterized protein
-CNAG_03912	Membrane protein
 CNAG_04623	Uncharacterized protein
 CNAG_02508	N-acetyltransferase domain-containing protein
 CNAG_03129	Transcription factor iiia
@@ -3602,7 +3489,6 @@ CNAG_06866	Uncharacterized protein
 CNAG_00229	Uncharacterized protein
 CNAG_04816	Ubiquitin-like domain-containing protein
 CNAG_02347	Uncharacterized protein
-CNAG_04314	NAD kinase
 CNAG_02875	Uncharacterized protein
 CNAG_05858	Protein FYV4, mitochondrial
 CNAG_02392	Uncharacterized protein
@@ -3610,7 +3496,6 @@ CNAG_02207	Glyco_hydro_cc domain-containing protein
 CNAG_00486	Succinate dehydrogenase assembly factor 2, mitochondrial (SDH assembly factor 2) (SDHAF2)
 CNAG_07666	SCP domain-containing protein
 CNAG_01519	Endonuclease/exonuclease/phosphatase
-CNAG_04442	Uncharacterized protein
 CNAG_05888	Uncharacterized protein
 CNAG_04275	Metalloendopeptidase
 CNAG_06158	Uncharacterized protein
@@ -3649,42 +3534,36 @@ CNAG_00319	Uncharacterized protein
 CNAG_04667	Uncharacterized protein
 CNAG_01440	Uncharacterized protein
 CNAG_07093	Uncharacterized protein
-CNAG_01940	Alpha-amylase (EC 3.2.1.1)
 CNAG_05692	Sphingosine-1-phosphate phosphatase
 CNAG_01406	Uncharacterized protein
 CNAG_03919	Succinate dehydrogenase assembly factor 3, mitochondrial
-CNAG_04205	Bromodomain-containing protein 8
-CNAG_01017	E3 ubiquitin-protein ligase SHPRH
+CNAG_04205	Bromodomain-containing protein 8, variant
+CNAG_01017	E3 ubiquitin-protein ligase SHPRH, variant
 CNAG_04223	Uncharacterized protein
 CNAG_02667	Uncharacterized protein
 CNAG_04086	Velvet domain-containing protein
 CNAG_06793	Exonuclease 1 (EC 3.1.-.-)
 CNAG_00078	Vacuolar protein
 CNAG_02856	Potassium transport protein
-CNAG_01474	Uncharacterized protein
 CNAG_01508	Conserved oligomeric Golgi complex subunit 1
 CNAG_03411	Uncharacterized protein
-CNAG_01632	Triacylglycerol lipase
 CNAG_06432	Probable acetate kinase (EC 2.7.2.1) (Acetokinase)
 CNAG_01395	D-ribose-5-phosphate ketol-isomerase (EC 5.3.1.6) (Phosphoriboisomerase) (Ribose-5-phosphate isomerase)
 CNAG_01835	MFS domain-containing protein
 CNAG_03550	Zinc finger HIT domain-containing protein 1
 CNAG_03358	Phosphoglycerate kinase (EC 2.7.2.3)
-CNAG_01696	Chaperone DnaJ, variant
+CNAG_01696	Chaperone DnaJ
 CNAG_00151	Transcription elongation regulator 1
 CNAG_03997	Uncharacterized protein
 CNAG_01976	Large subunit ribosomal protein L23
 CNAG_04797	Signal recognition particle subunit SRP19
-CNAG_05308	Beta-catenin-like protein 1, variant
 CNAG_06903	mRNA-decapping enzyme subunit 2
-CNAG_05993	Transmembrane transporter Liz1p, variant
+CNAG_05993	Transmembrane transporter Liz1p
 CNAG_07943	Store-operated calcium entry-associated regulatory factor (Transmembrane protein 66)
 CNAG_02918	Acetyl-CoA C-acetyltransferase
 CNAG_06474	RNA-binding protein Musashi
 CNAG_04987	RING-type domain-containing protein
 CNAG_02151	Amidohydrolase
-CNAG_07830	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_02941	PARP-type domain-containing protein
 CNAG_01620	Uncharacterized protein
 CNAG_01842	Uncharacterized protein
 CNAG_05166	Helicase SWR1
@@ -3696,7 +3575,7 @@ CNAG_01195	Cation-transporting ATPase (EC 7.2.2.-)
 CNAG_06605	Small subunit ribosomal protein S2
 CNAG_03606	Eukaryotic translation initiation factor 5B (Translation initiation factor IF-2)
 CNAG_05224	Uncharacterized protein
-CNAG_07344	Ras guanyl-nucleotide exchange factor, variant
+CNAG_07344	Ras guanyl-nucleotide exchange factor
 CNAG_05738	Uncharacterized protein
 CNAG_04767	Uncharacterized protein
 CNAG_04052	DNA helicase (EC 3.6.4.12)
@@ -3737,7 +3616,6 @@ CNAG_06121	J domain-containing protein
 CNAG_07442	Phosphatidylglycerol/phosphatidylinositol transfer protein
 CNAG_01116	Beta-ketoacyl reductase
 CNAG_06017	Uncharacterized protein
-CNAG_05543	Uncharacterized protein
 CNAG_05878	Actin-related protein 2/3 complex subunit
 CNAG_03070	Compass component swd2
 CNAG_02520	DNA-directed RNA polymerase III subunit RPC4
@@ -3747,10 +3625,7 @@ CNAG_05706	Uncharacterized protein
 CNAG_02759	Uncharacterized protein
 CNAG_03078	Type I phosphodiesterase/nucleotide pyrophosphatase
 CNAG_00807	RING-type domain-containing protein
-CNAG_00634	Uncharacterized protein
-CNAG_07434	HAD hydrolase, family IIID, variant
 CNAG_04976	Zuotin
-CNAG_00305	Chaperone activator
 CNAG_03359	Cytochrome c oxidase subunit 9, mitochondrial (Cytochrome c oxidase polypeptide VIIA)
 CNAG_06080	Inositol/phosphatidylinositol phosphatase
 CNAG_02393	SH3 domain-containing protein
@@ -3790,29 +3665,22 @@ CNAG_05173	DNA-3-methyladenine glycosylase II
 CNAG_02316	RNase III domain-containing protein
 CNAG_04321	Uncharacterized protein
 CNAG_03609	Uncharacterized protein
-CNAG_05109	CBS and PB1 domain-containing protein
 CNAG_04111	Lectin, mannose-binding 2
 CNAG_06095	Large subunit ribosomal protein L13e
 CNAG_04786	Uncharacterized protein
 CNAG_03667	Uncharacterized protein
-CNAG_06156	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_00039	Uncharacterized protein
-CNAG_01278	Phospholipid-transporting ATPase (EC 7.6.2.1)
 CNAG_07323	Cactin
-CNAG_02953	Tuberin, variant
-CNAG_03534	Uncharacterized protein
 CNAG_02387	Velvet domain-containing protein
 CNAG_05590	Uncharacterized protein
 CNAG_03448	Translation initiation factor eIF-2B subunit delta
 CNAG_00190	Uncharacterized protein
 CNAG_03850	Transcriptional activator SPT7
 CNAG_07030	Uncharacterized protein
-CNAG_07332	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_01720	ESCRT-I complex subunit TSG101
 CNAG_05720	GTPase inhibitor
 CNAG_05526	Ino eighty subunit 2
 CNAG_05845	Protein FAM32A
-CNAG_01004	DH domain-containing protein
 CNAG_06631	Myosin heavy chain
 CNAG_05360	ATP-dependent RNA helicase MAK5
 CNAG_01749	Uncharacterized protein
@@ -3849,16 +3717,14 @@ CNAG_07899	Uncharacterized protein
 CNAG_05025	Amine oxidase (EC 1.4.3.-)
 CNAG_06792	Uncharacterized protein
 CNAG_04718	Nudix hydrolase domain-containing protein
-CNAG_07866	Transcription initiation factor TFIIA small subunit
+CNAG_07866	Transcription initiation factor TFIIA small subunit, variant 1 (Transcription initiation factor TFIIA small subunit, variant 2)
 CNAG_04498	Alpha-1,2-mannosidase
 CNAG_05281	Uncharacterized protein
 CNAG_02783	HIG1 domain-containing protein
 CNAG_04337	Cation diffusion facilitator
-CNAG_05586	G_PROTEIN_RECEP_F1_2 domain-containing protein
 CNAG_01628	Small subunit ribosomal protein S20
 CNAG_03631	Uncharacterized protein
 CNAG_02827	Ubiquitin-like protein Nedd8
-CNAG_03830	Uncharacterized protein
 CNAG_02257	GTP-binding nuclear protein
 CNAG_04237	ABM domain-containing protein
 CNAG_05087	SET domain-containing protein
@@ -3874,20 +3740,16 @@ CNAG_04156	Homoserine kinase (EC 2.7.1.39)
 CNAG_06808	Pheromone a factor receptor
 CNAG_00322	CRA domain-containing protein
 CNAG_01733	Pre-mRNA-processing factor 19 (EC 2.3.2.27)
-CNAG_02174	Signal recognition particle 54 kDa protein
 CNAG_05477	Protein disulfide-isomerase
-CNAG_03825	Uncharacterized protein
 CNAG_03144	Peptide-methionine (S)-S-oxide reductase (EC 1.8.4.11)
 CNAG_04889	Uncharacterized protein
 CNAG_07032	Peroxiredoxin 5, atypical 2-Cys peroxiredoxin
 CNAG_02542	Protein-ribulosamine 3-kinase (EC 2.7.1.172)
 CNAG_02884	DNA replication complex GINS protein PSF2
-CNAG_07619	ATP-binding cassette, subfamily G (WHITE), member 2, PDR, variant
+CNAG_07619	ATP-binding cassette, subfamily G (WHITE), member 2, PDR
 CNAG_04017	Peptide-methionine (R)-S-oxide reductase (EC 1.8.4.12)
-CNAG_05096	Histone deacetylase 1/2
 CNAG_06272	Uncharacterized protein
 CNAG_06265	High-affinity nicotinic acid transporter
-CNAG_05185	Uncharacterized protein
 CNAG_06882	Uncharacterized protein
 CNAG_07318	AP-1 complex subunit gamma
 CNAG_00713	V-type proton ATPase subunit H
@@ -3909,12 +3771,9 @@ CNAG_04697	Zinc finger protein
 CNAG_00835	Uncharacterized protein
 CNAG_06549	mRNA-capping enzyme subunit beta (EC 3.1.3.33) (Polynucleotide 5'-triphosphatase)
 CNAG_04908	BZIP domain-containing protein
-CNAG_07942	Cell division control protein 25, variant
 CNAG_01851	Uncharacterized protein
 CNAG_01879	Carboxypeptidase (EC 3.4.16.-)
 CNAG_01404	Hsp71-like protein
-CNAG_01608	Nuclear GTP-binding protein, variant
-CNAG_00358	tRNA dimethylallyltransferase, variant
 CNAG_05622	[Histone H3]-trimethyl-L-lysine(9) demethylase (EC 1.14.11.66)
 CNAG_02101	Uncharacterized protein
 CNAG_02118	Uncharacterized protein
@@ -3930,7 +3789,6 @@ CNAG_03046	Small RNA 2'-O-methyltransferase (EC 2.1.1.n8)
 CNAG_03149	BRCA1-associated protein
 CNAG_02747	Chaperone protein DNAJ
 CNAG_03872	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)
-CNAG_04908	BZIP domain-containing protein
 CNAG_00314	Uncharacterized protein
 CNAG_00506	Uncharacterized protein
 CNAG_03352	Uncharacterized protein
@@ -3947,7 +3805,6 @@ CNAG_04202	Cytosolic Fe-S cluster assembly factor NAR1
 CNAG_04757	Mitochondrial protein
 CNAG_05660	Uncharacterized protein
 CNAG_02938	Cytochrome c oxidase subunit 6a
-CNAG_01751	Uncharacterized protein
 CNAG_04103	Uncharacterized protein
 CNAG_04574	Dolichol phosphate-mannose biosynthesis regulatory protein
 CNAG_06266	DAO domain-containing protein
@@ -3988,18 +3845,15 @@ CNAG_07599	DNA mismatch repair protein PMS2
 CNAG_06128	Mediator of RNA polymerase II transcription subunit 7
 CNAG_02994	AMPK1_CBM domain-containing protein
 CNAG_05824	WD-repeat protein 68
-CNAG_04219	Lactoylglutathione lyase (EC 4.4.1.5) (Glyoxalase I)
 CNAG_03117	Uncharacterized protein
 CNAG_06363	Nucleolar protein
 CNAG_01878	Myo-inositol 2-dehydrogenase
 CNAG_02713	Uncharacterized protein
 CNAG_07679	Transcription elongation factor S-II
-CNAG_03032	Dynactin 2, variant
 CNAG_03654	ATP-dependent DNA helicase (EC 3.6.4.12)
 CNAG_05987	Uncharacterized protein
 CNAG_01664	CMGC/CDK/CDC2 protein kinase
 CNAG_03964	Zinc knuckle family protein
-CNAG_00937	Uncharacterized protein
 CNAG_01906	Mitochondrial distribution and morphology protein 12 (Mitochondrial inheritance component MDM12)
 CNAG_05863	Uncharacterized protein
 CNAG_01866	Uncharacterized protein
@@ -4033,7 +3887,7 @@ CNAG_03244	Uncharacterized protein
 CNAG_01270	W2 domain-containing protein
 CNAG_00977	VHS domain-containing protein
 CNAG_04434	Uncharacterized protein
-CNAG_02806	Solute carrier family 30 (Zinc transporter), member 1
+CNAG_02806	Solute carrier family 30 (Zinc transporter), member 1, variant
 CNAG_02000	Short-chain dehydrogenase
 CNAG_02471	Uncharacterized protein
 CNAG_06616	RED_N domain-containing protein
@@ -4041,7 +3895,6 @@ CNAG_00656	Large subunit ribosomal protein L7e
 CNAG_00238	Isoleucyl-tRNA synthetase (EC 6.1.1.5)
 CNAG_02583	tRNA (Guanine10-N2)-methyltransferase
 CNAG_00933	Uncharacterized protein
-CNAG_05472	Meiotic recombination protein SPO11, variant 2
 CNAG_02867	Phosphoinositide phospholipase C (EC 3.1.4.11)
 CNAG_04926	Uncharacterized protein
 CNAG_00679	Uncharacterized protein
@@ -4057,12 +3910,11 @@ CNAG_01510	Uncharacterized protein
 CNAG_00982	Uncharacterized protein
 CNAG_03538	Uncharacterized protein
 CNAG_00697	UDP-glucose 4-epimerase (EC 5.1.3.2)
-CNAG_07367	Amino acid transporter
+CNAG_07367	Amino acid transporter, variant
 CNAG_00878	Uncharacterized protein
 CNAG_03572	Opsin 1
 CNAG_03706	Serine/threonine-protein phosphatase (EC 3.1.3.16)
 CNAG_02928	Large subunit ribosomal protein L5e
-CNAG_00906	Nucleolar pre-ribosomal-associated protein 1
 CNAG_05184	Glycosyl transferase family 8 protein
 CNAG_03125	Uncharacterized protein
 CNAG_02363	SCR1 protein
@@ -4071,8 +3923,6 @@ CNAG_03858	Uncharacterized protein
 CNAG_00403	Mitochondrial protein
 CNAG_07376	Uncharacterized protein
 CNAG_02225	Glucan 1,3-beta-glucosidase
-CNAG_00303	High-affinity nicotinic acid transporter, variant
-CNAG_05017	GabA permease
 CNAG_01172	Beta_helix domain-containing protein
 CNAG_02609	Ubiquinone biosynthesis O-methyltransferase, mitochondrial (3-demethylubiquinol 3-O-methyltransferase) (EC 2.1.1.64) (Polyprenyldihydroxybenzoate methyltransferase) (EC 2.1.1.114)
 CNAG_02194	AGC/NDR protein kinase
@@ -4080,12 +3930,10 @@ CNAG_04582	Uncharacterized protein
 CNAG_02156	Uncharacterized protein
 CNAG_03269	Aldehyde dehydrogenase
 CNAG_07342	Cytoplasmic protein
-CNAG_00176	Glutamate carboxypeptidase, variant
 CNAG_04651	Uncharacterized protein
 CNAG_02737	Uncharacterized protein
 CNAG_03861	Cytochrome c oxidase subunit 5a
 CNAG_06913	L-serine ammonia-lyase
-CNAG_05386	Glutamate 5-kinase
 CNAG_05598	Uncharacterized protein
 CNAG_07987	ER membrane protein complex subunit 6
 CNAG_01864	Nudix hydrolase domain-containing protein
@@ -4095,7 +3943,6 @@ CNAG_06497	Microsomal epoxide hydrolase
 CNAG_02285	Nucleoside diphosphate kinase (EC 2.7.4.6)
 CNAG_05813	Uncharacterized protein
 CNAG_06132	Glycerol-1-phosphatase
-CNAG_03793	Uncharacterized protein
 CNAG_00067	Protein translocase SEC61 complex gamma subunit
 CNAG_05395	CNH domain-containing protein
 CNAG_00995	Uncharacterized protein
@@ -4119,7 +3966,6 @@ CNAG_00524	Acetyl-CoA acyltransferase 2
 CNAG_04236	Pyridoxal phosphate phosphatase phospho2
 CNAG_03862	Uncharacterized protein
 CNAG_01954	Aldo-keto reductase
-CNAG_05018	Abhydrolase_3 domain-containing protein
 CNAG_04470	Haloacid dehalogenase, type II
 CNAG_05916	Uncharacterized protein
 CNAG_04626	Uncharacterized protein
@@ -4131,7 +3977,6 @@ CNAG_07806	PXA domain-containing protein
 CNAG_03704	Uncharacterized protein
 CNAG_00853	Ribosomal RNA-processing protein 43
 CNAG_01769	Solute carrier family 25 (Mitochondrial aspartate/glutamate transporter), member 12/13
-CNAG_05413	Phosphatidylinositol glycan, class Q
 CNAG_06346	Barwin domain-containing protein
 CNAG_01005	Glutaredoxin
 CNAG_00038	Alcohol dehydrogenase
@@ -4146,20 +3991,16 @@ CNAG_02863	Formate dehydrogenase
 CNAG_01801	Uncharacterized protein
 CNAG_03316	Rho GDP-dissociation inhibitor
 CNAG_07471	Uncharacterized protein
-CNAG_01059	Vacuolar membrane protein, variant
 CNAG_05900	Diadenosine tetraphosphate synthetase (EC 6.1.1.14)
 CNAG_06449	Uncharacterized protein
-CNAG_02665	Uncharacterized protein
 CNAG_00061	Citrate synthase
-CNAG_02313	VPS37 C-terminal domain-containing protein
 CNAG_04034	Uncharacterized protein
 CNAG_04449	Alpha-1,6-mannosyltransferase
-CNAG_03806	Acyltransferase, variant
+CNAG_03806	Acyltransferase
 CNAG_04789	Uncharacterized protein
 CNAG_01073	Uncharacterized protein
 CNAG_06936	Beta-glucosidase (EC 3.2.1.21)
-CNAG_01341	Mannose-6-phosphate isomerase
-CNAG_03044	HD domain-containing protein
+CNAG_01341	Mannose-6-phosphate isomerase, variant
 CNAG_02298	Niemann-Pick C1 protein
 CNAG_00098	Palmitoyl-protein hydrolase 1 (EC 3.1.2.22) (Palmitoyl-protein thioesterase 1)
 CNAG_05303	Isocitrate lyase
@@ -4170,7 +4011,6 @@ CNAG_05551	Spindle pole body component
 CNAG_05727	Uncharacterized protein
 CNAG_03650	Uncharacterized protein
 CNAG_07950	Uncharacterized protein
-CNAG_04656	Arginyltransferase (EC 2.3.2.8)
 CNAG_06297	Uncharacterized protein
 CNAG_06324	Zinc finger protein
 CNAG_06999	Uncharacterized protein
@@ -4179,7 +4019,6 @@ CNAG_07364	WD-repeat protein 21A
 CNAG_06467	Uncharacterized protein
 CNAG_07589	Xylitol dehydrogenase
 CNAG_04934	NmrA domain-containing protein
-CNAG_01065	Uncharacterized protein
 CNAG_07423	Uncharacterized protein
 CNAG_03374	DNA replication complex GINS protein PSF1
 CNAG_04011	Large subunit ribosomal protein L37a
@@ -4187,13 +4026,12 @@ CNAG_06219	NEDD8-activating enzyme E1 regulatory subunit
 CNAG_04349	PlsC domain-containing protein
 CNAG_07425	RT_RNaseH_2 domain-containing protein
 CNAG_01615	Aldo-keto reductase
-CNAG_08028	Uncharacterized protein
-CNAG_03436	Alanine transaminase
+CNAG_08028	Fe2OG dioxygenase domain-containing protein
+CNAG_03436	Alanine transaminase, variant
 CNAG_00879	NAD-specific glutamate dehydrogenase (EC 1.4.1.2)
 CNAG_00924	Uncharacterized protein
 CNAG_02446	Response regulator receiver protein
 CNAG_01501	Gamma-glutamylcyclotransferase (EC 4.3.2.7)
-CNAG_05156	CFEM domain-containing protein
 CNAG_06154	Cytoplasmic protein
 CNAG_05312	Uncharacterized protein
 CNAG_07738	Uncharacterized protein
@@ -4201,7 +4039,7 @@ CNAG_00283	Uncharacterized protein
 CNAG_01359	DNA-directed RNA polymerase II subunit RPB7
 CNAG_05012	Uncharacterized protein
 CNAG_04024	Sugar transporter
-CNAG_02043	VOC domain-containing protein
+CNAG_02043	Uncharacterized protein
 CNAG_05460	2-dehydropantoate 2-reductase (EC 1.1.1.169) (Ketopantoate reductase)
 CNAG_01252	Thiosulfate/3-mercaptopyruvate sulfurtransferase
 CNAG_00359	Uncharacterized protein
@@ -4222,7 +4060,6 @@ CNAG_01610	Pep3_Vps18 domain-containing protein
 CNAG_04701	Uncharacterized protein
 CNAG_03847	Uncharacterized protein
 CNAG_01031	Protein YOP1
-CNAG_07555	Uncharacterized protein
 CNAG_06693	RING-type domain-containing protein
 CNAG_07011	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_03627	Peptidyl-prolyl cis-trans isomerase (PPIase) (EC 5.2.1.8)
@@ -4231,7 +4068,6 @@ CNAG_02169	Uncharacterized protein
 CNAG_03500	Osmosensor
 CNAG_04098	ATP-binding cassette, subfamily G (WHITE), member 2, PDR
 CNAG_03437	Uncharacterized protein
-CNAG_05304	Uncharacterized protein
 CNAG_04200	C2 domain-containing protein
 CNAG_01021	ATP phosphoribosyltransferase (EC 2.4.2.17)
 CNAG_06293	Uncharacterized protein
@@ -4242,13 +4078,10 @@ CNAG_01182	Cytoplasmic protein
 CNAG_03195	Uncharacterized protein
 CNAG_01674	MFS transporter
 CNAG_06833	Uncharacterized protein
-CNAG_02756	Geranylgeranyl transferase type-1 subunit beta, variant
-CNAG_00936	Lipid particle protein
+CNAG_00936	Lipid particle protein, variant
 CNAG_04832	RalA-binding protein 1
 CNAG_02368	SAP domain-containing protein
 CNAG_04445	40S ribosomal protein S7
-CNAG_04705	Uncharacterized protein
-CNAG_03621	Peptidyl-prolyl cis-trans isomerase (PPIase) (EC 5.2.1.8)
 CNAG_06664	Sorting nexin MVP1
 CNAG_03290	STE/STE20/YSK protein kinase
 CNAG_02153	Glucose repression regulatory protein TUP1
@@ -4256,26 +4089,21 @@ CNAG_03221	60S ribosomal protein L29
 CNAG_00095	Uncharacterized protein
 CNAG_01347	Co-chaperone
 CNAG_00601	Glycosyl hydrolase
-CNAG_06065	Inositol polyphosphate-5-phosphatase F, variant
+CNAG_06065	Inositol polyphosphate-5-phosphatase F
 CNAG_02108	GTPase activating protein
 CNAG_01233	SH3 domain-containing protein
 CNAG_02144	Ribosomal protein
-CNAG_00915	Uncharacterized protein
 CNAG_04213	Signal transducer
 CNAG_07514	Sec7 domain-containing protein
 CNAG_00875	Rab family protein
-CNAG_01334	INCENP_ARK-bind domain-containing protein
 CNAG_03060	Multiple drug resistance protein
 CNAG_01975	Helicase
 CNAG_00544	Uncharacterized protein
 CNAG_05827	Methionine-tRNA ligase, beta subunit
 CNAG_03378	C2H2-type domain-containing protein
-CNAG_01432	Ribosome assembly protein 4, variant
+CNAG_01432	Ribosome assembly protein 4
 CNAG_02844	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)
-CNAG_05928	Uncharacterized protein
 CNAG_02716	BTB domain-containing protein
-CNAG_05304	Uncharacterized protein
-CNAG_04116	Uncharacterized protein
 CNAG_04181	RNA-binding domain-containing protein, X-linked 2
 CNAG_05043	Uncharacterized protein
 CNAG_05353	Nuclear pore complex protein Nup133
@@ -4284,15 +4112,12 @@ CNAG_07580	CAMK protein kinase
 CNAG_04128	GTPase inhibitor
 CNAG_04038	MFS quinate transporter QutD
 CNAG_02771	DNA repair and recombination protein RAD54B
-CNAG_02703	C3H1-type domain-containing protein
 CNAG_05046	Uncharacterized protein
 CNAG_00187	Ubiquitin carboxyl-terminal hydrolase 1
 CNAG_00184	Pre-mRNA cleavage complex 2 protein Pcf11
 CNAG_02441	DH domain-containing protein
-CNAG_00687	Uncharacterized protein
 CNAG_05131	Uncharacterized protein
 CNAG_02800	Uncharacterized protein
-CNAG_00024	Uncharacterized protein
 CNAG_06201	Uncharacterized protein
 CNAG_00246	Uncharacterized protein
 CNAG_05703	Rho GTPase activator
@@ -4304,7 +4129,6 @@ CNAG_07380	Uncharacterized protein
 CNAG_00648	Esterase/lipase
 CNAG_05630	Uncharacterized protein
 CNAG_01025	Uncharacterized protein
-CNAG_03806	Acyltransferase
 CNAG_07612	Integrase_H2C2 domain-containing protein
 CNAG_07702	F-box domain-containing protein
 CNAG_07675	Neurofibromin 1
@@ -4340,7 +4164,6 @@ CNAG_02532	D-amino-acid oxidase
 CNAG_06125	Elongation factor 1-alpha
 CNAG_07418	Defective in cullin neddylation protein
 CNAG_02869	Uncharacterized protein
-CNAG_00536	NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 1
 CNAG_03394	Uncharacterized protein
 CNAG_00052	Uncharacterized protein
 CNAG_02976	Flavin mononucleotide kinase 1 (EC 2.7.1.26) (Riboflavin kinase)
@@ -4348,14 +4171,12 @@ CNAG_07746	Formyltetrahydrofolate synthetase (EC 1.5.1.5) (EC 3.5.4.9) (EC 6.3.4
 CNAG_05039	Rab-GAP TBC domain-containing protein
 CNAG_03940	Elongator complex protein 2
 CNAG_00159	Uncharacterized protein
-CNAG_03914	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_06464	Uncharacterized protein
 CNAG_07998	Uncharacterized protein
 CNAG_06805	Uncharacterized protein
 CNAG_01049	H/ACA ribonucleoprotein complex subunit NOP10 (Nucleolar protein 10) (Nucleolar protein family A member 3) (snoRNP protein NOP10)
 CNAG_04209	Voltage-gated potassium channel protein beta-2 subunit
 CNAG_04900	Probable cytosolic iron-sulfur protein assembly protein 1
-CNAG_03953	Sua5/YciO/YrdC/YwlC family protein
 CNAG_07801	Aldo-keto reductase
 CNAG_07829	Uncharacterized protein
 CNAG_05084	Phospholipase A-2-activating protein
@@ -4403,12 +4224,10 @@ CNAG_02479	Monosaccharide transporter
 CNAG_02982	U3 small nucleolar RNA-associated protein 13
 CNAG_02517	CxC1 domain-containing protein
 CNAG_05263	RT_RNaseH domain-containing protein
-CNAG_01055	Phospholipid transporter
 CNAG_02826	Amino-acid acetyltransferase, mitochondrial
 CNAG_02327	Xaa-Pro dipeptidase
 CNAG_03054	Uncharacterized protein
 CNAG_01763	Cytoplasmic protein
-CNAG_07520	Endopeptidase, variant 2
 CNAG_04152	Protein phosphatase methylesterase 1 (PME-1) (EC 3.1.1.-)
 CNAG_07861	Fe2OG dioxygenase domain-containing protein
 CNAG_06745	Histone H3
@@ -4418,7 +4237,6 @@ CNAG_07570	Prenylated SNARE protein Ykt6p
 CNAG_04907	Uncharacterized protein
 CNAG_05932	Peptidyl-prolyl cis-trans isomerase D
 CNAG_07534	Uncharacterized protein
-CNAG_07950	Uncharacterized protein
 CNAG_00508	Vacuolar protein sorting-associated protein vps17
 CNAG_03388	Nuclear protein
 CNAG_05511	ATPase
@@ -4446,7 +4264,6 @@ CNAG_02483	Uncharacterized protein
 CNAG_01574	Uncharacterized protein
 CNAG_05684	Uncharacterized protein
 CNAG_00895	Solute carrier family 39 (Zinc transporter), member 1/2/3
-CNAG_03239	Uncharacterized protein
 CNAG_02293	Uncharacterized protein
 CNAG_02358	MRP family ATP-binding protein
 CNAG_00165	S-methyl-5'-thioadenosine phosphorylase (EC 2.4.2.28) (5'-methylthioadenosine phosphorylase) (MTA phosphorylase) (MTAP) (MTAPase)
@@ -4455,7 +4272,6 @@ CNAG_02828	Uncharacterized protein
 CNAG_01322	WHIM1 domain-containing protein
 CNAG_00554	Inositol phosphorylsphingolipid-phospholipase C
 CNAG_06011	Uncharacterized protein
-CNAG_01060	RRM domain-containing protein
 CNAG_04172	Transcription factor C subunit 6
 CNAG_02141	Uncharacterized protein
 CNAG_05663	Cell wall integrity protein scw1
@@ -4471,7 +4287,6 @@ CNAG_02494	Carboxypeptidase D
 CNAG_06058	Protein DGCR14
 CNAG_04638	Uncharacterized protein
 CNAG_01985	Uncharacterized protein
-CNAG_03345	DIS3-like exonuclease 2 (EC 3.1.13.-)
 CNAG_06165	Sterility protein Ste20
 CNAG_04122	Galactose dehydrogenase
 CNAG_04674	Transcriptional adapter 3
@@ -4480,7 +4295,6 @@ CNAG_05788	V-type proton ATPase subunit G
 CNAG_03780	Small subunit ribosomal protein S16
 CNAG_00423	Kinetochore protein Spc24
 CNAG_01843	Elongation factor Ts, mitochondrial (EF-Ts) (EF-TsMt)
-CNAG_06161	PIPK domain-containing protein
 CNAG_03723	Actin-related protein 8
 CNAG_05646	MHYT domain-containing protein
 CNAG_06706	Proline-, glutamic acid-and leucine-rich protein 1
@@ -4510,7 +4324,6 @@ CNAG_02241	Uncharacterized protein
 CNAG_04504	Uncharacterized protein
 CNAG_03518	Flavin prenyltransferase PAD1, mitochondrial (EC 2.5.1.129)
 CNAG_05576	Uncharacterized protein
-CNAG_04813	V-type ATPase, C subunit, variant
 CNAG_03937	Uncharacterized protein
 CNAG_05854	Uncharacterized protein
 CNAG_02993	Solute carrier family 39 (Zinc transporter), member 7
@@ -4523,16 +4336,13 @@ CNAG_05163	Exoribonuclease II
 CNAG_06874	HpcH/HpaI aldolase/citrate lyase
 CNAG_02270	Homoserine O-acetyltransferase
 CNAG_07393	Uncharacterized protein
-CNAG_02324	Uncharacterized protein
 CNAG_03223	Uncharacterized protein
 CNAG_07742	Uncharacterized protein
 CNAG_04417	Alpha-ketoglutarate-dependent 2,4-dichlorophenoxyacetate dioxygenase
 CNAG_00711	NTP_transf_9 domain-containing protein
-CNAG_03016	Chaperone regulator, variant
 CNAG_03746	Uncharacterized protein
 CNAG_00976	Carbamoyl-phosphate synthase (glutamine-hydrolyzing) (EC 6.3.5.5)
 CNAG_03867	Uncharacterized protein
-CNAG_06050	UDP-glucose 4-epimerase (EC 5.1.3.2)
 CNAG_06141	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dUTPase) (EC 3.6.1.23) (dUTP pyrophosphatase)
 CNAG_03454	Uncharacterized protein
 CNAG_02968	PLCXc domain-containing protein
@@ -4544,7 +4354,7 @@ CNAG_00262	Uncharacterized protein
 CNAG_07760	Uncharacterized protein
 CNAG_00850	Plant-inducible protein
 CNAG_03832	Alpha 1,2-mannosyltransferase
-CNAG_00284	Efflux protein EncT, variant
+CNAG_00284	Efflux protein EncT
 CNAG_05288	Checkpoint protein
 CNAG_03687	Uncharacterized protein
 CNAG_04695	Uncharacterized protein
@@ -4559,7 +4369,6 @@ CNAG_04967	Glyco_hydro_79C domain-containing protein
 CNAG_07611	Uncharacterized protein
 CNAG_06609	FAD_binding_3 domain-containing protein
 CNAG_03412	Chitinase (EC 3.2.1.14)
-CNAG_05288	Checkpoint protein
 CNAG_00827	Ribose 5-phosphate isomerase
 CNAG_02556	Phytanoyl-CoA dioxygenase
 CNAG_04142	Tartrate transporter
@@ -4567,10 +4376,9 @@ CNAG_07028	26S proteasome regulatory subunit RPN11
 CNAG_05339	Uncharacterized protein
 CNAG_00673	Cytoplasmic protein
 CNAG_00688	4HBT domain-containing protein
-CNAG_02203	Karyopherin/importin that interacts with the nuclear pore complex, variant
+CNAG_02203	Karyopherin/importin that interacts with the nuclear pore complex
 CNAG_04898	MFS transporter
 CNAG_07350	Uncharacterized protein
-CNAG_05061	Uncharacterized protein
 CNAG_02266	NADH-quinone oxidoreductase subunit B 2
 CNAG_03882	Uncharacterized protein
 CNAG_01870	Probable electron transfer flavoprotein subunit beta
@@ -4626,14 +4434,13 @@ CNAG_06708	dCMP deaminase
 CNAG_00048	Sugar transporter
 CNAG_01139	Uncharacterized protein
 CNAG_01389	Cep57_MT_bd domain-containing protein
-CNAG_00024	Uncharacterized protein
 CNAG_05461	L-lactate dehydrogenase (Cytochrome)
 CNAG_00316	Inosine triphosphate pyrophosphatase (ITPase) (Inosine triphosphatase) (EC 3.6.1.9) (Non-canonical purine NTP pyrophosphatase) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)
 CNAG_04698	Cytoplasmic protein
 CNAG_05199	Chaperone DnaK
 CNAG_01850	Histidine kinase (EC 2.7.13.3)
 CNAG_03822	Tafazzin family protein
-CNAG_05026	Mango esterase
+CNAG_05026	Mango esterase, variant 1 (Mango esterase, variant 2)
 CNAG_02199	Uncharacterized protein
 CNAG_03264	Uncharacterized protein
 CNAG_03618	NADPH2:quinone reductase
@@ -4645,7 +4452,7 @@ CNAG_06914	Tubulin gamma chain
 CNAG_01123	DRAP deaminase
 CNAG_04486	Uncharacterized protein
 CNAG_00125	Uncharacterized protein
-CNAG_02841	Cytochrome P450 monooxygenase pc-2, variant
+CNAG_02841	Cytochrome P450 monooxygenase pc-2
 CNAG_04682	DNA replication complex GINS protein PSF3
 CNAG_05804	Nuclear pore complex protein Nup188
 CNAG_06133	Uncharacterized protein
@@ -4662,9 +4469,7 @@ CNAG_05326	Uncharacterized protein
 CNAG_04927	PRK domain-containing protein
 CNAG_07856	Uncharacterized protein
 CNAG_00589	5-formyltetrahydrofolate cyclo-ligase
-CNAG_01493	Uncharacterized protein
 CNAG_06056	Uncharacterized protein
-CNAG_02420	DH domain-containing protein
 CNAG_04045	Uncharacterized protein
 CNAG_04069	U4/U6 small nuclear ribonucleoprotein PRP31
 CNAG_04173	Uncharacterized protein
@@ -4677,7 +4482,6 @@ CNAG_05640	Metal iron transporter
 CNAG_02824	Protein arginine methyltransferase NDUFAF7 (EC 2.1.1.320)
 CNAG_02016	Uncharacterized protein
 CNAG_05158	Uncharacterized protein
-CNAG_00681	Condensin complex subunit 3
 CNAG_07325	Uncharacterized protein
 CNAG_05691	Dolichyl-diphosphooligosaccharide-protein glycosyltransferase subunit OST5
 CNAG_01828	Compass component swd1
@@ -4694,7 +4498,6 @@ CNAG_06193	CMGC/RCK protein kinase
 CNAG_00107	MCU domain-containing protein
 CNAG_03675	Pumilio domain-containing protein
 CNAG_07473	Valyl-tRNA synthetase (EC 6.1.1.9)
-CNAG_06450	UBA domain-containing protein
 CNAG_06206	ATP-dependent RNA helicase DBP9
 CNAG_04282	Mitogen-activated protein kinase (EC 2.7.11.24)
 CNAG_00101	Uncharacterized protein
@@ -4713,19 +4516,15 @@ CNAG_00863	Flavin-containing monooxygenase
 CNAG_02307	L-serine ammonia-lyase
 CNAG_00510	Prefoldin subunit 2
 CNAG_01563	Histone deacetylase (EC 3.5.1.98)
-CNAG_01823	Inositol-1-monophosphatase (EC 3.1.3.25)
 CNAG_05822	Decapping nuclease (EC 3.6.1.-)
-CNAG_04504	Uncharacterized protein
 CNAG_05024	L-xylulose reductase
 CNAG_03639	Uncharacterized protein
 CNAG_00726	MFS domain-containing protein
 CNAG_03979	GPN-loop GTPase 3
 CNAG_05299	Oxidoreductase
 CNAG_01349	Uncharacterized protein
-CNAG_01793	Uncharacterized protein
 CNAG_01581	Uncharacterized protein
 CNAG_01915	Ribonucleoside-diphosphate reductase subunit M2
-CNAG_01570	Methyltransf_11 domain-containing protein
 CNAG_00502	Large subunit ribosomal protein L35
 CNAG_00421	Charged multivesicular body protein 3
 CNAG_02979	Fe2OG dioxygenase domain-containing protein
@@ -4737,21 +4536,20 @@ CNAG_07720	Presequence translocated-associated motor subunit PAM17
 CNAG_00999	Uncharacterized protein
 CNAG_05739	SGL domain-containing protein
 CNAG_03960	Gly-Xaa carboxypeptidase
-CNAG_06292	Sugar transporter, variant 2
+CNAG_06292	Sugar transporter (Sugar transporter, variant 1)
 CNAG_03770	Uncharacterized protein
 CNAG_03387	Uncharacterized protein
 CNAG_04876	Endo-1,3(4)-beta-glucanase
 CNAG_07598	Importin-alpha export receptor
 CNAG_06809	IKS protein kinase
 CNAG_07668	MARVEL domain-containing protein
-CNAG_06653	GAF domain-containing protein
 CNAG_04847	Uncharacterized protein
 CNAG_01164	D-fructose-6-phosphate amidotransferase (EC 2.6.1.16) (Hexosephosphate aminotransferase)
 CNAG_06076	Cytoplasmic protein
 CNAG_06015	Uncharacterized protein
-CNAG_05081	Phosphodiesterase, variant
+CNAG_05081	Phosphodiesterase
 CNAG_01855	Uncharacterized protein
-CNAG_02859	NADH kinase, variant 3
+CNAG_02859	NADH kinase (NADH kinase, variant 1) (NADH kinase, variant 2)
 CNAG_01777	Glyoxylate reductase
 CNAG_02602	Flavonol synthase
 CNAG_07403	Peroxin-1
@@ -4782,17 +4580,14 @@ CNAG_06120	Cardiolipin synthase
 CNAG_02031	Uncharacterized protein
 CNAG_07586	Uncharacterized protein
 CNAG_01529	Solute carrier family 25 (Mitochondrial phosphate transporter), member 23/24/25/41
-CNAG_06074	Cytoplasmic protein
+CNAG_06074	Cytoplasmic protein, variant
 CNAG_02796	Phospho-2-dehydro-3-deoxyheptonate aldolase (EC 2.5.1.54)
-CNAG_01432	Ribosome assembly protein 4
 CNAG_04725	Uncharacterized protein
 CNAG_01096	Uncharacterized protein
 CNAG_01130	Uncharacterized protein
-CNAG_07730	Tricarboxylate transporter, variant
 CNAG_06455	Uncharacterized protein
 CNAG_06350	Uncharacterized protein
 CNAG_06447	Large subunit ribosomal protein L22
-CNAG_04205	Bromodomain-containing protein 8, variant
 CNAG_07903	Uncharacterized protein
 CNAG_03289	Methionine aminopeptidase 2 (MAP 2) (MetAP 2) (EC 3.4.11.18) (Peptidase M)
 CNAG_03431	Nuclear protein
@@ -4801,7 +4596,6 @@ CNAG_00469	Endoplasmic reticulum protein
 CNAG_05819	GLTSCR1 domain-containing protein
 CNAG_03905	Transcription elongation factor 1 homolog
 CNAG_01003	NADPH--cytochrome P450 reductase (CPR) (P450R) (EC 1.6.2.4)
-CNAG_03404	Uncharacterized protein
 CNAG_04376	Protein KRI1
 CNAG_07957	WD repeat and SOF domain-containing protein 1
 CNAG_01965	Zn(2)-C6 fungal-type domain-containing protein
@@ -4813,11 +4607,10 @@ CNAG_06374	Malic enzyme
 CNAG_06023	DUF4604 domain-containing protein
 CNAG_07646	Autophagy-related protein 101
 CNAG_04201	Uncharacterized protein
-CNAG_05748	NuA3 HAT complex component NTO1
+CNAG_05748	NuA3 HAT complex component NTO1, variant
 CNAG_00667	Uncharacterized protein
 CNAG_04364	Dolichyl-diphosphooligosaccharide--protein glycotransferase (EC 2.4.99.18)
 CNAG_06444	Signal peptidase subunit 3 (EC 3.4.-.-)
-CNAG_06065	Inositol polyphosphate-5-phosphatase F
 CNAG_02770	Transcription initiation factor TFIID subunit 11
 CNAG_07898	Uncharacterized protein
 CNAG_04857	Uncharacterized protein
@@ -4833,22 +4626,18 @@ CNAG_07886	Uncharacterized protein
 CNAG_01477	Serine palmitoyltransferase
 CNAG_03015	Ribosomal protein L37
 CNAG_00744	Alpha 1,6-mannosyltransferase
-CNAG_05238	Uncharacterized protein
 CNAG_07954	Uncharacterized protein
 CNAG_06638	Malic enzyme
 CNAG_04244	Uncharacterized protein
 CNAG_07872	Uncharacterized protein
 CNAG_02816	Nuclear pore protein
 CNAG_05667	MFS transporter, SP family, solute carrier family 2 (Myo-inositol transporter), member 13
-CNAG_00736	Exocyst complex component SEC5
-CNAG_04177	COP9 signalosome complex subunit 7
 CNAG_01119	POT family proton-dependent oligopeptide transporter
 CNAG_04735	Extracellular metalloproteinase (EC 3.4.24.-) (Fungalysin)
 CNAG_04595	Uncharacterized protein
 CNAG_00016	U6 snRNA-associated Sm-like protein LSm5
 CNAG_06059	Cytoplasmic protein
 CNAG_01170	Small subunit ribosomal protein S17
-CNAG_06117	Uncharacterized protein
 CNAG_00253	Exocyst complex component SEC15
 CNAG_01257	Aldo-keto reductase
 CNAG_04468	D-malate dehydrogenase [decarboxylating] (EC 1.1.1.83)
@@ -4865,7 +4654,6 @@ CNAG_02803	Uncharacterized protein
 CNAG_06319	Uncharacterized protein
 CNAG_05086	Ubiquitin-related modifier 1
 CNAG_05162	V-type proton ATPase subunit E
-CNAG_04440	Thiamine pyrophosphokinase, variant
 CNAG_04073	Uncharacterized protein
 CNAG_05626	Thioredoxin domain-containing protein
 CNAG_01177	Nuclear envelope-endoplasmic reticulum network protein
@@ -4879,12 +4667,10 @@ CNAG_02845	Lactamase_B domain-containing protein
 CNAG_03337	Uncharacterized protein
 CNAG_01936	Sugar transporter
 CNAG_03956	Replication factor C subunit 3/5
-CNAG_03519	Ferulic acid decarboxylase 1 (EC 4.1.1.102) (Phenacrylate decarboxylase)
 CNAG_07709	Uncharacterized protein
 CNAG_03353	Uncharacterized protein
 CNAG_02708	Prenylcysteine oxidase/farnesylcysteine lyase
 CNAG_03990	Uncharacterized protein
-CNAG_03713	Efflux protein EncT
 CNAG_00481	Uncharacterized protein
 CNAG_01245	Uncharacterized protein
 CNAG_02515	Transmembrane protein 188
@@ -4895,10 +4681,8 @@ CNAG_05225	Bud site selection protein 31
 CNAG_04404	Uncharacterized protein
 CNAG_04002	BAR domain-containing protein
 CNAG_01961	MSP domain-containing protein
-CNAG_01073	Uncharacterized protein
 CNAG_01635	Uncharacterized protein
 CNAG_00452	Isovaleryl-CoA dehydrogenase
-CNAG_05500	Uncharacterized protein
 CNAG_06848	ATP synthase subunit 9, mitochondrial (Lipid-binding protein)
 CNAG_05444	NADPH dehydrogenase
 CNAG_00517	Uncharacterized protein
@@ -4909,13 +4693,10 @@ CNAG_05534	Pyridoxal reductase
 CNAG_06267	Uncharacterized protein
 CNAG_00329	NADH dehydrogenase (Ubiquinone) 1 beta subcomplex 8
 CNAG_04416	Major facilitator superfamily transporter
-CNAG_01604	TIGR01458 family HAD hydrolase
 CNAG_05140	Methylenetetrahydrofolate reductase (EC 1.5.1.20)
 CNAG_06396	Uncharacterized protein
 CNAG_06704	Uncharacterized protein
-CNAG_03037	Uncharacterized protein
 CNAG_05580	Uncharacterized protein
-CNAG_02253	Uncharacterized protein
 CNAG_06028	Uncharacterized protein
 CNAG_05072	Endopeptidase
 CNAG_01038	Uncharacterized protein
@@ -4923,7 +4704,6 @@ CNAG_01140	ATP-dependent RNA helicase DRS1
 CNAG_06537	Monocarboxylic acid transporter
 CNAG_07347	Heat shock protein
 CNAG_00759	Uncharacterized protein
-CNAG_06149	Uncharacterized protein
 CNAG_07734	Uncharacterized protein
 CNAG_00626	Uncharacterized protein
 CNAG_03197	Uncharacterized protein
@@ -4939,7 +4719,6 @@ CNAG_05063	MAP kinase kinase kinase (EC 2.7.11.-)
 CNAG_03603	ATP-dependent RNA helicase HAS1
 CNAG_04302	NUDE_C domain-containing protein
 CNAG_04162	AGC/PKA protein kinase
-CNAG_02810	Pumilio-family RNA binding protein
 CNAG_07887	WW domain-containing protein
 CNAG_01856	Uncharacterized protein
 CNAG_06289	VWFA domain-containing protein
@@ -4947,7 +4726,6 @@ CNAG_06096	Tricarboxylate carrier
 CNAG_05523	Uncharacterized protein
 CNAG_05768	DUF1752 domain-containing protein
 CNAG_05071	Sulfite reductase (NADPH) hemoprotein beta-component
-CNAG_03314	YTH domain family 2
 CNAG_01382	Glutamyl-tRNA(Gln) amidotransferase subunit A, mitochondrial (Glu-AdT subunit A) (EC 6.3.5.7)
 CNAG_04303	E3 ubiquitin protein ligase (EC 2.3.2.27)
 CNAG_00594	Lipid particle protein
@@ -4959,7 +4737,6 @@ CNAG_02666	Uncharacterized protein
 CNAG_08019	Uncharacterized protein
 CNAG_01369	Uncharacterized protein
 CNAG_02386	Uncharacterized protein
-CNAG_02253	Uncharacterized protein
 CNAG_03612	Threonine synthase (EC 4.2.3.1)
 CNAG_04396	Uncharacterized protein
 CNAG_05965	DAGKc domain-containing protein
@@ -4970,37 +4747,30 @@ CNAG_06471	Small subunit ribosomal protein S12
 CNAG_06286	Cupin type-1 domain-containing protein
 CNAG_00315	HHE domain-containing protein
 CNAG_00399	Transformer-2-beta isoform 3
-CNAG_02552	Transketolase (EC 2.2.1.1)
-CNAG_05281	Uncharacterized protein
 CNAG_06494	Cold-induced thioredoxin domain-containing protein
 CNAG_01452	Uncharacterized protein
 CNAG_04753	Gluconolactonase
 CNAG_07713	Uncharacterized protein
 CNAG_06873	5-oxoprolinase
 CNAG_03854	Lysine decarboxylase
-CNAG_00284	Efflux protein EncT
 CNAG_07698	Uncharacterized protein
 CNAG_01112	Xenobiotic reductase
 CNAG_06561	Allantoate transporter
-CNAG_03043	Uncharacterized protein
 CNAG_03051	Polyamine transporter
 CNAG_00157	Uncharacterized protein
 CNAG_05483	Prefoldin beta subunit
 CNAG_04564	Phytanoyl-CoA dioxygenase
-CNAG_03883	Uncharacterized protein
 CNAG_01645	Uncharacterized protein
 CNAG_04799	Large subunit ribosomal protein L14e
 CNAG_01611	RGS domain-containing protein
 CNAG_01008	Uncharacterized protein
 CNAG_06733	WD_REPEATS_REGION domain-containing protein
-CNAG_01675	Fructose-bisphosphate aldolase (FBP aldolase) (EC 4.1.2.13)
 CNAG_06865	Translation machinery-associated protein 16
 CNAG_01680	3-methylcrotonyl-CoA carboxylase alpha subunit
 CNAG_01931	Uncharacterized protein
 CNAG_02120	TIGR01456 family HAD hydrolase
 CNAG_00243	Uncharacterized protein
 CNAG_00251	Uncharacterized protein
-CNAG_06503	Uridine permease, variant
 CNAG_04369	Uncharacterized protein
 CNAG_03865	Cytoplasmic protein
 CNAG_06596	Uncharacterized protein
@@ -5013,12 +4783,9 @@ CNAG_05802	D-aspartate oxidase
 CNAG_06634	DNA polymerase epsilon subunit (DNA polymerase II subunit 2)
 CNAG_01420	Uncharacterized protein
 CNAG_03760	Uncharacterized protein
-CNAG_07711	Uncharacterized protein
 CNAG_02540	MFS domain-containing protein
-CNAG_06978	Cytoplasmic protein, variant
 CNAG_00582	Vacuolar transporter chaperone 1
 CNAG_06387	Cullin 1
-CNAG_00889	Uncharacterized protein
 CNAG_04654	UNC-50 family protein
 CNAG_04118	CMGC/CDK/CRK7 protein kinase
 CNAG_00743	Imidazole glycerol phosphate synthase hisHF [Includes: Glutaminase (EC 3.5.1.2); Cyclase]
@@ -5032,7 +4799,6 @@ CNAG_06817	NCS2 family nucleobase:cation symporter-2
 CNAG_02032	Nuclear export factor
 CNAG_00904	Aflatoxin efflux pump AFLT
 CNAG_04788	Uncharacterized protein
-CNAG_04028	RNA binding protein
 CNAG_01183	Uncharacterized protein
 CNAG_01203	Protein-tyrosine-phosphatase (EC 3.1.3.48)
 CNAG_01554	Sorting nexin-4
@@ -5047,8 +4813,7 @@ CNAG_02691	BAG domain-containing protein
 CNAG_00708	Pre-mRNA-splicing factor SLT11
 CNAG_02480	Cell cycle checkpoint control protein RAD9A
 CNAG_02478	Glycerol dehydrogenase
-CNAG_01029	Impact family protein
-CNAG_01725	Uncharacterized protein
+CNAG_01029	Impact family protein, variant
 CNAG_03592	Phosphomethylpyrimidine kinase
 CNAG_06876	Alpha-ketoglutarate-dependent taurine dioxygenase
 CNAG_02799	Dihydroxyacetone kinase
@@ -5069,16 +4834,14 @@ CNAG_07819	Uncharacterized protein
 CNAG_07313	Uncharacterized protein
 CNAG_03114	Uncharacterized protein
 CNAG_00453	Mitochondrial protein
-CNAG_02552	Transketolase (EC 2.2.1.1)
 CNAG_04217	Phosphoenolpyruvate carboxykinase (ATP) (EC 4.1.1.49)
 CNAG_04773	Uncharacterized protein
 CNAG_04766	Uncharacterized protein
-CNAG_04468	D-malate dehydrogenase [decarboxylating] (EC 1.1.1.83)
 CNAG_02012	TPR repeat-containing protein
 CNAG_01121	Uncharacterized protein
 CNAG_03591	Rab GDP dissociation inhibitor
 CNAG_00596	GH16 domain-containing protein
-CNAG_00026	Kynurenine aminotransferase, variant
+CNAG_00026	Kynurenine aminotransferase
 CNAG_03709	RRM domain-containing protein
 CNAG_00269	Sorbitol dehydrogenase
 CNAG_00692	FAD dependent oxidoreductase
@@ -5089,7 +4852,6 @@ CNAG_02712	Non-specific serine/threonine protein kinase (EC 2.7.11.1)
 CNAG_00064	COPII-coated vesicle protein
 CNAG_06435	RRM domain-containing protein
 CNAG_00330	Transcription factor TFIIIB component b
-CNAG_00257	Kinesin family member 21A, variant
 CNAG_02315	Cytochrome b-c1 complex subunit Rieske, mitochondrial (EC 7.1.1.8)
 CNAG_02744	Uncharacterized protein
 CNAG_07978	Uncharacterized protein
@@ -5110,7 +4872,7 @@ CNAG_00782	STE/STE20/Fray protein kinase
 CNAG_05557	Maintenance of mitochondrial morphology protein 1
 CNAG_02912	Uncharacterized protein
 CNAG_02657	Eukaryotic translation initiation factor 3 subunit G (eIF3g) (Eukaryotic translation initiation factor 3 RNA-binding subunit) (eIF-3 RNA-binding subunit) (Translation initiation factor eIF3 p33 subunit homolog) (eIF3 p33 homolog)
-CNAG_06622	Yippee domain-containing protein
+CNAG_06622	Protein yippee-like
 CNAG_04478	Uncharacterized protein
 CNAG_02721	Leucine repeat containing protein
 CNAG_04933	Uncharacterized protein
@@ -5126,12 +4888,10 @@ CNAG_00240	ARID domain-containing protein
 CNAG_02361	MFS transporter, ACS family, pantothenate transporter
 CNAG_01241	Enzyme regulator
 CNAG_01722	Vacuolar protein sorting-associated protein
-CNAG_03913	Uncharacterized protein
 CNAG_03587	RIC1 domain-containing protein
 CNAG_06652	Allantoate permease
 CNAG_03479	Uncharacterized protein
 CNAG_06944	Uncharacterized protein
-CNAG_03086	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_01125	Uncharacterized protein
 CNAG_06007	U3 small nucleolar RNA-associated protein 23
 CNAG_01841	GATA-type domain-containing protein
@@ -5146,19 +4906,17 @@ CNAG_05909	Cytochrome c1, heme protein, mitochondrial
 CNAG_03525	Trehalase (EC 3.2.1.28) (Alpha-trehalose glucohydrolase)
 CNAG_02060	Uncharacterized protein
 CNAG_07643	Uncharacterized protein
-CNAG_07950	Uncharacterized protein
 CNAG_00237	3-isopropylmalate dehydratase (EC 4.2.1.33) (Alpha-IPM isomerase) (Isopropylmalate isomerase)
 CNAG_06329	High-affinity nicotinic acid transporter
 CNAG_00671	Cytoplasmic protein
 CNAG_05644	2-nitropropane dioxygenase
-CNAG_01690	MFS transporter
+CNAG_01690	MFS transporter, variant 1 (MFS transporter, variant 2)
 CNAG_03838	MFS domain-containing protein
 CNAG_00122	Alpha-amylase (EC 3.2.1.1)
 CNAG_05424	Uncharacterized protein
 CNAG_07455	Uncharacterized protein
 CNAG_06677	Uncharacterized protein
 CNAG_07388	Uncharacterized protein
-CNAG_04690	Acylpyruvate hydrolase, variant
 CNAG_06593	Rhamnogalacturonan endolyase (EC 4.2.2.23)
 CNAG_05554	Cytochrome b5
 CNAG_06696	Protein phosphatase PP2A regulatory subunit B
@@ -5170,7 +4928,6 @@ CNAG_05252	Chaperone regulator
 CNAG_05432	Uncharacterized protein
 CNAG_00723	Uncharacterized protein
 CNAG_05197	NADH-ubiquinone oxidoreductase
-CNAG_02994	AMPK1_CBM domain-containing protein
 CNAG_05602	Multifunctional fusion protein [Includes: L-glutamate gamma-semialdehyde dehydrogenase (EC 1.2.1.88) (L-glutamate gamma-semialdehyde dehydrogenase); Delta-1-pyrroline-5-carboxylate dehydrogenase (P5C dehydrogenase)]
 CNAG_05898	Precorrin-2 dehydrogenase (EC 1.3.1.76)
 CNAG_02067	GDT1 family protein
@@ -5200,10 +4957,8 @@ CNAG_01307	Endoplasmic reticulum transmembrane protein
 CNAG_05931	Protein BTN
 CNAG_00917	Alkylbase DNA N-glycosylase
 CNAG_04257	Uncharacterized protein
-CNAG_07725	HMG box factor
 CNAG_03156	Uncharacterized protein
 CNAG_04636	Metacaspase-1
-CNAG_05298	Uncharacterized protein
 CNAG_06534	3-hydroxy-3-methylglutaryl coenzyme A reductase (HMG-CoA reductase) (EC 1.1.1.34)
 CNAG_04702	Mediator complex subunit 12 (Mediator of RNA polymerase II transcription subunit 12)
 CNAG_04870	Uncharacterized protein
@@ -5217,7 +4972,6 @@ CNAG_04405	Cyclin H
 CNAG_00604	RING-type domain-containing protein
 CNAG_00497	Uncharacterized protein
 CNAG_01371	Uncharacterized protein
-CNAG_06185	Uncharacterized protein
 CNAG_02175	5'-3' exoribonuclease 1 (EC 3.1.13.-)
 CNAG_03295	CBM21 domain-containing protein
 CNAG_05292	Alpha,alpha-trehalose-phosphate synthase (UDP-forming)
@@ -5228,7 +4982,6 @@ CNAG_07319	Uncharacterized protein
 CNAG_02785	Abhydrolase_3 domain-containing protein
 CNAG_00718	Chromatin assembly factor 1 subunit B
 CNAG_01037	DNA mismatch repair protein MLH3
-CNAG_02527	Multidrug transporter
 CNAG_07688	UAS domain-containing protein
 CNAG_02684	Uncharacterized protein
 CNAG_05531	DNA excision repair protein ERCC-4
@@ -5241,7 +4994,6 @@ CNAG_07336	Uncharacterized protein
 CNAG_01944	Uncharacterized protein
 CNAG_07513	B-block_TFIIIC domain-containing protein
 CNAG_02288	Solute carrier family 25 (Mitochondrial citrate transporter), member 1
-CNAG_02806	Solute carrier family 30 (Zinc transporter), member 1, variant
 CNAG_06244	Uncharacterized protein
 CNAG_00385	Proteasome subunit beta
 CNAG_05605	DEAD box family helicase
@@ -5260,7 +5012,6 @@ CNAG_00662	Carboxymethylenebutenolidase
 CNAG_02008	Nuclear protein
 CNAG_07579	Cytoplasmic protein
 CNAG_07745	Alcohol dehydrogenase, propanol-preferring
-CNAG_03414	Exonuclease domain-containing protein
 CNAG_01455	60S ribosomal protein L39
 CNAG_05302	Amine oxidase
 CNAG_07999	Uncharacterized protein
@@ -5273,8 +5024,6 @@ CNAG_05427	Guanine nucleotide-binding protein subunit gamma
 CNAG_05615	Syntaxin 1B/2/3
 CNAG_01546	S-adenosylmethionine-dependent methyltransferase
 CNAG_00590	p-aminobenzoic acid synthase (EC 2.6.1.85) (Para-aminobenzoate synthase)
-CNAG_00968	Fe2OG dioxygenase domain-containing protein
-CNAG_05286	acidPPc domain-containing protein
 CNAG_02405	Uncharacterized protein
 CNAG_07671	Uncharacterized protein
 CNAG_07422	Delayed-type hypersensitivity antigen
@@ -5301,8 +5050,6 @@ CNAG_02879	Chloride channel protein, nucleotide-sensitive, 1A
 CNAG_02991	Actin-depolymerizing factor 1 (Cofilin)
 CNAG_06330	Fe2OG dioxygenase domain-containing protein
 CNAG_07831	Uncharacterized protein
-CNAG_00026	Kynurenine aminotransferase
-CNAG_02174	Signal recognition particle 54 kDa protein
 CNAG_03635	Uncharacterized protein
 CNAG_00425	Uncharacterized protein
 CNAG_02123	Methionyl-tRNA formyltransferase (EC 2.1.2.9)
@@ -5313,13 +5060,10 @@ CNAG_07354	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)
 CNAG_04399	Pyridoxal phosphate homeostasis protein (PLP homeostasis protein)
 CNAG_02172	E3 ubiquitin-protein ligase (EC 2.3.2.27)
 CNAG_02181	Dihydrokaempferol 4-reductase
-CNAG_02010	Tartrate transporter, variant
 CNAG_03183	Nuclear protein
-CNAG_04907	Uncharacterized protein
 CNAG_04341	Recyclin-1
 CNAG_01711	Glycerol-3-phosphate O-acyltransferase/dihydroxyacetone phosphate acyltransferase
 CNAG_05988	Uncharacterized protein
-CNAG_04970	Uncharacterized protein
 CNAG_03699	Pre-mRNA-processing ATP-dependent RNA helicase PRP5
 CNAG_01188	Peroxin-19
 CNAG_01454	Transcription factor STE12
@@ -5330,13 +5074,11 @@ CNAG_01149	Uncharacterized protein
 CNAG_06175	26S proteasome regulatory subunit RPN2
 CNAG_03769	Phosphotransferase (EC 2.7.1.-)
 CNAG_04398	Specific RNA polymerase II transcription factor
-CNAG_00392	Kelch repeat-containing protein
+CNAG_00392	Kelch repeat-containing protein, variant
 CNAG_00317	Uncharacterized protein
 CNAG_03918	Uncharacterized protein
 CNAG_05218	Adenylyl cyclase-associated protein
-CNAG_02224	FIST domain-containing protein
 CNAG_04115	Uncharacterized protein
-CNAG_00998	C2H2-type domain-containing protein
 CNAG_00044	Ribosome assembly protein 1
 CNAG_07108	Tip120-family protein
 CNAG_04865	Mannitol dehydrogenase
@@ -5348,14 +5090,11 @@ CNAG_02041	Uncharacterized protein
 CNAG_04393	RNA helicase
 CNAG_06338	ABC transporter PMR5
 CNAG_04333	Uncharacterized protein
-CNAG_06159	Uncharacterized protein
-CNAG_02476	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_07400	Aspartate--tRNA ligase (EC 6.1.1.12)
 CNAG_07832	Uncharacterized protein
 CNAG_05637	Uncharacterized protein
 CNAG_06389	Uncharacterized protein
 CNAG_06281	Uncharacterized protein
-CNAG_00936	Lipid particle protein, variant
 CNAG_00855	Ligase
 CNAG_07840	Uncharacterized protein
 CNAG_03072	Phosphopyruvate hydratase (EC 4.2.1.11)
@@ -5366,26 +5105,21 @@ CNAG_05425	Asparagine synthase (glutamine-hydrolyzing) (EC 6.3.5.4)
 CNAG_06006	SUZ domain-containing protein
 CNAG_03445	Uncharacterized protein
 CNAG_06030	Uncharacterized protein
-CNAG_02818	Aminomethyltransferase (EC 2.1.2.10) (Glycine cleavage system T protein)
 CNAG_01561	WD-repeat protein
 CNAG_03767	Structural maintenance of chromosomes protein
 CNAG_05538	Uncharacterized protein
 CNAG_06470	Uncharacterized protein
-CNAG_04848	mRNA binding protein
 CNAG_01655	Dynamin GTPase
 CNAG_03136	Uncharacterized protein
 CNAG_04027	Uncharacterized protein
 CNAG_07752	UDP-galactopyranose mutase
 CNAG_03920	Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)
-CNAG_04725	Uncharacterized protein
-CNAG_01152	40S ribosomal protein S6
 CNAG_02472	Transmembrane 9 superfamily member
 CNAG_02259	tRNA-dihydrouridine synthase 2
 CNAG_01161	Uncharacterized protein
 CNAG_03735	CAP10 domain-containing protein
 CNAG_03384	Uncharacterized protein
 CNAG_00613	Cytosine deaminase
-CNAG_05029	Meiotic Sister-Chromatid recombination aldehyde dehydrogenase, variant
 CNAG_05810	HIT-type domain-containing protein
 CNAG_05731	Glyoxal oxidase
 CNAG_07368	Calcium activated cation channel protein
@@ -5399,7 +5133,6 @@ CNAG_05652	Cytoplasmic protein
 CNAG_04381	General transcription and DNA repair factor IIH
 CNAG_02058	Uncharacterized protein
 CNAG_00370	Ubiquitin
-CNAG_00262	Uncharacterized protein
 CNAG_05633	Ubiquinol-cytochrome c reductase subunit 9
 CNAG_06413	Uncharacterized protein
 CNAG_04324	Autophagy-related protein
@@ -5423,8 +5156,7 @@ CNAG_07593	BZIP domain-containing protein
 CNAG_05502	DUF1996 domain-containing protein
 CNAG_05035	NADPH:adrenodoxin oxidoreductase, mitochondrial (EC 1.18.1.6)
 CNAG_03064	Nucleolar protein 16
-CNAG_07466	U3 small nucleolar RNA-associated protein 7, variant 2
-CNAG_06074	Cytoplasmic protein, variant
+CNAG_07466	U3 small nucleolar RNA-associated protein 7 (U3 small nucleolar RNA-associated protein 7, variant 1)
 CNAG_01266	Lon protease homolog, mitochondrial (EC 3.4.21.53)
 CNAG_00577	Mago-bind domain-containing protein
 CNAG_00873	Uncharacterized protein
@@ -5436,15 +5168,12 @@ CNAG_07427	Non-specific serine/threonine protein kinase (EC 2.7.11.1)
 CNAG_01739	RING-type domain-containing protein
 CNAG_04131	Antiviral helicase SKI2
 CNAG_03031	Protein FRA10AC1
-CNAG_05834	Uncharacterized protein
 CNAG_02523	DUF1708 domain-containing protein
 CNAG_01197	Ran GTPase-activating protein 1
-CNAG_04534	Fungal_trans domain-containing protein
 CNAG_01469	CDP-diacylglycerol--serine O-phosphatidyltransferase (EC 2.7.8.8) (Phosphatidylserine synthase)
 CNAG_06594	Oxysterol binding protein
 CNAG_05516	Shugoshin_C domain-containing protein
 CNAG_00290	Peptide hydrolase (EC 3.4.-.-)
-CNAG_00732	BZIP domain-containing protein
 CNAG_05994	Multidrug transporter
 CNAG_06740	Septation protein imp2
 CNAG_02486	Translation initiation factor 2 subunit 2
@@ -5458,7 +5187,6 @@ CNAG_02068	Stromal membrane-associated protein
 CNAG_05245	Uncharacterized protein
 CNAG_06336	Glucan 1,3-beta-glucosidase
 CNAG_01613	Uncharacterized protein
-CNAG_05748	NuA3 HAT complex component NTO1, variant
 CNAG_03425	Uncharacterized protein
 CNAG_04741	Endosome protein
 CNAG_06127	Ribosome biogenesis protein NSA2 homolog
@@ -5470,8 +5198,6 @@ CNAG_01665	tRNA-splicing endonuclease subunit Sen34 (EC 4.6.1.16)
 CNAG_02396	Nkap_C domain-containing protein
 CNAG_01248	Vacuole morphology and inheritance protein 14
 CNAG_05370	Integral membrane protein
-CNAG_01017	E3 ubiquitin-protein ligase SHPRH, variant
-CNAG_02528	Uncharacterized protein
 CNAG_05773	F-box and WD-40 domain-containing protein MET30
 CNAG_06949	Uncharacterized protein
 CNAG_00068	Specific RNA polymerase II transcription factor
@@ -5480,7 +5206,6 @@ CNAG_05121	Uncharacterized protein
 CNAG_07822	FMN adenylyltransferase
 CNAG_03668	Uncharacterized protein
 CNAG_04844	Mitochondrial import receptor subunit tom22
-CNAG_06032	ADP-ribosylation factor-like 2
 CNAG_07776	tRNA pseudouridine(38-40) synthase
 CNAG_03513	Ribosomal RNA-processing protein 7
 CNAG_06214	Uncharacterized protein
@@ -5533,7 +5258,6 @@ CNAG_01211	Coatomer subunit epsilon
 CNAG_00015	Uncharacterized protein
 CNAG_01097	Short-chain dehydrogenase/reductase SDR
 CNAG_05165	Uncharacterized protein
-CNAG_08028	Fe2OG dioxygenase domain-containing protein
 CNAG_00444	Uncharacterized protein
 CNAG_03087	Maltose permease
 CNAG_07962	Uncharacterized protein
@@ -5541,20 +5265,16 @@ CNAG_05704	ESCRT-II complex subunit VPS22
 CNAG_01686	DJ-1_PfpI domain-containing protein
 CNAG_06112	Carbamoyl-phosphate synthase arginine-specific large chain
 CNAG_04094	Uncharacterized protein
-CNAG_08024	Uncharacterized protein
 CNAG_00632	PRA1 family protein
 CNAG_01002	MFS domain-containing protein
 CNAG_04915	Uncharacterized protein
-CNAG_02841	Cytochrome P450 monooxygenase pc-2
 CNAG_01214	Alpha-1,6-mannosyltransferase
 CNAG_02162	U3 small nucleolar RNA-associated protein 24
 CNAG_02084	Farnesyl diphosphate synthase
 CNAG_05317	Phytanoyl-CoA dioxygenase
 CNAG_01867	Mitochondrial division protein 1
 CNAG_06917	Thiol-specific antioxidant protein 3
-CNAG_02023	Uncharacterized protein
 CNAG_01588	Plasma membrane proteolipid 3
-CNAG_05096	Histone deacetylase 1/2, variant 1
 CNAG_02986	ADP-ribose pyrophosphatase
 CNAG_07691	Uncharacterized protein
 CNAG_05966	Uncharacterized protein
@@ -5562,9 +5282,7 @@ CNAG_01077	Uncharacterized protein
 CNAG_00940	Exosome complex exonuclease DIS3/RRP44
 CNAG_00935	DNA-binding protein
 CNAG_04343	Nicotinamide mononucleotide permease
-CNAG_03680	Uncharacterized protein
 CNAG_00781	U6 snRNA-associated Sm-like protein LSm3
-CNAG_01029	Impact family protein, variant
 CNAG_04218	Uncharacterized protein
 CNAG_07704	Uncharacterized protein
 CNAG_01361	Importin subunit alpha
@@ -5583,9 +5301,7 @@ CNAG_03440	Uncharacterized protein
 CNAG_05186	GRF-type domain-containing protein
 CNAG_03510	60S ribosomal protein L36
 CNAG_04838	FHA domain-containing protein
-CNAG_00392	Kelch repeat-containing protein, variant
 CNAG_02931	Uncharacterized protein
-CNAG_01009	Uncharacterized protein
 CNAG_07506	Transcriptional repressor NF-X1
 CNAG_02111	mRNA cleavage and polyadenylation factor CLP1
 CNAG_00376	Uncharacterized protein
@@ -5607,11 +5323,8 @@ CNAG_01335	Uncharacterized protein
 CNAG_00387	Rab-GAP TBC domain-containing protein
 CNAG_05066	BZIP domain-containing protein
 CNAG_04761	Ras family protein
-CNAG_04465	Small nuclear ribonucleoprotein, variant
-CNAG_08021	Uncharacterized protein
 CNAG_05193	Endoplasmic reticulum-Golgi intermediate compartment protein 2
 CNAG_04565	PUB domain-containing protein
-CNAG_02125	Uncharacterized protein
 CNAG_01708	GATA-type domain-containing protein
 CNAG_05020	NAD-binding Rossmann fold oxidoreductase
 CNAG_03552	Uncharacterized protein
@@ -5651,7 +5364,6 @@ CNAG_00336	Uncharacterized protein
 CNAG_04585	Uncharacterized protein
 CNAG_00717	CUE domain-containing protein
 CNAG_00440	RNA polymerase II holoenzyme cyclin-like subunit
-CNAG_00422	Uncharacterized protein
 CNAG_04386	Uncharacterized protein
 CNAG_02821	Uncharacterized protein
 CNAG_03121	Mediator of RNA polymerase II transcription subunit 13 (Mediator complex subunit 13)
@@ -5664,7 +5376,6 @@ CNAG_06135	Uncharacterized protein
 CNAG_07803	Uncharacterized protein
 CNAG_04988	Gly-Xaa carboxypeptidase
 CNAG_02742	Uncharacterized protein
-CNAG_02012	TPR repeat-containing protein
 CNAG_00659	RNA polymerase II transcription factor B subunit 5
 CNAG_06361	26S proteasome regulatory subunit N6
 CNAG_05327	Uncharacterized protein
@@ -5672,8 +5383,6 @@ CNAG_06424	Claudin family protein
 CNAG_02692	Nitroreductase
 CNAG_04983	CMP/dCMP-type deaminase domain-containing protein
 CNAG_00371	Methylglutaconyl-CoA hydratase
-CNAG_01341	Mannose-6-phosphate isomerase, variant
-CNAG_01314	Vacuolar protein, variant
 CNAG_07968	HIT domain-containing protein
 CNAG_06813	CAP10 domain-containing protein
 CNAG_03837	Protein-L-isoaspartate O-methyltransferase
@@ -5686,12 +5395,9 @@ CNAG_00529	Sulfite transporter
 CNAG_04192	Formylglycinamide ribonucleotide amidotransferase (EC 6.3.5.3) (Formylglycinamide ribotide amidotransferase)
 CNAG_04614	Alginate_lyase domain-containing protein
 CNAG_05318	L-mandelate dehydrogenase
-CNAG_03043	Uncharacterized protein
 CNAG_02223	Signal sequence binding protein
-CNAG_01336	Uncharacterized protein
 CNAG_00762	2-(3-amino-3-carboxypropyl)histidine synthase subunit 1 (EC 2.5.1.108)
 CNAG_00824	Ubiquitin-conjugating enzyme E2 2
-CNAG_07845	Uncharacterized protein
 CNAG_01052	Uncharacterized protein
 CNAG_05015	Catalase (EC 1.11.1.6)
 CNAG_05831	Endoribonuclease
@@ -5729,7 +5435,6 @@ CNAG_07546	Peptide chain release factor 1
 CNAG_06986	Sugar transporter
 CNAG_02561	Spermine transporter
 CNAG_01162	PfkB domain-containing protein
-CNAG_06312	Uncharacterized protein
 CNAG_02186	Myosin regulatory light chain
 CNAG_07868	Uncharacterized protein
 CNAG_04455	Peroxisomal membrane protein 4
@@ -5748,14 +5453,11 @@ CNAG_02811	Small subunit ribosomal protein S29
 CNAG_01141	Ribosomal RNA-processing protein 40
 CNAG_00279	Signal sequence receptor subunit alpha (Translocon-associated protein subunit alpha)
 CNAG_06518	Uncharacterized protein
-CNAG_01952	Aryl-alcohol dehydrogenase, variant
 CNAG_04539	SURF1-like protein
 CNAG_00538	Uncharacterized protein
-CNAG_02439	Isochorismatase domain-containing protein
 CNAG_01331	Uncharacterized protein
 CNAG_02011	PQQ enzyme repeat protein
 CNAG_05914	MFS transporter, SP family, general alpha glucoside:H symporter
-CNAG_02203	Karyopherin/importin that interacts with the nuclear pore complex
 CNAG_03776	SET domain-containing protein
 CNAG_06107	G protein beta subunit-like
 CNAG_06422	Uncharacterized protein
@@ -5777,7 +5479,6 @@ CNAG_02823	DNA helicase (EC 3.6.4.12)
 CNAG_00846	Uncharacterized protein
 CNAG_06386	Uncharacterized protein
 CNAG_01718	WLM domain-containing protein
-CNAG_02368	SAP domain-containing protein
 CNAG_06867	Uncharacterized protein
 CNAG_00570	cAMP-dependent protein kinase regulatory subunit
 CNAG_06170	S-formylglutathione hydrolase (EC 3.1.2.12)
@@ -5802,10 +5503,8 @@ CNAG_03815	Uncharacterized protein
 CNAG_00883	Transcription factor
 CNAG_01114	Uncharacterized protein
 CNAG_03349	Pre-mRNA-processing factor 17
-CNAG_03313	Uncharacterized protein
 CNAG_06419	TFIIIC_sub6 domain-containing protein
 CNAG_00299	DNA repair protein RAD5
-CNAG_02318	VWFA domain-containing protein
 CNAG_04071	Proteasome subunit alpha type
 CNAG_00559	BZIP domain-containing protein
 CNAG_05642	Nuclear protein
@@ -5821,11 +5520,8 @@ CNAG_06090	Uncharacterized protein
 CNAG_06499	acidPPc domain-containing protein
 CNAG_01631	mRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.56) (mRNA cap guanine-N7 methyltransferase) (mRNA cap methyltransferase)
 CNAG_06405	Uncharacterized protein
-CNAG_07682	Uncharacterized protein
 CNAG_03076	Uncharacterized protein
 CNAG_07938	Uncharacterized protein
-CNAG_05882	Class E vacuolar protein-sorting machinery protein HSE1 (Class E vacuolar protein-sorting machinery protein hse1)
-CNAG_01696	Chaperone DnaJ
 CNAG_05698	Uncharacterized protein
 CNAG_06714	Endoplasmic reticulum vesicle protein 25
 CNAG_05603	BUD22 domain-containing protein
@@ -5833,9 +5529,7 @@ CNAG_08000	Uncharacterized protein
 CNAG_01221	Alkyl transferase (EC 2.5.1.-)
 CNAG_07817	Centromeric protein E
 CNAG_06998	Protein transporter SEC61 subunit alpha
-CNAG_00467	Cytochrome b5 heme-binding domain-containing protein
 CNAG_07799	ABC transporter
-CNAG_03213	UV damage endonuclease UvdE, variant
 CNAG_05117	Uncharacterized protein
 CNAG_05118	Uncharacterized protein
 CNAG_06409	Uncharacterized protein
@@ -5852,7 +5546,6 @@ CNAG_04495	Uncharacterized protein
 CNAG_07276	Uncharacterized protein
 CNAG_00769	STE/STE7 protein kinase
 CNAG_06780	Uncharacterized protein
-CNAG_00759	Uncharacterized protein
 CNAG_03868	Uncharacterized protein
 CNAG_06646	Protein YOP1
 CNAG_07751	Siderophore iron transporter MirB
@@ -5864,10 +5557,8 @@ CNAG_04901	Uncharacterized protein
 CNAG_01062	CAMK/CAMKL/PASK protein kinase
 CNAG_01443	2Fe-2S ferredoxin-type domain-containing protein
 CNAG_05464	Uncharacterized protein
-CNAG_03128	Gamma-glutamyltransferase, variant
 CNAG_02335	Sugar phosphate phosphatase (EC 3.1.3.-)
 CNAG_01641	DNA polymerase phi subunit
-CNAG_06321	Uncharacterized protein
 CNAG_06783	Enoyl reductase
 CNAG_07771	Peptidase
 CNAG_05110	Small subunit ribosomal protein S13
@@ -5881,15 +5572,12 @@ CNAG_01653	Cytokine inducing-glycoprotein
 CNAG_07559	Glucose-6-phosphate 1-epimerase (EC 5.1.3.15)
 CNAG_05387	Galactose transporter
 CNAG_01428	Eukaryotic translation initiation factor 5A (eIF-5A)
-CNAG_04404	Uncharacterized protein
 CNAG_04519	D-serine dehydratase
 CNAG_07883	Uncharacterized protein
 CNAG_03193	Uncharacterized protein
 CNAG_04822	Deoxyhypusine synthase
-CNAG_02497	Thaumatin family protein
-CNAG_03877	AP-3 complex subunit mu, variant
+CNAG_03877	AP-3 complex subunit mu
 CNAG_00195	Exosome complex protein
-CNAG_05334	Uncharacterized protein
 CNAG_07838	Cytoplasmic protein
 CNAG_03268	Uncharacterized protein
 CNAG_02842	MRP-L46 domain-containing protein
@@ -5920,9 +5608,7 @@ CNAG_05130	MFS domain-containing protein
 CNAG_02663	Ribonucleoside-diphosphate reductase subunit M2
 CNAG_02334	Uncharacterized protein
 CNAG_03120	Alpha-1,3-glucan synthase (EC 2.4.1.183)
-CNAG_04618	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_01650	Large subunit ribosomal protein L7
-CNAG_03645	NET1-associated nuclear protein 1 (U3 small nucleolar RNA-associated protein 17), variant
 CNAG_01525	Uncharacterized protein
 CNAG_00635	Cytoplasmic protein
 CNAG_00970	Phosphatidate cytidylyltransferase (EC 2.7.7.41)
@@ -5935,13 +5621,11 @@ CNAG_06642	Serine/threonine-protein kinase TOR (EC 2.7.11.1)
 CNAG_07469	Nuclear pore complex protein Nup98-Nup96
 CNAG_06231	Large subunit ribosomal protein L13
 CNAG_00755	SLD3 domain-containing protein
-CNAG_01369	Uncharacterized protein
 CNAG_01377	PAN2-PAN3 deadenylation complex catalytic subunit PAN2 (EC 3.1.13.4) (PAB1P-dependent poly(A)-specific ribonuclease) (Poly(A)-nuclease deadenylation complex subunit 2) (PAN deadenylation complex subunit 2)
 CNAG_01011	Uncharacterized protein
 CNAG_04954	Uncharacterized protein
 CNAG_04904	Clathrin heavy chain
 CNAG_04936	Condensin complex subunit 2
-CNAG_06184	Uncharacterized protein
 CNAG_01592	Protein-S-isoprenylcysteine O-methyltransferase (EC 2.1.1.100)
 CNAG_02678	TBPIP domain-containing protein
 CNAG_03392	DNA supercoiling protein
@@ -5949,7 +5633,6 @@ CNAG_06101	ADP/ATP translocase (ADP,ATP carrier protein)
 CNAG_01768	Uncharacterized protein
 CNAG_03397	Uncharacterized protein
 CNAG_01006	Uncharacterized protein
-CNAG_02579	ARID domain-containing protein
 CNAG_04980	U6 snRNA-associated Sm-like protein LSm1
 CNAG_00404	RING zinc finger protein
 CNAG_06199	Nuclear DNA helicase II
@@ -5968,7 +5651,6 @@ CNAG_07889	Uncharacterized protein
 CNAG_05713	Elongator complex protein 1
 CNAG_02460	Coproporphyrinogen oxidase (EC 1.3.3.3)
 CNAG_00874	Multisite-specific tRNA:(Cytosine-C5)-methyltransferase
-CNAG_06752	Uncharacterized protein
 CNAG_00049	Uncharacterized protein
 CNAG_05817	GDP-mannose transporter (GMT)
 CNAG_06573	Uncharacterized protein
@@ -5978,13 +5660,12 @@ CNAG_02376	Uncharacterized protein
 CNAG_01431	Homeobox domain-containing protein
 CNAG_04994	Signal recognition particle subunit SRP14
 CNAG_03903	Uncharacterized protein
-CNAG_03863	Protein arginine N-methyltransferase 1, variant
+CNAG_03863	Protein arginine N-methyltransferase 1
 CNAG_05925	Septin ring protein
 CNAG_07441	Uncharacterized protein
 CNAG_06763	Seryl-tRNA synthetase (EC 6.1.1.11) (Seryl-tRNA(Ser/Sec) synthetase)
 CNAG_07341	Uncharacterized protein
 CNAG_05324	Sugar transporter
-CNAG_05991	Glycosyl hydrolase family 88
 CNAG_03546	Uncharacterized protein
 CNAG_01760	Uncharacterized protein
 CNAG_03165	Uncharacterized protein
@@ -5995,7 +5676,6 @@ CNAG_06734	DNA-directed RNA polymerase I, II, and III subunit rpabc5
 CNAG_00939	Glucan 1,3-beta-glucosidase
 CNAG_07722	Pumilio domain-containing protein c
 CNAG_00541	Dimethylaniline monooxygenase
-CNAG_04143	Abhydrolase_3 domain-containing protein
 CNAG_05258	Glucose-methanol-choline oxidoreductase
 CNAG_01370	Uncharacterized protein
 CNAG_03090	MFS domain-containing protein
@@ -6010,7 +5690,6 @@ CNAG_05833	Allantoate transporter
 CNAG_07785	Uncharacterized protein
 CNAG_05567	Serine-threonine protein phosphatase
 CNAG_05457	Pentatricopeptide repeat protein
-CNAG_00680	Kinetochore protein Nuf2
 CNAG_00470	Charged multivesicular body protein 1
 CNAG_01942	Uncharacterized protein
 CNAG_07953	DPH-type MB domain-containing protein
@@ -6018,7 +5697,6 @@ CNAG_03014	Dolichyldiphosphatase (EC 3.6.1.43)
 CNAG_08016	Cytochrome b5 heme-binding domain-containing protein
 CNAG_02078	Hydrolase
 CNAG_03828	Aromatic amino acid aminotransferase I
-CNAG_06121	J domain-containing protein
 CNAG_02367	GTP-binding protein ypt3
 CNAG_00690	Uncharacterized protein
 CNAG_07777	Aminoacyl-tRNA hydrolase (EC 3.1.1.29)
@@ -6032,7 +5710,6 @@ CNAG_00644	Sphingolipid 4-desaturase (EC 1.14.19.17)
 CNAG_05963	RING-type domain-containing protein
 CNAG_05777	Fe2OG dioxygenase domain-containing protein
 CNAG_04288	Fe-S protein assembly co-chaperone HscB
-CNAG_07845	Uncharacterized protein
 CNAG_05982	MFS transporter, SP family, general alpha glucoside:H symporter
 CNAG_03792	tRNA adenylyltransferase
 CNAG_04148	NEK protein kinase
@@ -6051,7 +5728,6 @@ CNAG_06791	Uncharacterized protein
 CNAG_02290	Parafibromin
 CNAG_04415	Oxidoreductase
 CNAG_07355	Uncharacterized protein
-CNAG_06526	HNHc domain-containing protein
 CNAG_04067	Haloacid dehalogenase, type II
 CNAG_02342	Uncharacterized protein
 CNAG_00080	Uncharacterized protein
@@ -6061,12 +5737,9 @@ CNAG_01302	Uncharacterized protein
 CNAG_07879	TRIAD3, E3 ubiquitin-protein ligase RNF216
 CNAG_04834	MFS transporter
 CNAG_06355	CoA_binding domain-containing protein
-CNAG_05161	Uncharacterized protein
 CNAG_03853	Small COPII coat GTPase SAR1 (Small COPII coat GTPase sar1)
 CNAG_05659	Uncharacterized protein
-CNAG_07367	Amino acid transporter, variant
 CNAG_02544	DNA repair protein Swi5/Sae3
-CNAG_05364	Meiotic nuclear division protein 1
 CNAG_00185	Uncharacterized protein
 CNAG_02385	DNA primase (EC 2.7.7.-)
 CNAG_03730	DNA-directed RNA polymerase II subunit RPB11
@@ -6086,7 +5759,6 @@ CNAG_00463	Uncharacterized protein
 CNAG_03656	Uncharacterized protein
 CNAG_02538	Uncharacterized protein
 CNAG_06548	ER membrane protein complex subunit 1
-CNAG_07619	ATP-binding cassette, subfamily G (WHITE), member 2, PDR
 CNAG_05635	Large subunit ribosomal protein L19
 CNAG_02190	COX assembly mitochondrial protein
 CNAG_05443	Uncharacterized protein
@@ -6103,21 +5775,17 @@ CNAG_00733	Uncharacterized protein
 CNAG_05677	Phospholipase
 CNAG_00703	Large subunit ribosomal protein L31e
 CNAG_02054	Uncharacterized protein
-CNAG_05264	Alpha-amylase (EC 3.2.1.1)
-CNAG_07520	Endopeptidase
 CNAG_00134	Uncharacterized protein
 CNAG_00700	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase (EC 2.1.2.3) (EC 3.5.4.10) (AICAR transformylase) (IMP synthase) (Inosinicase) (Phosphoribosylaminoimidazolecarboxamide formyltransferase)
 CNAG_06558	NADPH-dependent diflavin oxidoreductase 1 (EC 1.18.1.-) (NADPH-dependent FMN and FAD-containing oxidoreductase)
 CNAG_06522	Uncharacterized protein (Fragment)
 CNAG_01822	Stress-response A/B barrel domain-containing protein
-CNAG_06249	Taurine catabolism dioxygenase TauD
 CNAG_03897	Protein BCP1
 CNAG_02998	Nuclear protein
 CNAG_02177	Serine/threonine-protein phosphatase (EC 3.1.3.16)
 CNAG_05455	Translation initiation factor eIF-1A
 CNAG_04300	Uncharacterized protein
 CNAG_04186	SET domain-containing protein
-CNAG_05081	Phosphodiesterase
 CNAG_05340	Monosaccharide transporter
 CNAG_03061	Multiple drug resistance protein
 CNAG_04089	Coatomer subunit zeta
@@ -6126,7 +5794,6 @@ CNAG_05365	Ribose-phosphate diphosphokinase (EC 2.7.6.1)
 CNAG_04673	NAD dependent epimerase/dehydratase
 CNAG_02921	Uncharacterized protein
 CNAG_00519	Lathosterol oxidase
-CNAG_03877	AP-3 complex subunit mu
 CNAG_07114	V-type proton ATPase proteolipid subunit
 CNAG_03473	Lipoyl(octanoyl) transferase (EC 2.3.1.181)
 CNAG_04955	Oxidoreductase
@@ -6147,8 +5814,6 @@ CNAG_07353	26S proteasome non-ATPase regulatory subunit 9
 CNAG_00428	Uncharacterized protein
 CNAG_05171	Poly(A)-specific ribonuclease (EC 3.1.13.4)
 CNAG_01291	Uncharacterized protein
-CNAG_01512	COesterase domain-containing protein
-CNAG_06831	Uncharacterized protein
 CNAG_02896	3-hydroxy-3-methylglutaryl coenzyme A synthase (HMG-CoA synthase) (EC 2.3.3.10)
 CNAG_04999	Uncharacterized protein
 CNAG_06555	Aromatic amino acid aminotransferase I
@@ -6177,7 +5842,6 @@ CNAG_04315	PHD-type domain-containing protein
 CNAG_07608	EVE domain-containing protein
 CNAG_05359	Non-structural maintenance of chromosomes element 1 homolog (EC 2.3.2.27)
 CNAG_02871	GPI mannosyltransferase 2 (EC 2.4.1.-)
-CNAG_01299	Uncharacterized protein
 CNAG_01261	Myosin I binding protein
 CNAG_01876	TBC1 domain family member 5
 CNAG_02448	Uncharacterized protein
@@ -6199,18 +5863,15 @@ CNAG_02895	Dynamin GTPase
 CNAG_00018	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_01180	Uncharacterized protein
 CNAG_03742	Staphylococcal nuclease domain-containing protein 1
-CNAG_03120	Alpha-1,3-glucan synthase (EC 2.4.1.183)
 CNAG_01463	Uncharacterized protein
 CNAG_04228	2,4-dienoyl-CoA reductase
 CNAG_07647	Chloride channel protein
 CNAG_02212	Eukaryotic translation initiation factor 3 subunit A (eIF3a) (Eukaryotic translation initiation factor 3 110 kDa subunit homolog) (eIF3 p110) (Translation initiation factor eIF3, p110 subunit homolog)
 CNAG_03261	Zinc finger protein
 CNAG_07561	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)
-CNAG_07867	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_04751	Uncharacterized protein
 CNAG_06794	Uncharacterized protein
 CNAG_01430	Uncharacterized protein
-CNAG_02943	Cytoplasmic protein
 CNAG_01575	ATP-binding cassette transporter
 CNAG_03816	Proteasome subunit beta
 CNAG_00271	INO80 complex subunit C
@@ -6233,7 +5894,6 @@ CNAG_01403	Eclair-PA
 CNAG_03095	Uncharacterized protein
 CNAG_00014	Uncharacterized protein
 CNAG_02168	Glucoamylase
-CNAG_07011	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_06366	Protein kinase
 CNAG_06983	UCH domain-containing protein
 CNAG_02670	Bud emergence protein 1
@@ -6248,13 +5908,11 @@ CNAG_07558	CS domain-containing protein
 CNAG_03369	Wee protein kinase
 CNAG_02700	Uncharacterized protein
 CNAG_03893	Protein-tyrosine-phosphatase (EC 3.1.3.48)
-CNAG_04047	3'-5' exonuclease domain-containing protein
 CNAG_06153	26S protease regulatory subunit 6A-B
 CNAG_05907	Pyruvate carboxylase (EC 6.4.1.1)
 CNAG_05276	Histone deacetylase 1/2
 CNAG_03923	Crossover junction endonuclease MUS81
 CNAG_00045	Proteasome inhibitor PI31 subunit
-CNAG_07344	Ras guanyl-nucleotide exchange factor
 CNAG_03184	BUB protein kinase
 CNAG_02131	Iron-sulfur cluster assembly protein (Fragment)
 CNAG_05067	Uncharacterized protein
@@ -6269,13 +5927,11 @@ CNAG_07585	Uncharacterized protein
 CNAG_02139	Oxysterol-binding protein
 CNAG_04579	Asparagine-linked glycosylation protein 11 (EC 2.4.1.131) (GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase) (Glycolipid 2-alpha-mannosyltransferase)
 CNAG_06475	CUE domain-containing protein
-CNAG_02484	Peptidyl-prolyl cis-trans isomerase (PPIase) (EC 5.2.1.8)
 CNAG_07333	Ubiquitin carboxyl-terminal hydrolase 25/28
 CNAG_06183	Origin recognition complex subunit 4
 CNAG_01854	Heparinase II/III family protein
 CNAG_03795	DNA-(apurinic or apyrimidinic site) lyase (EC 4.2.99.18)
 CNAG_05926	U2 small nuclear ribonucleoprotein A'
-CNAG_04786	Uncharacterized protein
 CNAG_04896	Tyrosine--tRNA ligase (EC 6.1.1.1) (Tyrosyl-tRNA synthetase)
 CNAG_05750	ATP synthase subunit alpha
 CNAG_01358	Uncharacterized protein
@@ -6283,9 +5939,7 @@ CNAG_04124	Uncharacterized protein
 CNAG_04819	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_03595	Uncharacterized protein
 CNAG_01036	Geranylgeranyl transferase type-2 subunit beta (EC 2.5.1.60)
-CNAG_01820	Pyruvate kinase (EC 2.7.1.40)
 CNAG_02033	L51_S25_CI-B8 domain-containing protein
-CNAG_02387	Velvet domain-containing protein
 CNAG_05737	Oligopeptide transporter 8
 CNAG_07774	Uncharacterized protein
 CNAG_05760	Endoplasmic reticulum protein
@@ -6296,7 +5950,6 @@ CNAG_00384	RAD51-like protein 2
 CNAG_01790	Upstream activation factor subunit UAF30
 CNAG_00150	Peptidase
 CNAG_03355	Uncharacterized protein
-CNAG_07989	Velvet domain-containing protein
 CNAG_07527	Mannosyltransferase (EC 2.4.1.-)
 CNAG_02355	Solute carrier family 35 (UDP-xylose/UDP-N-acetylglucosamine transporter), member B4
 CNAG_03966	Uncharacterized protein
@@ -6308,9 +5961,7 @@ CNAG_04727	Uncharacterized protein
 CNAG_05627	ATP-dependent rRNA helicase SPB4
 CNAG_06892	Preconditioning-inducible protein
 CNAG_02166	DNA-directed RNA polymerase subunit (EC 2.7.7.6)
-CNAG_07837	Uncharacterized protein
 CNAG_04696	DNA clamp loader
-CNAG_02503	Glutathione peroxidase
 CNAG_06148	Uncharacterized protein
 CNAG_06703	Uncharacterized protein
 CNAG_03426	GDP-mannose transporter (GMT)
@@ -6318,7 +5969,6 @@ CNAG_04922	Uncharacterized protein
 CNAG_07433	Uncharacterized protein
 CNAG_07622	COP9 signalosome complex subunit 1
 CNAG_03308	Uncharacterized protein
-CNAG_04030	Uncharacterized protein
 CNAG_00070	Uncharacterized protein
 CNAG_00148	Protein transport protein sec16
 CNAG_00625	ARF guanyl-nucleotide exchange factor
@@ -6337,8 +5987,6 @@ CNAG_06334	Uncharacterized protein
 CNAG_07625	Plasma membrane protein
 CNAG_06196	Synaptosomal-associated protein, 23kDa
 CNAG_05613	Dopey_N domain-containing protein
-CNAG_02705	Uncharacterized protein
-CNAG_02302	Uncharacterized protein
 CNAG_05700	Endoplasmic reticulum protein
 CNAG_04544	Uncharacterized protein
 CNAG_07757	Uncharacterized protein
@@ -6355,9 +6003,7 @@ CNAG_02086	Acyl-CoA-dependent ceramide synthase
 CNAG_05915	Uncharacterized protein
 CNAG_01548	ATP-dependent RNA helicase FAL1
 CNAG_02870	Folylpolyglutamate synthase (EC 6.3.2.17) (Folylpoly-gamma-glutamate synthetase) (Tetrahydrofolylpolyglutamate synthase)
-CNAG_06019	DH domain-containing protein
 CNAG_02195	Origin recognition complex subunit 1
-CNAG_06862	Palmitoyltransferase (EC 2.3.1.225)
 CNAG_04348	Chaperone
 CNAG_01679	Small subunit ribosomal protein S15
 CNAG_04207	Protein CASP
@@ -6368,8 +6014,6 @@ CNAG_07479	Uncharacterized protein
 CNAG_02675	Non-specific serine/threonine protein kinase (EC 2.7.11.1)
 CNAG_01056	Uncharacterized protein
 CNAG_01502	Major facilitator superfamily transporter
-CNAG_06622	Protein yippee-like
-CNAG_07597	Uncharacterized protein
 CNAG_02459	Atypical/ABC1/ABC1-A protein kinase
 CNAG_05755	Protein MAK16
 CNAG_06358	Uncharacterized protein
@@ -6383,7 +6027,6 @@ CNAG_03916	Glucose-6-phosphate isomerase (EC 5.3.1.9)
 CNAG_06685	U2-associated protein SR140
 CNAG_05105	Eukaryotic translation initiation factor 3 subunit L (eIF3l)
 CNAG_03509	Pyruvate dehydrogenase X component
-CNAG_03863	Protein arginine N-methyltransferase 1
 CNAG_04400	Small subunit ribosomal protein S10
 CNAG_05582	Uncharacterized protein
 CNAG_02036	TPT domain-containing protein
@@ -6393,7 +6036,6 @@ CNAG_01773	Autophagy-related protein 6
 CNAG_07420	Uncharacterized protein
 CNAG_07041	Uncharacterized protein
 CNAG_06229	Uncharacterized protein
-CNAG_01573	Uncharacterized protein
 CNAG_02724	Cep57_MT_bd domain-containing protein
 CNAG_04365	Ribosome biogenesis protein MAK21
 CNAG_04114	40S ribosomal protein S0
@@ -6405,23 +6047,19 @@ CNAG_07528	DDE-1 domain-containing protein
 CNAG_05789	TPR_REGION domain-containing protein
 CNAG_03286	GOLD domain-containing protein
 CNAG_06826	YL1_C domain-containing protein
-CNAG_00995	Uncharacterized protein
 CNAG_06344	CX9C domain-containing protein
 CNAG_06542	Component of oligomeric Golgi complex 7 (Conserved oligomeric Golgi complex subunit 7)
 CNAG_01042	DDE Tnp4 domain-containing protein
 CNAG_06205	DPBB_1 domain-containing protein
-CNAG_04160	Uncharacterized protein
 CNAG_07966	Uncharacterized protein
 CNAG_06021	Rab GTPase activator
 CNAG_00442	Cyclin
 CNAG_06604	Uncharacterized protein
 CNAG_06973	Uncharacterized protein
 CNAG_01609	Cystathionine gamma-synthase
-CNAG_02438	Uncharacterized protein
 CNAG_04388	Superoxide dismutase (EC 1.15.1.1)
 CNAG_04737	Uncharacterized protein
 CNAG_01189	DNA-directed RNA polymerase subunit (EC 2.7.7.6)
-CNAG_04493	Ubiquitin carboxyl-terminal hydrolase (EC 3.4.19.12)
 CNAG_04649	Peptide alpha-N-acetyltransferase
 CNAG_02997	Protein STU1
 CNAG_06532	Adaptin_N domain-containing protein
@@ -6432,9 +6070,7 @@ CNAG_01586	ATP synthase subunit 4
 CNAG_06762	GATA-type domain-containing protein
 CNAG_03272	Uncharacterized protein
 CNAG_04285	Uncharacterized protein
-CNAG_06804	BTB domain-containing protein
 CNAG_06390	Uncharacterized protein
-CNAG_05650	Ubiquitinyl hydrolase 1 (EC 3.4.19.12)
 CNAG_04992	Golgi apparatus membrane protein TVP38 (Golgi apparatus membrane protein tvp38)
 CNAG_06797	Lysine-specific demethylase 3
 CNAG_07470	Phosphodiesterase (EC 3.1.4.-)
@@ -6450,7 +6086,6 @@ CNAG_01439	U4/U6 small nuclear ribonucleoprotein PRP4
 CNAG_00249	Uncharacterized protein
 CNAG_07430	Transcription factor binding protein
 CNAG_06674	DH domain-containing protein
-CNAG_06109	Uncharacterized protein
 CNAG_06731	Uncharacterized protein
 CNAG_01445	Autophagy-related protein 9
 CNAG_01412	Phosphatidate phosphatase (EC 3.1.3.4)
@@ -6460,17 +6095,13 @@ CNAG_05671	Oxidation resistance protein 1
 CNAG_07443	BHLH domain-containing protein
 CNAG_00130	CAMK/CAMK1/CAMK1-RCK protein kinase
 CNAG_03263	Elongation factor Tu
-CNAG_03234	Cell wall surface anchor protein, variant
-CNAG_06073	Uncharacterized protein
 CNAG_02149	Succinate dehydrogenase assembly factor 4, mitochondrial
 CNAG_00580	Translation initiation factor IF-2
 CNAG_03826	Histone acetyltransferase (EC 2.3.1.48)
 CNAG_07566	Rab-GAP TBC domain-containing protein
 CNAG_07735	U3 small nucleolar RNA-associated protein 25 (U3 snoRNA-associated protein 25)
 CNAG_02902	Uncharacterized protein
-CNAG_06588	zf-primase domain-containing protein
 CNAG_03323	Uncharacterized protein
-CNAG_02969	Thioesterase, variant
 CNAG_04794	Spermine transporter
 CNAG_07810	MICOS complex subunit MIC60 (Mitofilin)
 CNAG_00817	Uncharacterized protein
@@ -6490,11 +6121,8 @@ CNAG_05695	Glucosamine-phosphate N-acetyltransferase (EC 2.3.1.4)
 CNAG_01094	Pre-mRNA-splicing factor CWC25
 CNAG_07562	Uncharacterized protein
 CNAG_04335	Phosphatidylinositol 4-kinase
-CNAG_05450	F-box domain-containing protein
 CNAG_04279	Uncharacterized protein
-CNAG_00985	Uncharacterized protein
 CNAG_04183	Uncharacterized protein
-CNAG_05272	Uncharacterized protein
 CNAG_05699	SAP domain-containing protein
 CNAG_01020	SH3 domain-containing protein
 CNAG_06769	Mitochondrial DNA polymerase catalytic subunit (EC 2.7.7.7)
@@ -6523,7 +6151,6 @@ CNAG_03884	Uncharacterized protein
 CNAG_07512	Uncharacterized protein
 CNAG_02188	Uncharacterized protein
 CNAG_04775	Oxidoreductase-like domain-containing protein
-CNAG_05158	Uncharacterized protein
 CNAG_00758	Regulatory protein ral2
 CNAG_02576	ATG16 domain-containing protein
 CNAG_00908	Uncharacterized protein
@@ -6531,10 +6158,8 @@ CNAG_05233	Uncharacterized protein
 CNAG_00655	Large subunit acidic ribosomal protein P1
 CNAG_04323	Uncharacterized protein
 CNAG_05371	RRM domain-containing protein
-CNAG_00319	Uncharacterized protein
 CNAG_04318	Telomere length regulation protein
 CNAG_01507	EKC/KEOPS complex subunit CGI121 (EKC/KEOPS complex subunit cgi121)
-CNAG_06784	Uncharacterized protein
 CNAG_05044	Uncharacterized protein
 CNAG_06625	UBX domain-containing protein 1
 CNAG_07664	Mitochondrial protein
@@ -6570,13 +6195,10 @@ CNAG_03150	Solute carrier family 25 (Mitochondrial folate transporter), member 3
 CNAG_02323	DNA_LIGASE_A3 domain-containing protein
 CNAG_04759	DENN domain-containing protein
 CNAG_07921	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_02293	Uncharacterized protein
 CNAG_02960	RNA exonuclease 4
 CNAG_01071	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_00732	BZIP domain-containing protein
 CNAG_07786	Uncharacterized protein
 CNAG_06584	Nodulin-like domain-containing protein
-CNAG_03036	Potassium ion transporter, variant
 CNAG_05524	Glycogen storage control protein
 CNAG_06194	Uncharacterized protein
 CNAG_04756	Cauli_VI domain-containing protein
@@ -6587,12 +6209,10 @@ CNAG_05588	START domain-containing protein
 CNAG_00260	Transformer-2 protein
 CNAG_04553	Uncharacterized protein
 CNAG_07324	Uncharacterized protein
-CNAG_04759	DENN domain-containing protein
 CNAG_03926	Methionine aminopeptidase (EC 3.4.11.18)
 CNAG_04278	DNA ligase (EC 6.5.1.1)
 CNAG_06617	Uncharacterized protein
 CNAG_05648	Peptide hydrolase (EC 3.4.-.-)
-CNAG_05993	Transmembrane transporter Liz1p
 CNAG_05569	Uncharacterized protein
 CNAG_02409	Protein YOP1
 CNAG_04488	Very-long-chain 3-oxoacyl-CoA reductase (EC 1.1.1.330) (3-ketoacyl-CoA reductase) (3-ketoreductase) (KAR) (Microsomal beta-keto-reductase)
@@ -6607,9 +6227,7 @@ CNAG_04355	MYND-type domain-containing protein
 CNAG_04675	Uncharacterized protein
 CNAG_03695	TPT domain-containing protein
 CNAG_04368	CD2 antigen cytoplasmic tail-binding protein 2
-CNAG_01004	DH domain-containing protein
 CNAG_00695	Uncharacterized protein
-CNAG_01739	RING-type domain-containing protein
 CNAG_01778	Uncharacterized protein
 CNAG_07450	Uncharacterized protein
 CNAG_04686	RNA polymerase II subunit B1 CTD phosphatase RPAP2 homolog (EC 3.1.3.16)
@@ -6622,7 +6240,6 @@ CNAG_04433	CMGC/DYRK/DYRK2 protein kinase
 CNAG_04015	Amino acid transporter
 CNAG_00194	Uncharacterized protein
 CNAG_07965	Uncharacterized protein
-CNAG_04596	Prolyl endopeptidase (EC 3.4.21.-)
 CNAG_00722	Large subunit ribosomal protein L27
 CNAG_05319	AP_endonuc_2 domain-containing protein
 CNAG_03874	Oxidoreductase
@@ -6630,7 +6247,6 @@ CNAG_02425	Uncharacterized protein
 CNAG_03755	DIOX_N domain-containing protein
 CNAG_02306	Molybdopterin binding domain-containing protein
 CNAG_00136	Ubiquitin-activating enzyme E1
-CNAG_05572	Uncharacterized protein
 CNAG_07732	Amidohydrolase 2
 CNAG_00934	Allantoinase
 CNAG_02045	Acetoacetate-CoA ligase
@@ -6654,23 +6270,17 @@ CNAG_01167	Structural maintenance of chromosomes protein
 CNAG_00079	Uncharacterized protein
 CNAG_03852	Uncharacterized protein
 CNAG_02071	Uncharacterized protein
-CNAG_05510	Uncharacterized protein
 CNAG_00355	MMtag domain-containing protein
 CNAG_00756	Uncharacterized protein
 CNAG_05215	BSD domain-containing protein
-CNAG_01613	Uncharacterized protein
 CNAG_06335	Kinesin-like protein
 CNAG_06287	Glutathione peroxidase
 CNAG_00752	Transducin family protein
 CNAG_04265	VHS domain-containing protein
-CNAG_03281	Glycine-rich RNA binding protein, variant 2
-CNAG_05529	FCP1 homology domain-containing protein
 CNAG_05242	Mediator of RNA polymerase II transcription subunit 14 (Mediator complex subunit 14)
 CNAG_06719	Fungal_trans domain-containing protein
-CNAG_02013	Uncharacterized protein
 CNAG_04693	Uncharacterized protein
 CNAG_01871	Prolactin regulatory element-binding protein
-CNAG_01193	Uncharacterized protein
 CNAG_02792	Mitochondrial chaperone BCS1
 CNAG_04413	Uncharacterized protein
 CNAG_07004	Dihydrolipoyl dehydrogenase (EC 1.8.1.4)
@@ -6687,7 +6297,6 @@ CNAG_00273	Uncharacterized protein
 CNAG_03676	D-lactate dehydrogenase
 CNAG_00108	RuvB-like helicase (EC 3.6.4.12)
 CNAG_04516	WSC domain-containing protein
-CNAG_02996	Flavoprotein oxygenase
 CNAG_05106	RF_PROK_I domain-containing protein
 CNAG_01106	V-type proton ATPase subunit a
 CNAG_01103	Splicing factor 3A subunit 2
@@ -6701,7 +6310,6 @@ CNAG_05756	Mitochondrial protein
 CNAG_05412	Uncharacterized protein
 CNAG_01367	Uncharacterized protein
 CNAG_06993	Uncharacterized protein
-CNAG_02043	Uncharacterized protein
 CNAG_05003	Uncharacterized protein
 CNAG_07764	Uncharacterized protein
 CNAG_00139	GST N-terminal domain-containing protein
@@ -6711,7 +6319,6 @@ CNAG_01560	Uncharacterized protein
 CNAG_01216	6-phosphogluconolactonase (6PGL) (EC 3.1.1.31)
 CNAG_03636	DNA-directed RNA polymerase I and III subunit RPAC2
 CNAG_03548	Uncharacterized protein
-CNAG_03014	Dolichyldiphosphatase (EC 3.6.1.43)
 CNAG_03020	NTF2 domain-containing protein
 CNAG_00412	Uncharacterized protein
 CNAG_07743	Uncharacterized protein
@@ -6720,7 +6327,6 @@ CNAG_01101	Cnn_1N domain-containing protein
 CNAG_07985	Uncharacterized protein
 CNAG_04059	Uncharacterized protein
 CNAG_07524	AMP deaminase (EC 3.5.4.6)
-CNAG_01191	Long-chain fatty acid transporter, variant 1
 CNAG_05123	Uncharacterized protein
 CNAG_06927	Peptidyl-prolyl isomerase G (Cyclophilin G)
 CNAG_05223	TPR_REGION domain-containing protein
@@ -6736,9 +6342,7 @@ CNAG_06530	Uncharacterized protein
 CNAG_02038	J domain-containing protein
 CNAG_07547	Uncharacterized protein
 CNAG_05167	Uncharacterized protein
-CNAG_06531	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_03582	pH-response regulator protein palA/RIM20
-CNAG_02523	DUF1708 domain-containing protein
 CNAG_04032	AFG3 family protein
 CNAG_01974	Ribosomal protein
 CNAG_05714	Anti_prolifrtn domain-containing protein
@@ -6747,7 +6351,6 @@ CNAG_02408	SAGA-associated factor 11
 CNAG_01256	Uncharacterized protein
 CNAG_00021	Adenosylmethionine decarboxylase (EC 4.1.1.50)
 CNAG_08005	Uncharacterized protein
-CNAG_06124	Uncharacterized protein
 CNAG_03324	Uncharacterized protein
 CNAG_05124	Protein SEY1 (EC 3.6.5.-)
 CNAG_04277	Uncharacterized protein
@@ -6760,7 +6363,6 @@ CNAG_03851	General transcription factor 3C polypeptide 5 (Transcription factor C
 CNAG_01713	Uncharacterized protein
 CNAG_01726	FACT complex subunit
 CNAG_01904	Vacuolar amino acid transporter 5
-CNAG_04262	E3 ubiquitin-protein ligase NRDP1
 CNAG_01398	ATP-dependent RNA helicase DOB1
 CNAG_05374	Chromosome transmission fidelity protein 18
 CNAG_03372	Vacuolar protein-sorting protein BRO1
@@ -6773,7 +6375,6 @@ CNAG_05393	ATPase
 CNAG_02404	Nuclear segregation protein Bfr1
 CNAG_00892	DUF2052 domain-containing protein
 CNAG_00119	Uncharacterized protein
-CNAG_00522	C2 domain-containing protein
 CNAG_05265	Uncharacterized protein
 CNAG_05552	Transcription activator snf2l1
 CNAG_04798	Regulatory protein cys-3
@@ -6781,8 +6382,6 @@ CNAG_07961	Uncharacterized protein
 CNAG_00328	DNA excision repair protein ERCC-5
 CNAG_06773	Protein transporter SEC24
 CNAG_07424	DNA-directed RNA polymerase I, II, and III subunit RPABC4
-CNAG_02388	Uncharacterized protein
-CNAG_00780	Uncharacterized protein
 CNAG_00685	Pre-mRNA-splicing ATP-dependent RNA helicase PRP28
 CNAG_04867	Vacuolar protein
 CNAG_02603	Early growth response protein 1
@@ -6790,7 +6389,6 @@ CNAG_02549	DNA_LIGASE_A3 domain-containing protein
 CNAG_06753	Nuclear cap-binding protein subunit 1
 CNAG_04196	Actin-related protein 2
 CNAG_06716	RRM domain-containing protein
-CNAG_06217	Uncharacterized protein
 CNAG_03598	Ubiquilin
 CNAG_06100	Uncharacterized protein
 CNAG_01593	Ribosome biogenesis protein SSF1/2
@@ -6809,18 +6407,15 @@ CNAG_04791	Uncharacterized protein
 CNAG_01165	D-erythro-sphingosine kinase
 CNAG_06786	Uncharacterized protein
 CNAG_07756	Cell division control protein
-CNAG_05746	Swi5-dependent recombination DNA repair protein 1, variant
 CNAG_00430	Required for respiratory growth protein 9, mitochondrial
 CNAG_02697	Velvet domain-containing protein
 CNAG_04723	Uncharacterized protein
 CNAG_01471	Uncharacterized protein
 CNAG_00233	Chaperone protein
 CNAG_06222	Large subunit ribosomal protein L32e
-CNAG_01303	Uncharacterized protein
 CNAG_06649	Haloacid dehalogenase, type II
 CNAG_01072	Amidase
 CNAG_02681	Phytase
-CNAG_01286	Uncharacterized protein
 CNAG_05507	Small subunit ribosomal protein S8
 CNAG_07641	Monosaccharide transporter
 CNAG_02965	PITH domain-containing protein
@@ -6870,18 +6465,15 @@ CNAG_03360	Uncharacterized protein
 CNAG_00275	NAD_binding_2 domain-containing protein
 CNAG_06790	Uncharacterized protein
 CNAG_06273	Ribosome biogenesis regulatory protein
-CNAG_02700	Uncharacterized protein
 CNAG_00575	Catalase (EC 1.11.1.6)
 CNAG_00337	Uncharacterized protein
 CNAG_07346	T-complex protein 1 subunit eta (TCP-1-eta) (CCT-eta)
 CNAG_07635	Kinetochore protein NDC80
 CNAG_05149	Protoheme IX farnesyltransferase, mitochondrial (EC 2.5.1.-) (Heme O synthase)
 CNAG_03894	Zn(2)-C6 fungal-type domain-containing protein
-CNAG_05673	GPI inositol-deacylase (EC 3.1.-.-)
 CNAG_06896	Cytoplasmic protein
 CNAG_07818	Uncharacterized protein
 CNAG_04233	LysM domain-containing protein
-CNAG_04545	CTD kinase subunit gamma
 CNAG_06871	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_04641	General transcription factor 3C polypeptide 3 (Transcription factor C subunit 4)
 CNAG_07309	Protein DOM34 homolog (EC 3.1.-.-)
@@ -6892,7 +6484,6 @@ CNAG_07637	Large subunit ribosomal protein L3
 CNAG_01448	Uncharacterized protein
 CNAG_02519	Mitochondrial fission 1 protein
 CNAG_02658	Uncharacterized protein
-CNAG_00549	Uncharacterized protein
 CNAG_00901	Pex24p domain-containing protein
 CNAG_00402	Translation initiation factor 4G
 CNAG_06337	Uncharacterized protein
@@ -6904,10 +6495,8 @@ CNAG_03625	RNA polymerase I-specific transcription initiation factor RRN7
 CNAG_04666	26S protease regulatory subunit 8
 CNAG_03488	Uncharacterized protein
 CNAG_04403	CCCH zinc finger protein
-CNAG_04226	U4/U6.U5 tri-snRNP-associated protein 1, variant
 CNAG_03399	SIT4-associating protein/190
 CNAG_03791	CAMKK/ELM protein kinase
-CNAG_00523	Uncharacterized protein
 CNAG_05805	Uncharacterized protein
 CNAG_01694	Uncharacterized protein
 CNAG_06362	Phorbol-ester/DAG-type domain-containing protein
@@ -6917,8 +6506,6 @@ CNAG_03620	Uncharacterized protein
 CNAG_03364	Uncharacterized protein
 CNAG_01132	Nucleolar protein 6
 CNAG_03406	Compass component spp1
-CNAG_05472	Meiotic recombination protein SPO11, variant 1
-CNAG_00183	Alternative cyclin Pcl12, variant
 CNAG_01242	BZIP domain-containing protein
 CNAG_07857	WW domain-containing protein
 CNAG_05064	Uncharacterized protein
@@ -6947,21 +6534,16 @@ CNAG_02198	Mitochondrial inner membrane protease ATP23 (EC 3.4.24.-)
 CNAG_00861	3-hydroxyacyl-CoA dehydrogenase
 CNAG_03782	Uncharacterized protein
 CNAG_02132	Uncharacterized protein
-CNAG_07456	Uncharacterized protein
 CNAG_05547	Uncharacterized protein
 CNAG_06216	Uncharacterized protein
-CNAG_02659	Uncharacterized protein
 CNAG_07700	Uncharacterized protein
 CNAG_06932	Sugar transporter
 CNAG_01836	Long-chain acyl-CoA synthetase
-CNAG_01518	Phosphoglycerate mutase, variant
 CNAG_04169	Holo-[acyl-carrier protein] synthase
 CNAG_05631	NADH-ubiquinone oxidoreductase 49 kDa subunit, mitochondrial
 CNAG_02734	Uncharacterized protein
 CNAG_07421	Uncharacterized protein
 CNAG_01542	Taurine catabolism dioxygenase TauD
-CNAG_03436	Alanine transaminase, variant
-CNAG_05516	Shugoshin_C domain-containing protein
 CNAG_06380	Transcription initiation factor TFIIA large subunit
 CNAG_02349	WD_REPEATS_REGION domain-containing protein
 CNAG_01212	HD domain-containing protein
@@ -6985,13 +6567,10 @@ CNAG_07687	Uncharacterized protein
 CNAG_00983	Rab-GAP TBC domain-containing protein
 CNAG_04500	Uncharacterized protein
 CNAG_02693	Solute carrier family 25 (Mitochondrial carnitine/acylcarnitine transporter), member 20/29
-CNAG_05479	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_00462	Electron transfer flavoprotein-ubiquinone oxidoreductase (ETF-QO) (EC 1.5.5.1)
 CNAG_06567	Uncharacterized protein
 CNAG_04453	Inositolphosphorylceramide synthase
-CNAG_01130	Uncharacterized protein
 CNAG_04268	DNA-(apurinic or apyrimidinic site) endonuclease (EC 3.1.-.-)
-CNAG_01191	Long-chain fatty acid transporter
 CNAG_03669	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_01647	Translocation protein SEC66
 CNAG_06309	Uncharacterized protein
@@ -7003,7 +6582,7 @@ CNAG_06681	Uncharacterized protein
 CNAG_03477	Uncharacterized protein
 CNAG_03811	AGC/YANK protein kinase
 CNAG_04170	WD-repeat protein
-CNAG_00867	MFS transporter, SP family, solute carrier family 2 (Myo-inositol transporter), member 13, variant 2
+CNAG_00867	MFS transporter, SP family, solute carrier family 2 (Myo-inositol transporter), member 13 (MFS transporter, SP family, solute carrier family 2 (Myo-inositol transporter), member 13, variant 1)
 CNAG_04556	Translocation protein SEC62
 CNAG_07991	Uncharacterized protein
 CNAG_04843	Atypical/ABC1/ABC1-B protein kinase
@@ -7011,11 +6590,9 @@ CNAG_05719	Uncharacterized protein
 CNAG_02873	Mitochondrial inner membrane protease subunit (EC 3.4.21.-)
 CNAG_02862	Aprataxin
 CNAG_05076	Uncharacterized protein
-CNAG_05753	Acetylglutamate kinase (EC 1.2.1.38) (EC 2.7.2.8) (N-acetyl-L-glutamate 5-phosphotransferase) (N-acetyl-gamma-glutamyl-phosphate reductase) (N-acetyl-glutamate semialdehyde dehydrogenase) (NAG kinase)
 CNAG_05297	Uncharacterized protein
 CNAG_01019	Superoxide dismutase [Cu-Zn] (EC 1.15.1.1)
 CNAG_01145	Nbl1_Borealin_N domain-containing protein
-CNAG_06452	Integral membrane protein
 CNAG_05150	ATP-binding cassette transporter
 CNAG_03658	Uncharacterized protein
 CNAG_04161	Mediator of RNA polymerase II transcription subunit 17 (Mediator complex subunit 17)
@@ -7027,14 +6604,11 @@ CNAG_02029	Wiskott-Aldrich syndrome protein
 CNAG_01730	STE/STE7/MEK1 protein kinase
 CNAG_05190	Uncharacterized protein
 CNAG_05343	Arrestin_C domain-containing protein
-CNAG_03597	Uncharacterized protein
 CNAG_07901	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_00716	Cytochrome c
 CNAG_04935	Uncharacterized protein
-CNAG_01295	Acyl carrier protein
 CNAG_01531	DNA helicase (EC 3.6.4.12)
 CNAG_01422	Endoplasmic reticulum protein
-CNAG_03771	DNA binding protein Ncp1, variant
 CNAG_00930	Citrulline--aspartate ligase (EC 6.3.4.5)
 CNAG_02187	Protein YIP
 CNAG_02087	Acyl-CoA-dependent ceramide synthase
@@ -7049,7 +6623,6 @@ CNAG_06062	Uncharacterized protein
 CNAG_02399	Glutathione reductase (EC 1.8.1.7)
 CNAG_01569	Mitochondrial import inner membrane translocase subunit Tim21
 CNAG_03309	Pre-mRNA-splicing factor CWC21
-CNAG_01235	DNA-directed RNA polymerase subunit beta (EC 2.7.7.6)
 CNAG_00535	Large subunit ribosomal protein L16
 CNAG_00638	GTPase
 CNAG_05422	BRCT domain-containing protein
@@ -7066,21 +6639,17 @@ CNAG_02947	SCYL protein kinase
 CNAG_06626	Pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15/PRP43
 CNAG_01520	Histone-arginine methyltransferase CARM1
 CNAG_01397	Mitochondrial import inner membrane translocase subunit
-CNAG_02510	Uncharacterized protein
 CNAG_02163	Uncharacterized protein
 CNAG_05428	Transcription initiation factor TFIID subunit 5 (Transcription initiation factor TFIID subunit 5, variant)
 CNAG_03275	Glutaryl-CoA dehydrogenase (Glutaryl-CoA dehydrogenase, variant)
 CNAG_03814	Small nuclear ribonucleoprotein Sm D2 (Sm-D2) (snRNP core protein D2)
 CNAG_05937	Uncharacterized protein
-CNAG_06934	Hexose transporter protein (Hexose transporter protein, variant 1) (Hexose transporter protein, variant 2)
 CNAG_04586	LIM-homeobox protein (LIM-homeobox protein, variant)
 CNAG_03292	RRM domain-containing protein
 CNAG_05403	Ribonuclease P protein subunit RPR2 (Ribonuclease P protein subunit RPR2, variant)
-CNAG_07954	Uncharacterized protein
 CNAG_09010	NADH dehydrogenase subunit 2
 CNAG_01545	MFS domain-containing protein
 CNAG_07458	Uncharacterized protein
-CNAG_07881	Uncharacterized protein
 CNAG_05104	CAMK protein kinase (CAMK protein kinase, variant)
 CNAG_07973	Uncharacterized protein
 CNAG_01765	OTU domain-containing protein
@@ -7090,11 +6659,9 @@ CNAG_06853	Uncharacterized protein
 CNAG_02228	Uncharacterized protein
 CNAG_00593	Chalcone_isomerase domain-containing protein
 CNAG_02281	Uncharacterized protein
-CNAG_04947	High-affinity nicotinic acid transporter, variant 1 (High-affinity nicotinic acid transporter, variant 2)
 CNAG_06730	CMGC/GSK protein kinase (CMGC/GSK protein kinase, variant)
 CNAG_03338	WW domain-containing protein
 CNAG_05585	Arf/Sar family protein (Arf/Sar family protein, variant)
-CNAG_05962	Uncharacterized protein
 CNAG_04774	Nuclear protein (Nuclear protein, variant)
 CNAG_03768	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_04899	Cytoplasmic protein (Cytoplasmic protein, variant)
@@ -7123,7 +6690,6 @@ CNAG_02258	Uncharacterized protein
 CNAG_05453	Uncharacterized protein
 CNAG_05159	Uncharacterized protein
 CNAG_03040	Transketolase (Transketolase, variant)
-CNAG_03876	Ras family protein
 CNAG_06333	Replication factor C subunit 3/5 (Replication factor C subunit 3/5, variant)
 CNAG_04769	Uncharacterized protein
 CNAG_01741	Cir_N domain-containing protein
@@ -7142,18 +6708,17 @@ CNAG_04911	Uncharacterized protein
 CNAG_00597	Amino acid transporter (Amino acid transporter, variant)
 CNAG_04968	Fe2OG dioxygenase domain-containing protein
 CNAG_04374	Glyco_hydro_79C domain-containing protein
+CNAG_04394	Glyco_hydro_79C domain-containing protein
 CNAG_06352	CAP-Gly domain-containing protein
 CNAG_07303	Uncharacterized protein
 CNAG_04920	Galactose transporter (Galactose transporter, variant)
 CNAG_06546	Uncharacterized protein
-CNAG_02859	NADH kinase (NADH kinase, variant 1) (NADH kinase, variant 2)
 CNAG_00907	Uncharacterized protein
 CNAG_07394	Uncharacterized protein
-CNAG_02516	BHLH domain-containing protein
+CNAG_07653	Uncharacterized protein
 CNAG_03807	E3 ubiquitin-protein ligase CCNP1IP1 (E3 ubiquitin-protein ligase CCNP1IP1, variant)
 CNAG_00182	Vacuolar protein sorting-associated protein 29
 CNAG_04588	Uncharacterized protein
-CNAG_00903	Uncharacterized protein
 CNAG_06108	Uncharacterized protein
 CNAG_06590	Uncharacterized protein
 CNAG_00457	Glutamine synthetase (EC 6.3.1.2)
@@ -7166,7 +6731,6 @@ CNAG_05383	AP_endonuc_2 domain-containing protein
 CNAG_04065	UDP-N-acetylglucosamine transferase subunit ALG13 (EC 2.4.1.141) (Asparagine-linked glycosylation protein 13)
 CNAG_05057	Uncharacterized protein
 CNAG_00109	Large subunit ribosomal protein L34 (Large subunit ribosomal protein L34, variant)
-CNAG_07466	U3 small nucleolar RNA-associated protein 7 (U3 small nucleolar RNA-associated protein 7, variant 1)
 CNAG_03231	Uncharacterized protein
 CNAG_03779	Large subunit ribosomal protein L4 (Large subunit ribosomal protein L4, variant)
 CNAG_00264	Nuclease I (Nuclease I, variant)
@@ -7201,22 +6765,20 @@ CNAG_04781	Uncharacterized protein
 CNAG_05774	Uncharacterized protein
 CNAG_01937	Uncharacterized protein
 CNAG_04283	Integral membrane protein (Integral membrane protein, variant)
-CNAG_01690	MFS transporter, variant 1 (MFS transporter, variant 2)
 CNAG_02353	Betaine lipid synthase (Betaine lipid synthase, variant)
 CNAG_06311	Golgi apparatus membrane protein TVP38 (Golgi apparatus membrane protein tvp38)
 CNAG_03503	ATP-binding cassette transporter protein YOR1 (ATP-binding cassette transporter protein YOR1, variant)
 CNAG_05277	Vesicle-associated membrane protein 4 (Vesicle-associated membrane protein 4, variant)
 CNAG_04353	C2H2-type domain-containing protein
 CNAG_02893	Uncharacterized protein
-CNAG_05078	tRNA '-O-ribosylphosphate transferase (tRNA '-O-ribosylphosphate transferase, variant 1) (tRNA '-O-ribosylphosphate transferase, variant 2)
 CNAG_05830	Cytoplasmic protein (Cytoplasmic protein, variant)
 CNAG_02018	Uncharacterized protein
 CNAG_06018	Aldehyde dehydrogenase
 CNAG_06891	Protein-lysine N-methyltransferase EFM4 (EC 2.1.1.-) (Elongation factor methyltransferase 4)
 CNAG_03765	Trehalose-6-phosphate phosphatase (Trehalose-phosphatase)
-CNAG_05026	Mango esterase, variant 1 (Mango esterase, variant 2)
 CNAG_05399	Uncharacterized protein
 CNAG_06953	Uncharacterized protein
+CNAG_06957	Uncharacterized protein
 CNAG_05089	Uncharacterized protein
 CNAG_07477	Uncharacterized protein
 CNAG_03702	Tubulin-folding cofactor B (Tubulin-folding cofactor B, variant)
@@ -7228,19 +6790,12 @@ CNAG_05480	Phosphotransferase (EC 2.7.1.-)
 CNAG_06232	Transcription factor C subunit 7 (Transcription factor C subunit 7, variant)
 CNAG_08022	CMGC/CDK/CDK5 protein kinase (CMGC/CDK/CDK5 protein kinase, variant)
 CNAG_01048	RRM domain-containing protein
-CNAG_01246	Uncharacterized protein
-CNAG_06449	Uncharacterized protein
 CNAG_07678	Uncharacterized protein
 CNAG_01441	Uncharacterized protein
-CNAG_05404	Histone-lysine N-methyltransferase SUV39H, variant 1 (Histone-lysine N-methyltransferase SUV39H, variant 2)
 CNAG_05311	Arsenite-resistant protein ASR2 (Arsenite-resistant protein ASR2, variant)
-CNAG_07755	Uncharacterized protein
 CNAG_00848	Uncharacterized protein
-CNAG_03163	Uncharacterized protein
 CNAG_05501	Uncharacterized protein
 CNAG_02840	Pyr_redox_2 domain-containing protein
-CNAG_05313	Uncharacterized protein
-CNAG_06818	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_00013	Uncharacterized protein
 CNAG_04612	Complex I-B14.7 (NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 11) (NADH-ubiquinone oxidoreductase subunit B14.7)
 CNAG_02065	Uncharacterized protein
@@ -7258,18 +6813,16 @@ CNAG_09011	NADH-ubiquinone oxidoreductase chain 3 (EC 7.1.1.2)
 CNAG_05168	Alginate_lyase domain-containing protein
 CNAG_02548	Cobalamin synthesis protein (Cobalamin synthesis protein, variant)
 CNAG_07620	Helicase C-terminal domain-containing protein
+CNAG_07789	Helicase C-terminal domain-containing protein
 CNAG_03280	Dihydrodipicolinate synthetase (Dihydrodipicolinate synthetase, variant)
 CNAG_07694	Nicotinamide-nucleotide adenylyltransferase (EC 2.7.7.1)
 CNAG_06296	Uncharacterized protein
 CNAG_05259	Uncharacterized protein
 CNAG_00449	20S-pre-rRNA D-site endonuclease NOB1
-CNAG_00870	Uncharacterized protein
 CNAG_00574	Amino acid/metabolite permease (Amino acid/metabolite permease, variant)
 CNAG_03455	4HBT domain-containing protein
 CNAG_04944	Uncharacterized protein
 CNAG_09005	NADH-ubiquinone oxidoreductase chain 4 (EC 7.1.1.2)
-CNAG_05313	Uncharacterized protein
-CNAG_06310	CAMK/CAMKL protein kinase, variant 1 (CAMK/CAMKL protein kinase, variant 2)
 CNAG_06186	Uncharacterized protein
 CNAG_01673	Fungal_trans domain-containing protein
 CNAG_07575	Uncharacterized protein
@@ -7290,8 +6843,6 @@ CNAG_01562	DPBB_1 domain-containing protein
 CNAG_06406	TPR_REGION domain-containing protein
 CNAG_05862	DNA excision repair protein ERCC-1 (DNA excision repair protein ERCC-1, variant)
 CNAG_05278	Uncharacterized protein
-CNAG_03839	CCR4-NOT transcription complex subunit 4, variant 1 (CCR4-NOT transcription complex subunit 4, variant 2)
-CNAG_07866	Transcription initiation factor TFIIA small subunit, variant 1 (Transcription initiation factor TFIIA small subunit, variant 2)
 CNAG_06776	Membrane protein (Membrane protein, variant)
 CNAG_07693	High-affinity methionine permease (High-affinity methionine permease, variant)
 CNAG_00179	Guanine nucleotide-binding protein subunit alpha (Guanine nucleotide-binding protein subunit alpha, variant)
@@ -7299,13 +6850,13 @@ CNAG_05336	Glucose transporter (Glucose transporter, variant 1) (Glucose transpo
 CNAG_00043	Uncharacterized protein
 CNAG_01792	ATP-dependent DNA helicase PIF1 (EC 3.6.4.12) (DNA repair and recombination helicase PIF1)
 CNAG_06954	Helicase ATP-binding domain-containing protein
+CNAG_06958	Helicase ATP-binding domain-containing protein
 CNAG_02413	CDT1_C domain-containing protein
 CNAG_05860	O-acyltransferase
 CNAG_03432	Solute carrier family 2 (Solute carrier family 2, variant)
 CNAG_03848	Glutathione transferase (Glutathione transferase, variant)
 CNAG_03427	Aconitate hydratase, mitochondrial (Aconitase) (EC 4.2.1.-)
 CNAG_04475	Uncharacterized protein
-CNAG_04933	Uncharacterized protein
 CNAG_01456	Uncharacterized protein
 CNAG_03498	Metalloreductase (Metalloreductase, variant 1) (Metalloreductase, variant 2)
 CNAG_04083	Dolichol kinase (Dolichol kinase, variant)
@@ -7330,17 +6881,14 @@ CNAG_00670	Zn(2)-C6 fungal-type domain-containing protein
 CNAG_09012	Cytochrome c oxidase subunit 2
 CNAG_05591	Uncharacterized protein
 CNAG_06523	Uncharacterized protein
+CNAG_07790	Uncharacterized protein
 CNAG_00163	General transcription factor 3C polypeptide 4 (General transcription factor 3C polypeptide 4, variant)
-CNAG_00979	Copper transporter
 CNAG_03785	Trehalase (EC 3.2.1.28) (Alpha-trehalose glucohydrolase)
 CNAG_03449	DNA repair protein (DNA repair protein, variant)
-CNAG_06727	Uncharacterized protein
 CNAG_05641	Uncharacterized protein
 CNAG_01494	Uncharacterized protein
-CNAG_00867	MFS transporter, SP family, solute carrier family 2 (Myo-inositol transporter), member 13 (MFS transporter, SP family, solute carrier family 2 (Myo-inositol transporter), member 13, variant 1)
 CNAG_06263	Uncharacterized protein
 CNAG_06327	DNA-binding protein creA (DNA-binding protein creA, variant)
-CNAG_03775	Uncharacterized protein
 CNAG_05617	GPI ethanolamine phosphate transferase 3
 CNAG_06827	Uncharacterized protein
 CNAG_04085	Oxidoreductase (Oxidoreductase, variant)
@@ -7353,7 +6901,6 @@ CNAG_03210	SAGA-associated factor 73 (SAGA-associated factor 73, variant)
 CNAG_02432	Uncharacterized protein
 CNAG_02802	Kinase (EC 2.7.-.-)
 CNAG_00132	BZIP domain-containing protein
-CNAG_01135	Delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, variant 1 (Delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, variant 2)
 CNAG_07009	Abhydrolase_3 domain-containing protein
 CNAG_06357	Probable RNA polymerase II nuclear localization protein SLC7A6OS
 CNAG_06385	GAF domain-containing protein (GAF domain-containing protein, variant)
@@ -7362,6 +6909,7 @@ CNAG_04132	Pre-mRNA-splicing factor CWC2 (Pre-mRNA-splicing factor CWC2, variant
 CNAG_03655	PH domain-containing protein
 CNAG_03258	AGC protein kinase (AGC protein kinase, variant 1) (AGC protein kinase, variant 2)
 CNAG_07042	Uncharacterized protein
+CNAG_07894	Uncharacterized protein
 CNAG_07941	Uncharacterized protein
 CNAG_02695	Uncharacterized protein
 CNAG_00704	Uncharacterized protein
@@ -7383,7 +6931,6 @@ CNAG_03716	Uncharacterized protein
 CNAG_03365	Uncharacterized protein
 CNAG_07410	Polynucleotide adenylyltransferase (EC 2.7.7.19)
 CNAG_09001	Uncharacterized protein
-CNAG_05747	Vacuolar protein sorting-associated protein VTA1 (Vacuolar protein sorting-associated protein VTA1, variant 1)
 CNAG_01337	WD-repeat protein (WD-repeat protein, variant)
 CNAG_07971	Uncharacterized protein
 CNAG_04850	Uncharacterized protein
@@ -7392,7 +6939,6 @@ CNAG_04458	DNA helicase (DNA helicase, variant)
 CNAG_05839	Cytochrome c oxidase subunit
 CNAG_07321	AAA domain-containing protein
 CNAG_05397	Uncharacterized protein
-CNAG_06292	Sugar transporter (Sugar transporter, variant 1)
 CNAG_06820	Uncharacterized protein
 CNAG_00555	MBOAT_2 domain-containing protein
 CNAG_01306	Chromodomain-helicase-DNA-binding protein 3 (Chromodomain-helicase-DNA-binding protein 3, variant)
@@ -7400,6 +6946,7 @@ CNAG_05939	Uncharacterized protein
 CNAG_01996	Uncharacterized protein
 CNAG_09007	NADH-ubiquinone oxidoreductase chain 6 (EC 7.1.1.2)
 CNAG_07876	Uncharacterized protein
+CNAG_07877	Uncharacterized protein
 CNAG_07164	Uncharacterized protein
 CNAG_03726	Uncharacterized protein
 CNAG_00028	High-affinity nicotinic acid transporter (High-affinity nicotinic acid transporter, variant)
@@ -7409,7 +6956,6 @@ CNAG_04580	RNA helicase (RNA helicase, variant)
 CNAG_03859	Transcriptional regulator Medusa (Transcriptional regulator Medusa, variant)
 CNAG_03731	Chromo domain-containing protein
 CNAG_05321	Transposase subfamily (Transposase subfamily, variant)
-CNAG_03545	Uncharacterized protein
 CNAG_01689	Uncharacterized protein
 CNAG_05369	Beta-glucosidase (EC 3.2.1.21)
 CNAG_04297	Ribonuclease (EC 3.1.26.4)
@@ -7418,8 +6964,8 @@ CNAG_06540	Dihydroxy-acid dehydratase (Dihydroxy-acid dehydratase, variant)
 CNAG_06401	Uncharacterized protein
 CNAG_02865	Uncharacterized protein
 CNAG_01648	Histone H4
+CNAG_07807	Histone H4
 CNAG_00990	F-type H-transporting ATPase subunit H (F-type H-transporting ATPase subunit H, variant)
-CNAG_06527	MFS transporter, SP family, general alpha glucoside:H symporter (MFS transporter, SP family, general alpha glucoside:H symporter, variant 1)
 CNAG_04892	Uncharacterized protein
 CNAG_01824	Transmembrane protein (Transmembrane protein, variant)
 CNAG_07601	Uncharacterized protein

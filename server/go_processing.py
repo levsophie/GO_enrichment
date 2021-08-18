@@ -51,16 +51,15 @@ def list_names_for_terms(obo_file, go_names):
         if contents[0] == 'name':
             name = contents[1].strip('\n')
             GO[id] = name
-            f_def.write(id + '\t' + name + '\n')
         if contents[0] == 'alt_id':
             alt_id = contents[1].strip('\n')
             GO[alt_id] = name
-            f_def.write(alt_id + '\t' + name + '\n')
         if contents[0] == 'is_a':
             term = contents[1].split(' ! ')[0]
             additional_name = contents[1].split(' ! ')[1].strip('\n')
             GO[term] = additional_name
-            f_def.write(term + '\t' + additional_name + '\n')
+    for term in GO:
+        f_def.write(term + '\t' + GO[term] + '\n') 
     # print(f'wrote {len(GO.keys())} GO terms and names')
     f_def.close()
     f.close()

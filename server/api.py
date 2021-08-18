@@ -56,7 +56,7 @@ class Collections(Resource):
         """Enter CNAG IDs in one line separated by comma"""
         print("Significance", significance)
         req = request.get_json(force=True)
-        print("Req", req)
+        # print("Req", req)
         try:
             req = req['gene_list']
         except:
