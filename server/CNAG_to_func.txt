@@ -318,7 +318,7 @@ CNAG_03961	Uncharacterized protein
 CNAG_02366	4-aminobutyrate aminotransferase (EC 2.6.1.19) (GABA aminotransferase) (Gamma-amino-N-butyrate transaminase)
 CNAG_01364	Guanylate kinase (EC 2.7.4.8)
 CNAG_06978	Cytoplasmic protein, variant
-CNAG_01384	MFS domain-containing protein
+CNAG_01384	Sugar phosphate permease MFS domain-containing protein
 CNAG_03021	Uncharacterized protein
 CNAG_00400	Secondary thiamine-phosphate synthase enzyme, variant
 CNAG_04973	Importin N-terminal domain-containing protein
@@ -3518,7 +3518,7 @@ CNAG_06164	Uncharacterized protein
 CNAG_01126	Guanine nucleotide exchange protein for ADP-robosylation factor
 CNAG_05482	Uncharacterized protein
 CNAG_04717	Uncharacterized protein
-CNAG_01174	Uncharacterized protein
+CNAG_01174	Putative threonine/serine exporter
 CNAG_06246	Uncharacterized protein
 CNAG_00595	Uncharacterized protein
 CNAG_03998	Transcriptional activator

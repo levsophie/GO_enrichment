@@ -63,7 +63,7 @@ export default function GoDataGathering(props) {
   const classes = useStyles();
   const [rows, setRows] = useState([]);
   const [input, setInput] = useState();
-  const [pageSize, setPageSize] = useState(9);
+  const [pageSize, setPageSize] = useState(10);
   const [page, setPage] = useState(0);
   const [significance, setSignificance] = useState(0.001);
   const history = useHistory();
@@ -286,7 +286,7 @@ export default function GoDataGathering(props) {
                     pagination
                     pageSize={pageSize}
                     onPageSizeChange={handlePageSizeChange}
-                    rowsPerPageOptions={[7, 9, 20]}
+                    rowsPerPageOptions={[10, 50]}
                     rowCount={rows.length}
                     onCellClick={handleCellClick}
                   />
