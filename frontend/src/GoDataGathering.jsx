@@ -175,6 +175,16 @@ export default function GoDataGathering(props) {
       }
     }
   };
+  
+  const descriptionElementRef = React.useRef(null);
+  React.useEffect(() => {
+    if (open) {
+      const { current: descriptionElement } = descriptionElementRef;
+      if (descriptionElement !== null) {
+        descriptionElement.focus();
+      }
+    }
+  }, [open]);
 
   return (
     <React.Fragment>
@@ -293,7 +303,11 @@ export default function GoDataGathering(props) {
                       {currentTerm} - {currentTermDescription}
                     </DialogTitle>
                     <DialogContent dividers={scroll === "paper"}>
-                      <DialogContentText id="cnag">
+                    <DialogContentText
+                        id="cnag"
+                        ref={descriptionElementRef}
+                        tabIndex={-1}
+                      >
                         {listOfGenes.map((dataIn) => (
                           <div key={dataIn.cnag}>
                             <Typography
