@@ -1,84 +1,18 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from "react-router-dom";
-// import Error from "./layout/Error";
-import TopBar from "./topbar";
-import BasePage from "./BasePage";
-import SignInSide from "./form";
-// import SignIn from "./authentication/signin";
-// import SignUp from "./authentication/signup";
-// import { useAuth } from "./authentication/auth";
-
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import GoDataGathering from "./GoDataGathering";
 
 function App() {
   sessionStorage.clear();
-  // const [loggedIn] = useAuth();
-  // if (loggedIn) {
-    return (
-      <div>
-        <Router>
-        <Route path="/test">
-        <TopBar/>
-          <BasePage/>
-          </Route>
-          <Route path='/testcontrol'>
-          <SignInSide/>
-          </Route>
-            {/* <Switch>
-              <Route
-                exact
-                path="/"
-                render={() => {
-                  return loggedIn ? (
-                    <Redirect to="/taskboard" />
-                  ) : (
-                    <Redirect to="/login" />
-                  );
-                }}
-              />
-              <Route path="*">
-                <Error />
-              </Route>
-            </Switch>
-          </BasePage>
-        </Router>
-      </div>
-    );
-  } else {
-    return (
-      <div className="container">
-        <Router>
-          <Switch>
-            <Route
-              exact
-              path="/"
-              render={() => {
-                return loggedIn ? (
-                  <Redirect to="/taskboard" />
-                ) : (
-                  <Redirect to="/login" />
-                );
-              }}
-            />
-            <Route exact path="/login">
-              <SignIn />
-            </Route>
-            <Route path="/signup">
-              <SignUp />
-            </Route>
-            <Route path="*">
-              <Error />
-            </Route>
-          </Switch> */}
-          {/* </BasePage> */}
-        </Router>
-      </div>
-    );
-  {/* } */}
+  return (
+    <div>
+      <Router>
+        <Route path="/godata">
+          <GoDataGathering />
+        </Route>
+      </Router>
+    </div>
+  );
 }
 
 export default App;

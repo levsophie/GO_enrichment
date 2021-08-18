@@ -1,31 +1,16 @@
 import React from "react";
-import PropTypes from "prop-types";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles, withStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import useScrollTrigger from "@material-ui/core/useScrollTrigger";
-import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
-import Fab from "@material-ui/core/Fab";
-import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
-import Zoom from "@material-ui/core/Zoom";
-import { FormControl, TextField } from "@material-ui/core";
-import Input from "@material-ui/core/Input";
-import InputLabel from "@material-ui/core/InputLabel";
-import InputAdornment from "@material-ui/core/InputAdornment";
+import { TextField } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
-import AccountCircle from "@material-ui/icons/AccountCircle";
-import { TextareaAutosize, Select, MenuItem } from "@material-ui/core/";
-import DateFnsUtils from "@date-io/date-fns";
 import { useHistory } from "react-router-dom";
 import { DataGrid } from "@material-ui/data-grid";
 import { Button } from "@material-ui/core";
-import { useState, useEffect, useRef, Fetch } from "react";
-import ScrollDialog from "./dialog";
-import { Link } from "react-router-dom";
-import { Redirect } from "react-router";
+import { useState, useRef } from "react";
 import { Dialog } from "@material-ui/core";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
@@ -63,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     square: "true",
   },
   form: {
-    width: "100%", // Fix IE 11 issue.
+    width: "100%",
     marginTop: theme.spacing(1),
   },
   submit: {
@@ -74,14 +59,21 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function TopBar(props) {
+export default function GoDataGathering(props) {
   const classes = useStyles();
   const [rows, setRows] = useState([]);
   const [input, setInput] = useState();
   const [pageSize, setPageSize] = useState(9);
   const [page, setPage] = useState(0);
   const [significance, setSignificance] = useState(0.001);
+  const history = useHistory();
+  const [open, setOpen] = useState(false);
+  const [scroll, setScroll] = useState("paper");
+  const [currentTerm, setCurrentTerm] = useState();
+  const [currentTermDescription, setCurrentTermDescription] = useState();
+  const [listOfGenes, setListOfGenes] = useState([]);
 
+  // Columns for the results table (Data Grid)
   const columns = [
     { field: "id", headerName: "ID", width: 90, hide: "true" },
     {
@@ -113,12 +105,9 @@ export default function TopBar(props) {
       width: 490,
     },
   ];
-  // useEffect(() => {
-  //   setRows();
-  // }, []);
 
+  // Fetches data in response to input gene list
   const handleSubmit = async () => {
-    // console.log(input, significance);
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -130,11 +119,9 @@ export default function TopBar(props) {
     );
     if (response.status === 200) {
       const rows = await response.json();
-      // console.log(rows);
       setRows(rows);
     } else {
       setRows([]);
-      // console.log(response);
     }
   };
   let textInput = useRef(null);
@@ -142,31 +129,13 @@ export default function TopBar(props) {
   const handlePageSizeChange = (params) => {
     setPageSize(params.pageSize);
   };
-  const history = useHistory();
-
-  const [open, setOpen] = useState(false);
-  const [scroll, setScroll] = useState("paper");
-  const [currentTerm, setCurrentTerm] = useState();
-  const [currentTermDescription, setCurrentTermDescription] = useState();
-  const [listOfGenes, setListOfGenes] = useState([]);
 
   const handleClose = () => {
     setOpen(false);
   };
 
-  const descriptionElementRef = React.useRef(null);
-  React.useEffect(() => {
-    if (open) {
-      const { current: descriptionElement } = descriptionElementRef;
-      if (descriptionElement !== null) {
-        descriptionElement.focus();
-      }
-    }
-  }, [open]);
-
+  // Sends request for the individual GO group data for test/control
   const handleCellClick = async (param, event) => {
-    // console.log(param);
-    // console.log(event);
     if (
       param.colDef.field === "pvalue" ||
       param.colDef.field === "description"
@@ -189,7 +158,6 @@ export default function TopBar(props) {
         gene_list: input,
         term: param.row.term,
       };
-      // console.log(input, param.row.term);
       const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -198,22 +166,14 @@ export default function TopBar(props) {
       const response = await fetch("/geneontology/terms", requestOptions);
       if (response.status === 200) {
         const resp = await response.json();
-        // console.log(resp);
 
         if (param.colDef.field === "test") {
-          // console.log('display test group', resp.test);
           setListOfGenes(resp.test);
-          // event.stopPropagation();
-          // setScroll(scrollType);
-          // ScrollDialog(param.row.test)
         } else {
-          // console.log('display control group', resp.control);
           setListOfGenes(resp.control);
-          // event.stopPropagation();
         }
       }
     }
-    // event.stopPropagation();
   };
 
   return (
@@ -256,7 +216,6 @@ export default function TopBar(props) {
                 label="P-value cutoff"
                 multiline
                 rows={1}
-                // inputRef={textInput}
                 defaultValue={0.001}
                 variant="outlined"
                 style={{ width: "100%" }}
@@ -297,15 +256,13 @@ export default function TopBar(props) {
               >
                 Clear
               </Button>
-
               <br></br>
             </div>
           </Grid>
-
           <Grid item lg={12} sm={8} md={5} component={Paper}>
             <div className={classes.paper}>
               <Container maxWidth="lg">
-                <div style={{  width: "100%" }}>
+                <div style={{ width: "100%" }}>
                   <DataGrid
                     rows={rows}
                     columns={columns}
@@ -324,7 +281,6 @@ export default function TopBar(props) {
                     onCellClick={handleCellClick}
                   />
                 </div>
-
                 <div>
                   <Dialog
                     open={open}
@@ -337,11 +293,7 @@ export default function TopBar(props) {
                       {currentTerm} - {currentTermDescription}
                     </DialogTitle>
                     <DialogContent dividers={scroll === "paper"}>
-                      <DialogContentText
-                        id="cnag"
-                        ref={descriptionElementRef}
-                        tabIndex={-1}
-                      >
+                      <DialogContentText id="cnag">
                         {listOfGenes.map((dataIn) => (
                           <div key={dataIn.cnag}>
                             <Typography
