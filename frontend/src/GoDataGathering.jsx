@@ -195,6 +195,13 @@ export default function GoDataGathering(props) {
             Gene set functional enrichment analysis for Cryptococcus neoformans
             var. grubii
           </Typography>
+          <Typography
+            variant="subtitle2"
+            style={{ position: "fixed", left: "90%" }}
+            className={classes.name}
+          >
+             by Sophie Lev Aug 2021
+          </Typography>
         </Toolbar>
       </AppBar>
       <Container maxWidth="lg">
