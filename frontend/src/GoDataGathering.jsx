@@ -197,8 +197,9 @@ export default function GoDataGathering(props) {
           </Typography>
           <Typography
             variant="subtitle2"
-            style={{ position: "fixed", left: "90%" }}
+            style={{ position: "fixed", left: "90%", color: "blue" }}
             className={classes.name}
+            onClick={() => window.open(`https://www.linkedin.com/in/sophielev/`)}
           >
              by Sophie Lev Aug 2021
           </Typography>
