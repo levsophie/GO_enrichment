@@ -26,7 +26,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-uniprot-proteome_UP000010091.tab
 go-basic.obo
 # PyInstaller
 #  Usually these files are written by a python script from a template
