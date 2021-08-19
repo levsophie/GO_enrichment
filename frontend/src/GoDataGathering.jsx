@@ -114,7 +114,7 @@ export default function GoDataGathering(props) {
       body: JSON.stringify(input),
     };
     const response = await fetch(
-      `/geneontology/${significance}`,
+      `http://127.0.0.1:5000/geneontology/${significance}`,
       requestOptions
     );
     if (response.status === 200) {
@@ -163,7 +163,7 @@ export default function GoDataGathering(props) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       };
-      const response = await fetch("/geneontology/terms", requestOptions);
+      const response = await fetch("http://127.0.0.1:5000/geneontology/terms", requestOptions);
       if (response.status === 200) {
         const resp = await response.json();
 
