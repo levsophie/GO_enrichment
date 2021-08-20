@@ -18,7 +18,7 @@ go-basic.obo
 5. GO term enrichment is calculated using Fisher test [a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
 
 ## Running the development server
-prior to modification of the ports (api.py), url (GoDataGathering.jsx) and starting script (package.json)   
+(prior to modification of the ports (api.py), url (GoDataGathering.jsx) and starting script (package.json))   
 From ./server run:  
 make test - runs series of tests  
 make init - has to be run after tests prior to running the server. Creates essential files.  
