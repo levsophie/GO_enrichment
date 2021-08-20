@@ -15,9 +15,7 @@ go-basic.obo
 
 4. Combine 1 and 2.
 
-5. Add manual GO annotation based on literature. 
-
-6. GO term enrichment is calculated using Fisher test [a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
+5. GO term enrichment is calculated using Fisher test [a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
 
 ## Running the development server
 prior to modification of the ports (api.py), url (GoDataGathering.jsx) and starting script (package.json)   
