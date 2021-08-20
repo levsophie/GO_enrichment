@@ -8,16 +8,22 @@ go-basic.obo
 
 1. From Uniprot record, find GO terms for each CNAG; map GO groups to CNAG IDs and CNAG IDs to GO groups.
 
-2. From GO generic structure associate GO terms with additional terms higher in the hierarchy (is_a relationship).
+2. Uniprot GO annotation was supplemented with manual annotation (GO:0006796 phosphate metabolic process)
 
-3. Combine 1 and 2.
+3. From GO generic structure associate GO terms with additional terms higher in the hierarchy (is_a relationship).
 
-4. Add manual GO annotation based on literature. 
+4. Combine 1 and 2.
 
-5. GO term enrichment is calculated using Fisher test [a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
+5. Add manual GO annotation based on literature. 
+
+6. GO term enrichment is calculated using Fisher test [a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
 
 ## Running the development server
 From ./server run:  
 make test - runs series of tests  
 make init - has to be run after tests prior to running the server. Creates essential files.  
 make run - starts the server at port 5000  
+
+## Deployment on App Engine
+from ./frontend gcloud app deploy node-app.yaml   
+from ./server gcloud app deploy python-app.yaml  

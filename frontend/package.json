@@ -13,8 +13,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3"
   },
+  "engines": {
+    "node": "16.6.1",
+    "npm": "7.20.3"
+  },
   "scripts": {
-    "start": "react-scripts start",
+    "start":  "(set PORT=process.env.PORT || 8080) && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,9 +38,9 @@
       "last 1 safari version"
     ]
   },
+  "name": "frontend",
   "description": "#### useState",
-  "main": "index.js",
+  "main": "node-listener.js",
   "author": "",
-  "license": "ISC",
-  "proxy": "http://localhost:5000"
+  "license": "ISC"
 }

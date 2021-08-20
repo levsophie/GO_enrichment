@@ -114,7 +114,7 @@ export default function GoDataGathering(props) {
       body: JSON.stringify(input),
     };
     const response = await fetch(
-      `http://127.0.0.1:5000/geneontology/${significance}`,
+      `https://python-dot-fisher-test-enrichment.ts.r.appspot.com/geneontology/${significance}`,
       requestOptions
     );
     if (response.status === 200) {
@@ -131,7 +131,8 @@ export default function GoDataGathering(props) {
   };
 
   const handleClose = () => {
-    setOpen(false);
+    setOpen(false)
+    setListOfGenes([]);
   };
 
   // Sends request for the individual GO group data for test/control
@@ -163,7 +164,7 @@ export default function GoDataGathering(props) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       };
-      const response = await fetch("http://127.0.0.1:5000/geneontology/terms", requestOptions);
+      const response = await fetch("https://python-dot-fisher-test-enrichment.ts.r.appspot.com/geneontology/terms", requestOptions);
       if (response.status === 200) {
         const resp = await response.json();
 
