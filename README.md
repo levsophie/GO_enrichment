@@ -6,9 +6,10 @@ uniprot-proteome_UP000010091.tab
 Download GO structure from GENEONTOLOGY [a link](http://geneontology.org/docs/download-ontology/#go_basic)   
 go-basic.obo
 
-1. From Uniprot record, find GO terms for each CNAG; map GO groups to CNAG IDs and CNAG IDs to GO groups.
 
-2. Uniprot GO annotation was supplemented with manual annotation (GO:0006796 phosphate metabolic process)
+1. Uniprot GO annotation was supplemented with manual annotation (GO:0006796 phosphate metabolic process)
+
+2. From Uniprot record, find GO terms for each CNAG; map GO groups to CNAG IDs and CNAG IDs to GO groups.
 
 3. From GO generic structure associate GO terms with additional terms higher in the hierarchy (is_a relationship).
 
@@ -19,6 +20,7 @@ go-basic.obo
 6. GO term enrichment is calculated using Fisher test [a link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html#scipy.stats.fisher_exact)
 
 ## Running the development server
+prior to modification of the ports (api.py), url (GoDataGathering.jsx) and starting script (package.json)   
 From ./server run:  
 make test - runs series of tests  
 make init - has to be run after tests prior to running the server. Creates essential files.  
